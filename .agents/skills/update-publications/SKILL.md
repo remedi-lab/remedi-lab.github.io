@@ -76,11 +76,13 @@ Every publication is stored as an individual YAML file under `_data/publications
 
 See [references/schema.md](./references/schema.md) for full field definitions.
 
-## Deduplication Rules
+## Deduplication & Book Resolution Rules
 
 1. **DOI Collision**: If two records share the exact same DOI, they are merged immediately into one record.
-2. **Preprint vs. Published Proceeding/Journal**: When an arXiv preprint (e.g. `2501.00982`) matches an accepted conference or journal article (e.g. `ACL 2025` or `ACM SAC 2026`), the published peer-reviewed venue is retained as primary, preserving the preprint DOI in the notes if relevant.
-3. **Title Normalization**: Titles are stripped of case differences, extra whitespace, subtitle punctuation (`:` vs `-`), and common bracket qualifiers (`(LLMs)` vs `LLMs`). Titles with a normalized Levenshtein similarity > 92% are flagged as duplicates.
+2. **Authored Books vs. Book Chapters**: When lab members co-author a complete textbook or monograph (e.g. *Foundations of Bayesian Statistics for Data Scientists*), scholarly APIs often generate individual chapter DOIs (e.g. `10.1201/9781003715924-6`). The engine automatically suppresses chapter-level DOIs and attributes the **full book** (e.g. `10.1201/9781003715924`) with the publisher as the venue and a dedicated "Book" action button.
+3. **Contributed Chapters in Edited Volumes**: For legitimate book chapters in edited volumes (e.g. *Tasman's Psychiatry*), the engine never outputs a generic `"Book Chapter"` label; it resolves and formats the container as `In: <Book Title>. <Publisher>`.
+4. **Preprint vs. Published Proceeding/Journal**: When an arXiv preprint matches an accepted conference or journal article, the peer-reviewed venue is retained as primary.
+5. **Title Normalization**: Titles are stripped of case differences, extra whitespace, subtitle punctuation, and bracket qualifiers for fuzzy deduplication.
 
 ## Lab Member Attribution
 

@@ -360,6 +360,158 @@ const CURATED_JOINT_PUBLICATIONS = [
   }
 ];
 
+// Curated master books authored or edited by REMEDI Lab co-founders
+const CURATED_MASTER_BOOKS = [
+  {
+    slug: 'agresti-2026-foundations-of-bayesian',
+    title: 'Foundations of Bayesian Statistics for Data Scientists',
+    year: 2026,
+    journal: 'Chapman and Hall/CRC',
+    link: 'https://doi.org/10.1201/9781003715924',
+    note: 'Book',
+    _type: 'book',
+    authors: [
+      { name: 'Alan Agresti' },
+      { name: 'Maria Kateri' },
+      { name: 'Ranjini Grove' },
+      { name: 'Antonietta Mira' }
+    ]
+  },
+  {
+    slug: 'stanghellini-2019-oxford-handbook',
+    title: 'The Oxford Handbook of Phenomenological Psychopathology',
+    year: 2019,
+    journal: 'Oxford University Press',
+    link: 'https://doi.org/10.1093/oxfordhb/9780198803157.001.0001',
+    note: 'Book (Edited Volume)',
+    _type: 'book',
+    authors: [
+      { name: 'Giovanni Stanghellini' },
+      { name: 'Matthew Broome' },
+      { name: 'Andrea Raballo' },
+      { name: 'Anthony Vincent Fernandez' },
+      { name: 'Paolo Fusar-Poli' },
+      { name: 'René Rosfort' }
+    ]
+  },
+  {
+    slug: 'comparelli-2022-thinking-through',
+    title: 'Thinking through the Schizophrenia Spectrum: Nosological Scenarios and Perspectives beyond Psychosis',
+    year: 2022,
+    journal: 'Frontiers Research Topics (eBook)',
+    link: 'https://doi.org/10.3389/978-2-88974-556-2',
+    note: 'eBook (Edited Volume)',
+    _type: 'book',
+    authors: [
+      { name: 'Anna Comparelli' },
+      { name: 'Andrea Raballo' },
+      { name: 'Antonio Preti' },
+      { name: 'Stephen J. Wood' },
+      { name: 'Patrick McGorry' }
+    ]
+  },
+  {
+    slug: 'mira-2020-pandemia-dati',
+    title: 'La pandemia dei dati. Ecco il vaccino',
+    year: 2020,
+    journal: 'Mondadori Università',
+    link: 'https://www.mondadoristore.it/pandemia-dei-dati-Ecco-Armando-Massarenti-Antonietta-Mira/ea978886184825/',
+    note: 'Book',
+    _type: 'book',
+    authors: [
+      { name: 'Armando Massarenti' },
+      { name: 'Antonietta Mira' }
+    ]
+  },
+  {
+    slug: 'mira-2012-mate-magica',
+    title: 'Mate-magica. I giochi di prestigio di Luca Pacioli',
+    year: 2012,
+    journal: 'Aboca Edizioni',
+    link: 'https://www.abocamuseum.it/it/editoria/mate-magica/',
+    note: 'Book',
+    _type: 'book',
+    authors: [
+      { name: 'Antonietta Mira' },
+      { name: 'Vanni Bossi' },
+      { name: 'Francesco Arlati' }
+    ]
+  },
+  {
+    slug: 'delisi-2009-dismorfofobia',
+    title: 'Dismorfofobia. Quando vedersi brutti è patologia',
+    year: 2009,
+    journal: "L'Asino d'oro edizioni",
+    link: 'https://www.lasinodoroedizioni.it/',
+    note: 'Book',
+    _type: 'book',
+    authors: [
+      { name: 'D. De Lisi' },
+      { name: 'E. Gebhardt' },
+      { name: 'L. Giorgini' },
+      { name: 'Andrea Raballo' }
+    ]
+  }
+];
+
+// DOIs or title identifiers of chapters that belong to authored books and should NOT be listed as individual chapters
+const CHAPTER_TO_BOOK_SUPPRESSIONS = [
+  '10.1201/9781003715924', // Chapters of Foundations of Bayesian Statistics for Data Scientists
+  'bayesian mcmc posterior computation and diagnostics'
+];
+
+// Known container books and publishers for chapters contributed to edited volumes
+const KNOWN_CHAPTER_CONTAINERS = {
+  '10.1007/978-3-030-51366-5_100': {
+    container: 'Tasman’s Psychiatry',
+    publisher: 'Springer International Publishing'
+  },
+  '10.1007/978-3-030-42825-9_100-1': {
+    container: 'Tasman’s Psychiatry',
+    publisher: 'Springer International Publishing'
+  },
+  '10.1007/978-3-319-75124-5_6': {
+    container: 'Hallucinations in Psychoses and Affective Disorders',
+    publisher: 'Springer International Publishing'
+  },
+  '10.1093/med/9780199548590.003.0019': {
+    container: 'Hallucinations: The Science of Idiosyncratic Perception',
+    publisher: 'Oxford University Press'
+  },
+  '10.1093/oso/9780199214655.003.0013': {
+    container: 'Bayesian Statistics 8',
+    publisher: 'Oxford University Press'
+  },
+  '10.1016/s0169-7161(05)25014-9': {
+    container: 'Handbook of Statistics (Vol. 25: Bayesian Thinking: Modeling and Computation)',
+    publisher: 'Elsevier'
+  },
+  '10.1007/978-3-0348-7943-9_17': {
+    container: 'Seminar on Stochastic Analysis, Random Fields and Applications IV',
+    publisher: 'Birkhäuser Basel'
+  },
+  '10.1007/978-1-4613-0217-9_2': {
+    container: 'Applied Bayesian Statistical Studies in Biology and Medicine',
+    publisher: 'Springer US'
+  },
+  '10.1093/oso/9780198523567.003.0049': {
+    container: 'Bayesian Statistics 5',
+    publisher: 'Oxford University Press'
+  },
+  '10.1007/978-3-031-64431-3_19': {
+    container: 'Methodological and Applied Statistics and Demography III',
+    publisher: 'Springer Nature Switzerland'
+  },
+  '10.1007/978-3-031-64431-3_20': {
+    container: 'Methodological and Applied Statistics and Demography III',
+    publisher: 'Springer Nature Switzerland'
+  },
+  '10.4324/9781315885605-15': {
+    container: 'The Assessment of Psychosis: A Practical Guide',
+    publisher: 'Routledge'
+  }
+};
+
 const EXCLUDED_TYPES = new Set(['erratum', 'paratext', 'peer-review', 'supplementary-materials']);
 
 // Convert OpenAlex work into publication object
@@ -379,20 +531,49 @@ function openalexToPub(w) {
 
   if (authors.length === 0) return null;
 
-  let journal = w.primary_location?.source?.display_name || '';
-  if (journal === 'arXiv (Cornell University)') {
-    journal = 'arXiv Preprint';
-  } else if (!journal && w.type === 'book-chapter') {
-    journal = 'Book Chapter';
-  } else if (!journal && w.type === 'book') {
-    journal = 'Book';
-  } else if (!journal && w.type === 'preprint') {
-    journal = 'Preprint';
-  }
-
   let link = w.doi || w.ids?.doi || w.primary_location?.landing_page_url || w.primary_location?.pdf_url || '';
   if (link && !link.startsWith('http')) {
     link = `https://doi.org/${link}`;
+  }
+
+  // 1. Check if this is an individual chapter from an authored book (suppress in favor of full book)
+  const normTitle = normalizeTitle(rawTitle);
+  const doiLower = (link || '').toLowerCase();
+  for (const sup of CHAPTER_TO_BOOK_SUPPRESSIONS) {
+    if (doiLower.includes(sup) || normTitle.includes(sup)) {
+      // Suppress individual chapter from authored book so only full book is cited
+      return null;
+    }
+  }
+
+  let journal = w.primary_location?.source?.display_name || '';
+  let note = '';
+
+  if (w.type === 'book-chapter') {
+    // 2. Check if this chapter belongs to an edited collection with known container metadata
+    let matchedContainer = null;
+    for (const [d, info] of Object.entries(KNOWN_CHAPTER_CONTAINERS)) {
+      if (doiLower.includes(d.toLowerCase())) {
+        matchedContainer = info;
+        break;
+      }
+    }
+    if (matchedContainer) {
+      journal = `In: ${matchedContainer.container}. ${matchedContainer.publisher}`;
+    } else if (w.primary_location?.raw_source_name) {
+      journal = `In: ${w.primary_location.raw_source_name}`;
+    } else if (journal) {
+      journal = `In: ${journal}`;
+    } else {
+      journal = 'Book Chapter';
+    }
+  } else if (w.type === 'book' || w.type === 'monograph') {
+    journal = journal || w.primary_location?.raw_source_name || 'Book';
+    note = 'Book';
+  } else if (journal === 'arXiv (Cornell University)') {
+    journal = 'arXiv Preprint';
+  } else if (!journal && w.type === 'preprint') {
+    journal = 'Preprint';
   }
 
   return {
@@ -403,7 +584,7 @@ function openalexToPub(w) {
     code: '',
     dataset: '',
     project: '',
-    note: '',
+    note,
     authors,
     _type: w.type
   };
@@ -439,10 +620,18 @@ function main() {
 
   const pubMap = new Map();
 
-  // 1. Load curated joint publications (highest priority)
+  // 1. Load curated joint publications and master books (highest priority)
   CURATED_JOINT_PUBLICATIONS.forEach(p => {
     const norm = normalizeTitle(p.title);
     pubMap.set(norm, { ...p, _priority: 100 });
+  });
+
+  CURATED_MASTER_BOOKS.forEach(b => {
+    const hasRaballo = hasAuthor(b.authors, 'raballo');
+    const hasMira = hasAuthor(b.authors, 'mira');
+    if (mode === 'joint' && (!hasRaballo || !hasMira)) return;
+    const norm = normalizeTitle(b.title);
+    pubMap.set(norm, { ...b, _priority: 100 });
   });
 
   // 2. Load OpenAlex works

@@ -1,4 +1,4 @@
-- title: "Bayesian MCMC Posterior Computation and Diagnostics"
+- title: "Foundations of Bayesian Statistics for Data Scientists"
   authors:
     - name: "Alan Agresti"
       remedi-lab: false
@@ -9,5 +9,6 @@
     - name: "Antonietta Mira"
       remedi-lab: true
   year: 2026
-  journal: "Book Chapter"
-  link: "https://doi.org/10.1201/9781003715924-6"
+  journal: "Chapman and Hall/CRC"
+  link: "https://doi.org/10.1201/9781003715924"
+  note: "Book"

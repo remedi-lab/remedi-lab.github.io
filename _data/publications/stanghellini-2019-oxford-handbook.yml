@@ -1,0 +1,18 @@
+- title: "The Oxford Handbook of Phenomenological Psychopathology"
+  authors:
+    - name: "Giovanni Stanghellini"
+      remedi-lab: false
+    - name: "Matthew Broome"
+      remedi-lab: false
+    - name: "Andrea Raballo"
+      remedi-lab: true
+    - name: "Anthony Vincent Fernandez"
+      remedi-lab: false
+    - name: "Paolo Fusar-Poli"
+      remedi-lab: false
+    - name: "René Rosfort"
+      remedi-lab: false
+  year: 2019
+  journal: "Oxford University Press"
+  link: "https://doi.org/10.1093/oxfordhb/9780198803157.001.0001"
+  note: "Book (Edited Volume)"

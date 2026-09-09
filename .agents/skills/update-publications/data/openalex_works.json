@@ -19423,16 +19423,18 @@
     ]
   },
   {
-    "id": "https://openalex.org/W7152569504",
-    "doi": "https://doi.org/10.1201/9781003715924-6",
-    "title": "Bayesian MCMC Posterior Computation and Diagnostics",
+    "id": "https://openalex.org/W7152727491",
+    "doi": "https://doi.org/10.1201/9781003715924",
+    "title": "Foundations of Bayesian Statistics for Data Scientists",
     "publication_year": 2026,
-    "type": "book-chapter",
+    "type": "book",
     "is_retracted": false,
     "primary_location": {
-      "landing_page_url": "https://doi.org/10.1201/9781003715924-6",
+      "landing_page_url": "https://doi.org/10.1201/9781003715924",
       "pdf_url": null,
-      "source": null
+      "source": {
+        "display_name": "Chapman and Hall/CRC"
+      }
     },
     "authorships": [
       {

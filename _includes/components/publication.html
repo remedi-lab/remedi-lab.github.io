@@ -15,7 +15,22 @@
     {% endif %}
     {% if include.pub.link %}
       <div>
-        <a href="{{ include.pub.link }}" target="_blank" rel="noopener" class="btn btn-primary"><i class="fa fa-external-link" aria-hidden="true"></i> Paper</a>
+        {% assign is_book = false %}
+        {% assign is_chapter = false %}
+        {% if include.pub.note and include.pub.note contains "Book" or include.pub.note contains "eBook" or include.pub.note contains "Textbook" %}
+          {% assign is_book = true %}
+        {% elsif include.pub.journal and include.pub.journal contains "In:" %}
+          {% assign is_chapter = true %}
+        {% endif %}
+        <a href="{{ include.pub.link }}" target="_blank" rel="noopener" class="btn btn-primary">
+          {% if is_book %}
+            <i class="fa fa-book" aria-hidden="true"></i> Book
+          {% elsif is_chapter %}
+            <i class="fa fa-external-link" aria-hidden="true"></i> Chapter
+          {% else %}
+            <i class="fa fa-external-link" aria-hidden="true"></i> Paper
+          {% endif %}
+        </a>
       </div>
     {% endif %}
     {% if include.pub.code %}

@@ -216,7 +216,15 @@ function renderPublication(pub) {
   }).join(' ');
 
   let links = '';
-  if (pub.link) links += `<div><a href="${pub.link}" target="_blank" rel="noopener" class="btn btn-primary"><i class="fa fa-external-link" aria-hidden="true"></i> Paper</a></div>`;
+  if (pub.link) {
+    const noteLower = (pub.note || '').toLowerCase();
+    const journalLower = (pub.journal || '').toLowerCase();
+    const isBook = noteLower.includes('book') || noteLower.includes('ebook') || noteLower.includes('textbook');
+    const isChapter = journalLower.startsWith('in:');
+    const label = isBook ? 'Book' : (isChapter ? 'Chapter' : 'Paper');
+    const icon = isBook ? 'fa-book' : 'fa-external-link';
+    links += `<div><a href="${pub.link}" target="_blank" rel="noopener" class="btn btn-primary"><i class="fa ${icon}" aria-hidden="true"></i> ${label}</a></div>`;
+  }
   if (pub.code) links += `<div><a href="${pub.code}" target="_blank" rel="noopener" class="btn btn-primary"><i class="fa fa-code" aria-hidden="true"></i> Code</a></div>`;
   if (pub.dataset) links += `<div><a href="${pub.dataset}" target="_blank" rel="noopener" class="btn btn-primary"><i class="fa fa-database" aria-hidden="true"></i> Dataset</a></div>`;
   if (pub.project) links += `<div><a href="${pub.project}" target="_blank" rel="noopener" class="btn btn-primary"><i class="fa fa-globe" aria-hidden="true"></i> Project</a></div>`;
