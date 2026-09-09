@@ -148,6 +148,13 @@ function parseAuthorsPub(str) {
   return pub;
 }
 
+// Calculate base URL (e.g. for GitHub Pages project sites like /remedi_website)
+const baseUrl = process.env.BASE_URL !== undefined
+  ? process.env.BASE_URL
+  : (process.env.GITHUB_REPOSITORY && !process.env.GITHUB_REPOSITORY.endsWith('.github.io')
+      ? `/${process.env.GITHUB_REPOSITORY.split('/')[1]}`
+      : '');
+
 const outDir = path.join(process.cwd(), '_site');
 if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
@@ -177,7 +184,8 @@ publications.sort((a, b) => (b.year || 0) - (a.year || 0));
 // Components renderers
 function renderMember(m) {
   const hasImg = typeof m.img === 'string' && m.img.trim().length > 0;
-  const imgSrc = hasImg ? `resources/img/lab_members/${m.img.trim()}` : 'resources/img/lab_members/profile_placeholder.png';
+  const imgRel = hasImg ? `resources/img/lab_members/${m.img.trim()}` : 'resources/img/lab_members/profile_placeholder.png';
+  const imgSrc = `${baseUrl ? baseUrl + '/' : ''}${imgRel}`;
   let socials = '';
   if (typeof m.website === 'string' && m.website.trim()) socials += `<div><a href="${m.website.trim()}" target="_blank" rel="noopener" class="btn btn-primary" title="Website"><i class="fa fa-link wow bounceIn" aria-hidden="true"></i></a></div>`;
   if (typeof m.usi_directory === 'string' && m.usi_directory.trim()) socials += `<div><a href="${m.usi_directory.trim()}" target="_blank" rel="noopener" class="btn btn-primary" title="USI Directory Profile"><i class="fa fa-university wow bounceIn" aria-hidden="true"></i></a></div>`;
@@ -300,7 +308,7 @@ function renderProjectCard(p) {
       <div>
         <div class="project-card-top">
           <div class="project-icon-box">
-            <img src="resources/img/projects/${p.img}" alt="${p.title}" class="project-icon-img">
+            <img src="${baseUrl ? baseUrl + '/' : ''}resources/img/projects/${p.img}" alt="${p.title}" class="project-icon-img">
           </div>
           <div class="project-header-badges">
             ${badges}
@@ -463,17 +471,21 @@ function renderPublicationsSection() {
 }
 
 function renderContactSection() {
-  return fs.readFileSync('_includes/contact.html', 'utf8').replace(/\{\{url\}\}/g, '');
+  return fs.readFileSync('_includes/contact.html', 'utf8').replace(/\{\{url\}\}/g, baseUrl);
 }
 
 function renderPage(contentHtml, pageTitle, extraScripts = '') {
   let head = fs.readFileSync('_includes/head.html', 'utf8')
     .replace(/\{\{site\.description\}\}/g, 'REthinking MEntal health through Clinical and Data Intelligence at Università della Svizzera italiana (USI), Euler Institute, Lugano, Switzerland.')
     .replace(/\{\% if page\.title \%\}[\s\S]*?\{\% endif \%\}/g, pageTitle ? `${pageTitle} | REMEDI Lab` : 'REMEDI Lab | Università della Svizzera italiana')
-    .replace(/\{\{url\}\}/g, '');
+    .replace(/\{\{url\}\}/g, baseUrl);
 
-  let nav = fs.readFileSync('_includes/nav.html', 'utf8').replace(/\{\{url\}\}/g, '');
-  let scripts = fs.readFileSync('_includes/scripts.html', 'utf8').replace(/\{\{url\}\}/g, '');
+  let nav = fs.readFileSync('_includes/nav.html', 'utf8').replace(/\{\{url\}\}/g, baseUrl);
+  let scripts = fs.readFileSync('_includes/scripts.html', 'utf8').replace(/\{\{url\}\}/g, baseUrl);
+  let formattedExtraScripts = extraScripts.replace(/src="([^"]+)"/g, (match, p1) => {
+    if (p1.startsWith('http') || p1.startsWith('/')) return match;
+    return `src="${baseUrl ? baseUrl + '/' : ''}${p1}"`;
+  });
 
   const isHome = !pageTitle;
   const bodyClass = isHome ? 'home-page' : 'subpage';
@@ -495,7 +507,7 @@ ${head}
     </div>
   </footer>
   ${scripts}
-  ${extraScripts}
+  ${formattedExtraScripts}
 </body>
 </html>`;
   } else {
@@ -517,7 +529,7 @@ ${head}
     </div>
   </footer>
   ${scripts}
-  ${extraScripts}
+  ${formattedExtraScripts}
 </body>
 </html>`;
   }
@@ -526,7 +538,7 @@ ${head}
 // 1. Index / Home
 const frontLayout = fs.readFileSync('_layouts/front.html', 'utf8');
 const mainMatch = frontLayout.match(/<main>([\s\S]*?)<\/main>/);
-const homeContent = mainMatch ? mainMatch[1].replace(/\{\{url\}\}/g, '') : '';
+const homeContent = mainMatch ? mainMatch[1].replace(/\{\{url\}\}/g, baseUrl) : '';
 fs.writeFileSync(path.join(outDir, 'index.html'), renderPage(homeContent, '', '<script src="js/index.js"></script>'), 'utf8');
 
 // 2. Team
@@ -542,7 +554,7 @@ fs.writeFileSync(path.join(outDir, 'publications.html'), renderPage(renderPublic
 fs.writeFileSync(path.join(outDir, 'contact.html'), renderPage(renderContactSection(), 'Join Us'), 'utf8');
 
 // 6. 404
-const notFound = fs.readFileSync('_includes/404.html', 'utf8').replace(/\{\{url\}\}/g, '');
+const notFound = fs.readFileSync('_includes/404.html', 'utf8').replace(/\{\{url\}\}/g, baseUrl);
 fs.writeFileSync(path.join(outDir, '404.html'), renderPage(notFound, '404 Not Found'), 'utf8');
 
 console.log('Build finished successfully! Static files generated in _site/:');
