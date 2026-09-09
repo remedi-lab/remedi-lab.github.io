@@ -1,0 +1,13 @@
+- title: "1006 – Basic Emotion Recognition And Psychopathology In Schizophrenia"
+  authors:
+    - name: "Frank Larøi"
+      remedi-lab: false
+    - name: "B. Fonteneau"
+      remedi-lab: false
+    - name: "Haitham Mourad"
+      remedi-lab: false
+    - name: "Andrea Raballo"
+      remedi-lab: true
+  year: 2013
+  journal: "European Psychiatry"
+  link: "https://doi.org/10.1016/s0924-9338(13)76136-4"

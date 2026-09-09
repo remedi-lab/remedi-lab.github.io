@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <rect width="120" height="120" rx="24" fill="#f8f9fa"/>
+  <circle cx="60" cy="60" r="44" fill="none" stroke="#212121" stroke-width="3"/>
+  <!-- Brain hemisphere silhouette / neural tree -->
+  <path d="M42 48 C36 48 32 54 32 60 C32 66 36 72 44 72 C46 72 48 76 50 80 C52 84 56 86 60 86 C64 86 68 84 70 80 C72 76 74 72 76 72 C84 72 88 66 88 60 C88 54 84 48 78 48 C76 44 72 40 66 40 C63 40 61 41 60 43 C59 41 57 40 54 40 C48 40 44 44 42 48 Z" fill="none" stroke="#212121" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Heartbeat / precision clinical pulse -->
+  <path d="M38 62 L48 62 L53 50 L59 74 L65 56 L70 66 L74 62 L82 62" fill="none" stroke="#9CCC65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

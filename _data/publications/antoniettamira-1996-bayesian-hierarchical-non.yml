@@ -1,0 +1,9 @@
+- title: "Bayesian Hierarchical Nonparametric Inference for Change-Point Problems"
+  authors:
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Sonia Petrone"
+      remedi-lab: false
+  year: 1996
+  journal: "Book Chapter"
+  link: "https://doi.org/10.1093/oso/9780198523567.003.0049"

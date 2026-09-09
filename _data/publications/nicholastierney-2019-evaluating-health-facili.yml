@@ -1,0 +1,23 @@
+- title: "Evaluating health facility access using Bayesian spatial models and location analysis methods"
+  authors:
+    - name: "Nicholas Tierney"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "H Reinhold"
+      remedi-lab: false
+    - name: "Giuseppe Arbia"
+      remedi-lab: false
+    - name: "Samuel Clifford"
+      remedi-lab: false
+    - name: "Angelo Auricchio"
+      remedi-lab: false
+    - name: "Tiziano Moccetti"
+      remedi-lab: false
+    - name: "Stefano Peluso"
+      remedi-lab: false
+    - name: "Kerrie Mengersen"
+      remedi-lab: false
+  year: 2019
+  journal: "PLoS ONE"
+  link: "https://doi.org/10.1371/journal.pone.0218310"

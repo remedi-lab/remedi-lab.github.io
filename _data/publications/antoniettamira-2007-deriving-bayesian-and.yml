@@ -1,0 +1,9 @@
+- title: "Deriving Bayesian and Frequentist Estimators from Time-Invariance Estimating Equations: A Unifying Approach"
+  authors:
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Adrian Baddeley"
+      remedi-lab: false
+  year: 2007
+  journal: "Book Chapter"
+  link: "https://doi.org/10.1093/oso/9780199214655.003.0013"

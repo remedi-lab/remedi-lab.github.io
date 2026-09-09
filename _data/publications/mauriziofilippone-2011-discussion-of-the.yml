@@ -1,0 +1,11 @@
+- title: "Discussion of the paper: “Sampling schemes for generalized linear Dirichlet process random effects models” by M. Kyung, J. Gill, and G. Casella"
+  authors:
+    - name: "Maurizio Filippone"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Mark Girolami"
+      remedi-lab: false
+  year: 2011
+  journal: "Statistical Methods & Applications"
+  link: "https://doi.org/10.1007/s10260-011-0170-3"

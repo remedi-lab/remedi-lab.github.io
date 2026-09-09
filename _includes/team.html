@@ -1,0 +1,111 @@
+<section id="team">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="section-heading">Our team</h2>
+                <hr class="section-bar primary">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        {% assign sorted_team = site.data.team | sort: "last_name" %}
+
+        <!-- Heads & Co-founders -->
+        <h2 class="section-subheading">Heads and Co-founders</h2>
+        <div class="row">
+            {% for member in site.data.team %}
+                {% if member.role == 'Head & Co-founder' or member.role == 'Co-director' %}
+                    {% include components/member.html member = member %}
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        <!-- Scientific Advisory Board -->
+        <h2 class="section-subheading">Scientific Advisory Board &amp; Advisors</h2>
+        <div class="row">
+            {% for member in site.data.team %}
+                {% if member.role == 'Scientific Advisory Board' or member.role == 'Strategic Advisor' %}
+                    {% include components/member.html member = member %}
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        <!-- Partners -->
+        <h2 class="section-subheading">Partners</h2>
+        <div class="row">
+            {% for member in site.data.team %}
+                {% if member.role == 'Partner' %}
+                    {% include components/member.html member = member %}
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        <!-- PhD Students -->
+        <h2 class="section-subheading">PhD Students</h2>
+        <div class="row">
+            {% for member in site.data.team %}
+                {% if member.role == 'PhD student' and member.is_alumni != true %}
+                    {% include components/member.html member = member %}
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        <!-- Postdoctoral Researchers -->
+        {% assign postdocs = site.data.team | where: "role", "Postdoctoral Researcher" %}
+        {% if postdocs.size > 0 %}
+        <h2 class="section-subheading">Postdoctoral Researchers</h2>
+        <div class="row">
+            {% for member in postdocs %}
+                {% include components/member.html member = member %}
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <!-- Master Students -->
+        <h2 class="section-subheading">Master Students</h2>
+        <div class="row student-cards-row">
+            {% for member in site.data.team %}
+                {% if member.role == 'Master student' or member.role == 'Student Researcher' %}
+                    {% if member.is_alumni != true %}
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="student-card">
+                                <div class="student-icon">
+                                    {% if member.role == 'Student Researcher' %}
+                                        <i class="fa fa-flask" aria-hidden="true"></i>
+                                    {% else %}
+                                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                    {% endif %}
+                                </div>
+                                <div class="student-details">
+                                    <h4 class="student-name">{{member.first_name}} {{member.last_name}}</h4>
+                                    <p class="student-role">{{member.role}}{% if member.affiliation %} &middot; <span class="student-affiliation">{{member.affiliation}}</span>{% endif %}</p>
+                                </div>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        <!-- Alumni -->
+        <h2 class="section-subheading">Alumni</h2>
+        <div class="row student-cards-row">
+            {% for member in site.data.team %}
+                {% if member.is_alumni == true %}
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="student-card">
+                            <div class="student-icon">
+                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                            </div>
+                            <div class="student-details">
+                                <h4 class="student-name">{{member.first_name}} {{member.last_name}}</h4>
+                                <p class="student-role">{{member.role}}{% if member.affiliation %} &middot; <span class="student-affiliation">{{member.affiliation}}</span>{% endif %}</p>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>

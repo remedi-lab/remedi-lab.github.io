@@ -1,0 +1,11 @@
+- title: "RODHA: Robust Outlier Detection using Hybrid Approach"
+  authors:
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Dhruba K. Bhattacharyya"
+      remedi-lab: false
+    - name: "Sarat Saharia"
+      remedi-lab: false
+  year: 2012
+  journal: "American Journal of Intelligent Systems"
+  link: "https://doi.org/10.5923/j.ajis.20120205.07"

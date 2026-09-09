@@ -1,0 +1,15 @@
+- title: "Learning Summary Statistics for Bayesian Inference with Autoencoders"
+  authors:
+    - name: "Carlo Albert"
+      remedi-lab: false
+    - name: "Simone Ulzega"
+      remedi-lab: false
+    - name: "Fırat Özdemir"
+      remedi-lab: false
+    - name: "Fernando Pérez‐Cruz"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2022
+  journal: "SciPost Physics Core"
+  link: "https://doi.org/10.21468/scipostphyscore.5.3.043"

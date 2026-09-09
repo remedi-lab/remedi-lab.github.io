@@ -1,0 +1,11 @@
+- title: "Conditionally Gaussian random sequences for an integrated variance estimator with correlation between noise and returns"
+  authors:
+    - name: "Stefano Peluso"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Pietro Muliere"
+      remedi-lab: false
+  year: 2019
+  journal: "Applied Stochastic Models in Business and Industry"
+  link: "https://doi.org/10.1002/asmb.2476"

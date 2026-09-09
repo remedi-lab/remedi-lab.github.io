@@ -1,0 +1,13 @@
+- title: "Adaptive Multiple Importance Sampling"
+  authors:
+    - name: "Jean‐Marie Cornuet"
+      remedi-lab: false
+    - name: "Jean‐Michel Marin"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Christian P. Robert"
+      remedi-lab: false
+  year: 2012
+  journal: "Scandinavian Journal of Statistics"
+  link: "https://doi.org/10.1111/j.1467-9469.2011.00756.x"

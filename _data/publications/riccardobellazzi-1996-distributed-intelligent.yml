@@ -1,0 +1,17 @@
+- title: "Distributed intelligent data analysis in diabetic patient management."
+  authors:
+    - name: "Riccardo Bellazzi"
+      remedi-lab: false
+    - name: "Cristiana Larizza"
+      remedi-lab: false
+    - name: "Alberto Riva"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Stefano Fiocchi"
+      remedi-lab: false
+    - name: "Mario Stefanelli"
+      remedi-lab: false
+  year: 1996
+  journal: "PubMed"
+  link: "https://pubmed.ncbi.nlm.nih.gov/8947655"

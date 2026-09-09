@@ -1,0 +1,75 @@
+- title: "Preventive & Precision Psychiatry"
+  active: true
+  img: "precision_psychiatry.svg"
+  link: ""
+  funding:
+    - "USI Euler Institute & Clinical Partners"
+  people:
+    - name: "Prof. Antonio Preti"
+      role: "Torino University"
+    - name: "Dr. Michele Poletti"
+      role: "IRCCS Reggio Emilia, Italy"
+    - name: "Federico Ravenda"
+      role: "PhD student, USI"
+  description: >
+    This project investigates preventive and precision psychiatry using large language models and cognitive markers. By analyzing both structured clinical datasets and spontaneous digital communications (such as social media text), we develop decision-support systems that uncover early diagnostic signals for depressive and schizophrenia spectrum conditions, helping clinicians arrive at faster, more personalized interventions.
+
+- title: "Differential Privacy in Healthcare"
+  active: true
+  img: "privacy.svg"
+  link: ""
+  funding:
+    - "International Research Collaboration"
+  people:
+    - name: "Dr. Conor Daniel Hassan"
+      role: "Aalto University"
+    - name: "Prof. Kerrie Mengersen"
+      role: "Queensland University of Technology"
+  description: >
+    Medical and psychological datasets carry exceptional sensitivity. In collaboration with Aalto University and QUT, we develop rigorous differential privacy guarantees and robust uncertainty quantification frameworks tailored to health informatics. Our methods allow institutions to perform high-utility predictive modeling and evidence synthesis while strictly safeguarding individual patient privacy.
+
+- title: "Federated Learning for Clinical Data"
+  active: true
+  img: "federated_learning.svg"
+  link: ""
+  funding:
+    - "Cross-Institutional Research Initiative"
+  people:
+    - name: "Prof. Bei Jiang"
+      role: "University of Alberta"
+    - name: "Dr. Jack Jewson"
+      role: "Monash University"
+  description: >
+    Healthcare data is distributed across hospitals, psychiatric clinics, and international medical centers. Through federated learning, we enable distributed model training and Bayesian inference across decentralized clinical registries without requiring centralized pooling of sensitive patient records.
+
+- title: "TONY: Toolkit for NLP in Psychology"
+  active: true
+  img: "nlp_psychology.svg"
+  link: "https://tony.github.io"
+  funding:
+    - "ACL 2026"
+  people:
+    - name: "Federico Ravenda"
+      role: "USI"
+    - name: "Volodymyr Karpenko"
+      role: "USI"
+    - name: "Daniele Montagnani"
+      role: "Univ. of Pavia & USI"
+  description: >
+    TONY is an open-source, reproducible toolkit bridging natural language processing and psychological science. Presented at ACL 2026, it offers unified APIs, specialized feature extractors, and psychometric benchmark tools designed to empower researchers and clinicians in analyzing linguistic markers of mental health.
+
+- title: "PersonalityDBench"
+  active: true
+  img: "dataset.svg"
+  link: "https://github.com/Fede-stack/PersonalityDBench"
+  funding:
+    - "ACL 2026"
+  people:
+    - name: "Federico Ravenda"
+      role: "USI"
+    - name: "Seyed Ali Bahrainian"
+      role: "Collaborator"
+    - name: "Daniele Montagnani"
+      role: "Univ. of Pavia & USI"
+  description: >
+    PersonalityDBench is a novel dataset and evaluation framework accepted at ACL 2026 for personality disorders — moving from psychological modeling to controlled text generation. It facilitates principled evaluation of foundation models on psychiatric reasoning and clinical empathy.

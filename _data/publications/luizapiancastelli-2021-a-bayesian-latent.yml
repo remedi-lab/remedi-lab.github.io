@@ -1,0 +1,15 @@
+- title: "A Bayesian latent allocation model for clustering compositional data with application to the Great Barrier Reef"
+  authors:
+    - name: "Luiza Piancastelli"
+      remedi-lab: false
+    - name: "Nial Friel"
+      remedi-lab: false
+    - name: "Julie Vercelloni"
+      remedi-lab: false
+    - name: "Kerrie Mengersen"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2021
+  journal: "arXiv Preprint"
+  link: "https://doi.org/10.48550/arxiv.2105.02140"

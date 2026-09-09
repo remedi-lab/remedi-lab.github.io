@@ -1,0 +1,9 @@
+- title: "On non-reversible Markov chains"
+  authors:
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "C. Geyer"
+      remedi-lab: false
+  year: 2000
+  journal: ""
+  link: "https://doi.org/10.1090/fic/026/07"

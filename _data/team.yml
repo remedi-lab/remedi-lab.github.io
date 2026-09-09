@@ -1,0 +1,266 @@
+# REMEDI Lab Team Roster
+
+# Heads and Co-founders
+- first_name: Andrea
+  last_name: Raballo
+  role: Head & Co-founder
+  affiliation: Full Professor of Psychiatry, USI
+  img: andrea_raballo.jpg
+  is_alumni: false
+  usi_directory: https://search.usi.ch/it/persone/f2221b2067216e8b404d9070f4a52639/raballo-andrea
+  website:
+  twitter:
+  google_scholar:
+  semantic_scholar:
+  linkedin:
+  github:
+
+- first_name: Antonietta
+  last_name: Mira
+  role: Head & Co-founder
+  affiliation: Full Professor of Statistics, USI & Univ. of Insubria
+  img: antonietta_mira.jpg
+  is_alumni: false
+  usi_directory: https://search.usi.ch/it/persone/f8960de6d60dd08a79b6c1eb20b7442b/mira-antonietta
+  website:
+  twitter:
+  google_scholar:
+  semantic_scholar:
+  linkedin:
+  github:
+
+- first_name: Fabrizio
+  last_name: Barazzoni
+  role: Co-director
+  affiliation: Head of Medical Master, USI
+  img: fabrizio_barazzoni.jpg
+  is_alumni: false
+  website: https://usi.to/emi
+  usi_directory:
+  twitter:
+  google_scholar:
+  semantic_scholar:
+  linkedin:
+  github:
+
+# Postdocs & Researchers
+- first_name: Ziqing
+  last_name: Dong
+  role: Postdoctoral Researcher
+  affiliation: SNSF PostDoc, USI
+  img: ziqing_dong.jpg
+  is_alumni: false
+  website:
+  twitter:
+  google_scholar:
+  semantic_scholar:
+  linkedin:
+  github:
+
+# PhD Students
+- first_name: Federico
+  last_name: Ravenda
+  role: PhD student
+  affiliation: USI
+  img: federico_ravenda.jpg
+  is_alumni: false
+  website:
+  twitter:
+  google_scholar:
+  semantic_scholar:
+  linkedin:
+  github:
+
+- first_name: Volodymyr
+  last_name: Karpenko
+  role: PhD student
+  affiliation: USI
+  img:
+  is_alumni: false
+  website:
+  twitter:
+  google_scholar:
+  semantic_scholar:
+  linkedin:
+  github:
+
+- first_name: Hubert
+  last_name: Pawlusinski
+  role: PhD student
+  affiliation: USI
+  img: hubert_pawlusinski.jpg
+  is_alumni: false
+  website:
+  twitter:
+  google_scholar:
+  semantic_scholar:
+  linkedin:
+  github:
+
+- first_name: Daniele
+  last_name: Montagnani
+  role: PhD student
+  affiliation: University of Pavia & USI
+  img: daniele_montagnani.jpg
+  is_alumni: false
+  website:
+  twitter:
+  google_scholar:
+  semantic_scholar:
+  linkedin:
+  github:
+
+- first_name: Giulia
+  last_name: Guicciardi
+  role: PhD student
+  affiliation: University of Pavia & USI
+  img: giulia_guicciardi.jpg
+  is_alumni: false
+  website:
+  twitter:
+  google_scholar:
+  semantic_scholar:
+  linkedin:
+  github:
+
+- first_name: Syed Mujtaba
+  last_name: Haider
+  role: PhD student
+  affiliation: University of Pavia & USI
+  img: syed_mujtaba_haider.jpg
+  is_alumni: false
+  website:
+  twitter:
+  google_scholar:
+  semantic_scholar:
+  linkedin:
+  github:
+
+# Master Students
+- first_name: Luigi
+  last_name: Tisci
+  role: Master student
+  affiliation: USI
+  img:
+  is_alumni: false
+  website:
+  twitter:
+  google_scholar:
+  semantic_scholar:
+  linkedin:
+  github:
+
+- first_name: Cristina
+  last_name: Fernández-Simal Bernard
+  role: Master student
+  affiliation: USI
+  img:
+  is_alumni: false
+  website:
+  twitter:
+  google_scholar:
+  semantic_scholar:
+  linkedin:
+  github:
+
+- first_name: Erica
+  last_name: Trofimov
+  role: Student Researcher
+  affiliation: USI
+  img:
+  is_alumni: false
+  website:
+  twitter:
+  google_scholar:
+  semantic_scholar:
+  linkedin:
+  github:
+
+# Scientific Advisory Board
+- first_name: Lonneke
+  last_name: van der Plas
+  role: Scientific Advisory Board
+  affiliation: Professor of NLP, USI
+  img: lonneke_vanderplas.jpg
+  is_alumni: false
+  website: https://usi.to/bkks
+  google_scholar: https://scholar.google.com/citations?user=cdPh9cEAAAAJ&hl=en
+  twitter:
+  semantic_scholar:
+  linkedin:
+  github:
+
+- first_name: Esaú
+  last_name: Villatoro-Tello
+  role: Scientific Advisory Board
+  affiliation: Research Associate, Idiap Research Institute
+  img: esau_villatoro_tello.png
+  is_alumni: false
+  website: https://www.idiap.ch/~evillatoro/
+  twitter:
+  google_scholar:
+  semantic_scholar:
+  linkedin:
+  github:
+
+- first_name: Davide
+  last_name: Gai
+  role: Strategic Advisor
+  affiliation: President, Healthcapital SA
+  img: davide_gai.jpg
+  is_alumni: false
+  website: http://www.healthcapital.ch
+  twitter:
+  google_scholar:
+  semantic_scholar:
+  linkedin:
+  github:
+
+- first_name: Marina
+  last_name: Timoteo
+  role: Scientific Advisory Board
+  affiliation: Professor of Private Law, Univ. of Bologna & Director AlmaLaurea
+  img: marina_timoteo.jpg
+  is_alumni: false
+  website: https://www.unibo.it/sitoweb/marina.timoteo/cv-en
+  twitter:
+  google_scholar:
+  semantic_scholar:
+  linkedin:
+  github:
+
+# Partners
+- first_name: Roberto
+  last_name: Cianella
+  role: Partner
+  affiliation: Direttore Generale, FCTSA
+  img:
+  is_alumni: false
+  website: https://www.fctsa.ch/it/
+  twitter:
+  google_scholar:
+  semantic_scholar:
+  linkedin:
+  github:
+
+# Alumni
+- first_name: Matteo
+  last_name: Gasparin
+  role: PostDoc
+  affiliation: USI
+  img:
+  is_alumni: true
+
+- first_name: Anish
+  last_name: Mukherjee
+  role: SNSF PostDoc
+  affiliation: USI
+  img:
+  is_alumni: true
+
+- first_name: Gualtiero
+  last_name: Marenco Turi
+  role: Master student
+  affiliation: USI
+  img:
+  is_alumni: true

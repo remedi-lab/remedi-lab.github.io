@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <rect width="120" height="120" rx="24" fill="#f8f9fa"/>
+  <!-- Speech bubble with psychology symbol / syntax tree -->
+  <path d="M34 38 C34 32 40 28 60 28 C80 28 86 32 86 38 C86 52 80 58 64 58 L54 68 L54 58 C40 58 34 52 34 38 Z" fill="none" stroke="#212121" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Neural graph inside -->
+  <circle cx="50" cy="42" r="3" fill="#9CCC65"/>
+  <circle cx="62" cy="38" r="3" fill="#212121"/>
+  <circle cx="72" cy="44" r="3" fill="#9CCC65"/>
+  <line x1="50" y1="42" x2="62" y2="38" stroke="#212121" stroke-width="1.5"/>
+  <line x1="62" y1="38" x2="72" y2="44" stroke="#212121" stroke-width="1.5"/>
+  <!-- Toolkit hammer/wrench or Greek Psi -->
+  <path d="M48 80 L72 80 M60 74 L60 92" stroke="#212121" stroke-width="3" stroke-linecap="round"/>
+  <path d="M52 76 C52 86 68 86 68 76" fill="none" stroke="#9CCC65" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

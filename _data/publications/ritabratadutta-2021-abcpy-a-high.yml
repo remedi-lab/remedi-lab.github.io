@@ -1,0 +1,21 @@
+- title: "ABCpy: A High-Performance Computing Perspective to Approximate Bayesian Computation"
+  authors:
+    - name: "Ritabrata Dutta"
+      remedi-lab: false
+    - name: "Marcel Schoengens"
+      remedi-lab: false
+    - name: "Lorenzo Pacchiardi"
+      remedi-lab: false
+    - name: "Avinash Ummadisingu"
+      remedi-lab: false
+    - name: "Nicole Widmer"
+      remedi-lab: false
+    - name: "Pierre Künzli"
+      remedi-lab: false
+    - name: "Jukka‐Pekka Onnela"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2021
+  journal: "Journal of Statistical Software"
+  link: "https://doi.org/10.18637/jss.v100.i07"

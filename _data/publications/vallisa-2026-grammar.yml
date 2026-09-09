@@ -1,0 +1,23 @@
+- title: "The Changing Geometry of Grammar: Dimensionality and Neighborhood Reorganization across Transformer Layers"
+  authors:
+    - name: "Samuele Vallisa"
+      remedi-lab: false
+    - name: "Federico Ravenda"
+      remedi-lab: true
+    - name: "Claudio Palominos"
+      remedi-lab: false
+    - name: "Rui He"
+      remedi-lab: false
+    - name: "Andrea Raballo"
+      remedi-lab: true
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Philipp Homan"
+      remedi-lab: false
+    - name: "Wolfram Hinzen"
+      remedi-lab: false
+  year: 2026
+  journal: "arXiv Preprint"
+  link: "https://doi.org/10.48550/arxiv.2608.25166"
+  code: "https://github.com/Fede-stack/The-LLMs-Changing-Geometry-of-Grammar"
+  note: "arXiv:2608.25166 (cs.CL)"

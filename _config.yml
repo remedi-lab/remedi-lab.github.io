@@ -1,0 +1,20 @@
+# Site settings
+title: REMEDI Lab
+email: remedi@usi.ch
+description: "REMEDI Lab (REthinking MEntal health through Clinical and Data Intelligence) at Università della Svizzera italiana (USI), Euler Institute, Lugano, Switzerland."
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: styles/_sass
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

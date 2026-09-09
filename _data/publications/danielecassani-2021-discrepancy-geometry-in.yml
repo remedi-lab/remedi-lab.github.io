@@ -1,0 +1,11 @@
+- title: "Discrepancy geometry in approximate Bayesian inference: transport and risk perspectives"
+  authors:
+    - name: "Daniele Cassani"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Marco Tarsia"
+      remedi-lab: false
+  year: 2021
+  journal: "arXiv Preprint"
+  link: "https://doi.org/10.48550/arxiv.2105.01962"

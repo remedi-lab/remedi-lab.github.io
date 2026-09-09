@@ -1,0 +1,13 @@
+- title: "Scalable Approximate Bayesian Computation for Growing Network Models via Extrapolated and Sampled Summaries"
+  authors:
+    - name: "Louis Raynal"
+      remedi-lab: false
+    - name: "Sixing Chen"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Jukka‐Pekka Onnela"
+      remedi-lab: false
+  year: 2020
+  journal: "Bayesian Analysis"
+  link: "https://doi.org/10.1214/20-ba1248"

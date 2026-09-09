@@ -1,0 +1,11 @@
+- title: "Reflections on Murray Aitkin's contributions to nonparametric mixture models and Bayes factors"
+  authors:
+    - name: "Alan Agresti"
+      remedi-lab: false
+    - name: "Francesco Bartolucci"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2021
+  journal: "Statistical Modelling"
+  link: "https://doi.org/10.1177/1471082x20981312"

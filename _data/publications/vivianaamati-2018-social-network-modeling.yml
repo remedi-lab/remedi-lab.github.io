@@ -1,0 +1,11 @@
+- title: "Social Network Modeling"
+  authors:
+    - name: "Viviana Amati"
+      remedi-lab: false
+    - name: "Alessandro Lomi"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2018
+  journal: "Annual Review of Statistics and Its Application"
+  link: "https://doi.org/10.1146/annurev-statistics-031017-100746"

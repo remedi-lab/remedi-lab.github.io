@@ -1,0 +1,13 @@
+- title: "Estimating a novel stochastic model for within-field disease dynamics of banana bunchy top virus via approximate Bayesian computation"
+  authors:
+    - name: "Abhishek Varghese"
+      remedi-lab: false
+    - name: "Christopher Drovandi"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Kerrie Mengersen"
+      remedi-lab: false
+  year: 2020
+  journal: "PLoS Computational Biology"
+  link: "https://doi.org/10.1371/journal.pcbi.1007878"

@@ -1,0 +1,15 @@
+- title: "Schizophrenia spectrum disorders (SSD): an internet-based vignette study of real-world diagnostic accuracy and reliability among psychiatrists and clinical psychologists"
+  authors:
+    - name: "Bar Urkin"
+      remedi-lab: false
+    - name: "Josef Parnas"
+      remedi-lab: false
+    - name: "Andrea Raballo"
+      remedi-lab: true
+    - name: "Danny Koren"
+      remedi-lab: false
+  year: 2025
+  journal: "Psychiatry Research Communications"
+  link: "https://doi.org/10.1016/j.psycom.2025.100211"
+  code: "https://github.com/Fede-stack/LLMs-vs-LIPs"
+  note: "79(9), 599 (2025)"

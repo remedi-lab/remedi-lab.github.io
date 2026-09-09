@@ -1,0 +1,13 @@
+- title: "Bayesian Quickest Detection of Credit Card Fraud"
+  authors:
+    - name: "Bruno Buonaguidi"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Herbert Bucheli"
+      remedi-lab: false
+    - name: "Viton Vitanis"
+      remedi-lab: false
+  year: 2020
+  journal: "Bayesian Analysis"
+  link: "https://doi.org/10.1214/20-ba1254"

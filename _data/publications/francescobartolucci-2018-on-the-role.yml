@@ -1,0 +1,11 @@
+- title: "On the role of latent variable models in the era of big data"
+  authors:
+    - name: "Francesco Bartolucci"
+      remedi-lab: false
+    - name: "Silvia Bacci"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2018
+  journal: "Statistics & Probability Letters"
+  link: "https://doi.org/10.1016/j.spl.2018.02.023"

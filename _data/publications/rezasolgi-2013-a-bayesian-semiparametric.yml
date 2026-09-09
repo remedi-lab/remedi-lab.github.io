@@ -1,0 +1,9 @@
+- title: "A Bayesian Semiparametric Multiplicative Error Model With an Application to Realized Volatility"
+  authors:
+    - name: "Reza Solgi"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2013
+  journal: "Journal of Computational and Graphical Statistics"
+  link: "https://doi.org/10.1080/10618600.2013.810151"

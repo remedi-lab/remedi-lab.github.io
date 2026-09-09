@@ -1,0 +1,9 @@
+- title: "Discussion"
+  authors:
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Peter J. Green"
+      remedi-lab: false
+  year: 2001
+  journal: "Journal of Computational and Graphical Statistics"
+  link: "https://doi.org/10.1198/10618600152418773"

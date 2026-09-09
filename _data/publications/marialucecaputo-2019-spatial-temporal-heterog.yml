@@ -1,0 +1,25 @@
+- title: "Spatial-temporal heterogeneity of out-of-hospital cardiac arrest incidence in Swiss Canton Ticino"
+  authors:
+    - name: "Maria Luce Caputo"
+      remedi-lab: false
+    - name: "Stefano Peluso"
+      remedi-lab: false
+    - name: "J. Reinhold"
+      remedi-lab: false
+    - name: "Roman Burkart"
+      remedi-lab: false
+    - name: "Claudio Benvenuti"
+      remedi-lab: false
+    - name: "Roberto Cianella"
+      remedi-lab: true
+    - name: "Tiziano Moccetti"
+      remedi-lab: false
+    - name: "Catherine Klersy"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Angelo Auricchio"
+      remedi-lab: false
+  year: 2019
+  journal: "Resuscitation"
+  link: "https://doi.org/10.1016/j.resuscitation.2019.06.190"

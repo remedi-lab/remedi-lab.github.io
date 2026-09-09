@@ -1,0 +1,13 @@
+- title: "Multiple hypothesis screening using mixtures of non‐local distributions with applications to genomic studies"
+  authors:
+    - name: "Francesco Denti"
+      remedi-lab: false
+    - name: "Stefano Peluso"
+      remedi-lab: false
+    - name: "Michele Guindani"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2023
+  journal: "Statistics in Medicine"
+  link: "https://doi.org/10.1002/sim.9705"

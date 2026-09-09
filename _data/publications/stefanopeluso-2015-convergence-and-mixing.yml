@@ -1,0 +1,9 @@
+- title: "Convergence and Mixing in M arkov Chain M onte C arlo: Advanced Algorithms and Latest Developments"
+  authors:
+    - name: "Stefano Peluso"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2015
+  journal: "Wiley StatsRef: Statistics Reference Online"
+  link: "https://doi.org/10.1002/9781118445112.stat03883.pub2"

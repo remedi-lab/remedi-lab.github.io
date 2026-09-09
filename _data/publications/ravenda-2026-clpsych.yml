@@ -1,0 +1,15 @@
+- title: "P2P - from Posts to Patterns: An LLM Ensemble Approach to Mental Health Dynamics Detection"
+  authors:
+    - name: "Federico Ravenda"
+      remedi-lab: true
+    - name: "Volodymyr Karpenko"
+      remedi-lab: true
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Andrea Raballo"
+      remedi-lab: true
+  year: 2026
+  journal: "Proceedings of the 10th Workshop on Computational Linguistics and Clinical Psychology (CLPsych @ NAACL 2026)"
+  link: "https://doi.org/10.18653/v1/2026.clpsych-1.39"
+  code: "https://github.com/Fede-stack/BULUSI-CLPsych"
+  note: "Workshop Paper"

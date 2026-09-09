@@ -1,0 +1,21 @@
+{
+  "name": "remedi-website",
+  "version": "1.0.0",
+  "description": "REMEDI Lab website - Università della Svizzera italiana",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "serve": "node scripts/serve.js",
+    "start": "npm run serve",
+    "update-publications": "node .agents/skills/update-publications/scripts/update_publications.js"
+  },
+  "keywords": [
+    "remedi",
+    "usi",
+    "research",
+    "jekyll",
+    "mental-health",
+    "ai"
+  ],
+  "author": "REMEDI Lab",
+  "license": "MIT"
+}

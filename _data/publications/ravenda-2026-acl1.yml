@@ -1,0 +1,20 @@
+- title: "TONY: an open-source TOolkit for Nlp in psYchology"
+  authors:
+    - name: "Federico Ravenda"
+      remedi-lab: true
+    - name: "Sofia Irene Ravenda"
+      remedi-lab: true
+    - name: "Volodymyr Karpenko"
+      remedi-lab: true
+    - name: "Daniele Montagnani"
+      remedi-lab: true
+    - name: "Andrea Raballo"
+      remedi-lab: true
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2026
+  journal: "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)"
+  link: "https://doi.org/10.18653/v1/2026.acl-demo.65"
+  code: "https://github.com/Fede-stack/TONYpy"
+  project: "https://tony.github.io"
+  note: "Oral Presentation, System Demonstrations"

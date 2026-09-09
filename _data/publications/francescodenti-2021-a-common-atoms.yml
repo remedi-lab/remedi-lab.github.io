@@ -1,0 +1,13 @@
+- title: "A Common Atoms Model for the Bayesian Nonparametric Analysis of Nested Data"
+  authors:
+    - name: "Francesco Denti"
+      remedi-lab: false
+    - name: "Federico Camerlenghi"
+      remedi-lab: false
+    - name: "Michele Guindani"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2021
+  journal: "Journal of the American Statistical Association"
+  link: "https://doi.org/10.1080/01621459.2021.1933499"

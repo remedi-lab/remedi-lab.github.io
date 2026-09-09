@@ -1,0 +1,11 @@
+- title: "Learning vs earning trade-off with missing or censored observations: The two-armed Bayesian nonparametric beta-Stacy bandit problem"
+  authors:
+    - name: "Stefano Peluso"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Pietro Muliere"
+      remedi-lab: false
+  year: 2017
+  journal: "Electronic Journal of Statistics"
+  link: "https://doi.org/10.1214/17-ejs1342"

@@ -1,0 +1,9 @@
+- title: "A new strategy for speeding Markov chain Monte Carlo algorithms"
+  authors:
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Daniel J. Sargent"
+      remedi-lab: false
+  year: 2003
+  journal: "Statistical Methods & Applications"
+  link: "https://doi.org/10.1007/bf02511583"

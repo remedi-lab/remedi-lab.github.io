@@ -1,0 +1,9 @@
+- title: "Efficiency and Convergence Properties of Slice Samplers"
+  authors:
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Luke Tierney"
+      remedi-lab: false
+  year: 2002
+  journal: "Scandinavian Journal of Statistics"
+  link: "https://doi.org/10.1111/1467-9469.00267"

@@ -1,0 +1,17 @@
+- title: "Are LLMs effective psychological assessors? Leveraging adaptive RAG for interpretable mental health screening through psychometric practice"
+  authors:
+    - name: "Federico Ravenda"
+      remedi-lab: true
+    - name: "Seyed Ali Bahrainian"
+      remedi-lab: false
+    - name: "Andrea Raballo"
+      remedi-lab: true
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Noriko Kando"
+      remedi-lab: false
+  year: 2025
+  journal: "arXiv Preprint"
+  link: "https://doi.org/10.48550/arxiv.2501.00982"
+  code: "https://github.com/Fede-stack/Adaptive-RAG-for-Psychological-Assessment"
+  note: "Long Paper, Main Conference"

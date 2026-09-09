@@ -1,0 +1,13 @@
+- title: "Regularized Zero-Variance Control Variates"
+  authors:
+    - name: "Leah F. South"
+      remedi-lab: false
+    - name: "Chris J. Oates"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Christopher Drovandi"
+      remedi-lab: false
+  year: 2022
+  journal: "Bayesian Analysis"
+  link: "https://doi.org/10.1214/22-ba1328"

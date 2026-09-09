@@ -1,0 +1,9 @@
+- title: "Some adaptive Monte Carlo methods for Bayesian inference"
+  authors:
+    - name: "Luke Tierney"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 1999
+  journal: "Statistics in Medicine"
+  link: "https://doi.org/10.1002/(sici)1097-0258(19990915/30)18:17/18<2507::aid-sim272>3.0.co;2-j"

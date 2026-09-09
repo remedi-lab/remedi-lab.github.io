@@ -1,0 +1,11 @@
+- title: "Semiparametric Multivariate and Multiple Change-Point Modeling"
+  authors:
+    - name: "Stefano Peluso"
+      remedi-lab: false
+    - name: "Siddhartha Chib"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2018
+  journal: "Bayesian Analysis"
+  link: "https://doi.org/10.1214/18-ba1125"

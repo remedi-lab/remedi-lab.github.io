@@ -1,0 +1,25 @@
+- title: "Spatio-temporal prediction model of out-of-hospital cardiac arrest: Designation of medical priorities and estimation of human resources requirement"
+  authors:
+    - name: "Angelo Auricchio"
+      remedi-lab: false
+    - name: "Stefano Peluso"
+      remedi-lab: false
+    - name: "Maria Luce Caputo"
+      remedi-lab: false
+    - name: "J. Reinhold"
+      remedi-lab: false
+    - name: "Claudio Benvenuti"
+      remedi-lab: false
+    - name: "Roman Burkart"
+      remedi-lab: false
+    - name: "Roberto Cianella"
+      remedi-lab: true
+    - name: "Catherine Klersy"
+      remedi-lab: false
+    - name: "Enrico Baldi"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2020
+  journal: "PLoS ONE"
+  link: "https://doi.org/10.1371/journal.pone.0238067"

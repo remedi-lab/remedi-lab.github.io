@@ -1,0 +1,25 @@
+- title: "Bayesian uncertainty quantification to identify population level vaccine hesitancy behaviours"
+  authors:
+    - name: "David J. Warne"
+      remedi-lab: false
+    - name: "Abhishek Varghese"
+      remedi-lab: false
+    - name: "Aidan Brewster"
+      remedi-lab: false
+    - name: "Alexander P. Browning"
+      remedi-lab: false
+    - name: "Mario Michael Krell"
+      remedi-lab: false
+    - name: "Christopher Drovandi"
+      remedi-lab: false
+    - name: "Wenbiao Hu"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Kerrie Mengersen"
+      remedi-lab: false
+    - name: "Adrianne L. Jenner"
+      remedi-lab: false
+  year: 2026
+  journal: "PLoS ONE"
+  link: "https://doi.org/10.1371/journal.pone.0349499"

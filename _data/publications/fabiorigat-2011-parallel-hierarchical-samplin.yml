@@ -1,0 +1,9 @@
+- title: "Parallel hierarchical sampling: A general-purpose interacting Markov chains Monte Carlo algorithm"
+  authors:
+    - name: "Fabio Rigat"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2011
+  journal: "Computational Statistics & Data Analysis"
+  link: "https://doi.org/10.1016/j.csda.2011.11.020"

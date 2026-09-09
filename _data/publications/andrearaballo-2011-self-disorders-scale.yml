@@ -1,0 +1,11 @@
+- title: "Self Disorders Scale"
+  authors:
+    - name: "Andrea Raballo"
+      remedi-lab: true
+    - name: "Ditte Sæbye"
+      remedi-lab: false
+    - name: "Josef Parnas"
+      remedi-lab: false
+  year: 2011
+  journal: "PsycTESTS Dataset"
+  link: "https://doi.org/10.1037/t38003-000"

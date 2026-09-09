@@ -1,0 +1,11 @@
+- title: "The Pulse of Thought: Hemodynamics of the Brain and Mind"
+  authors:
+    - name: "Andrea Raballo"
+      remedi-lab: true
+    - name: "Matteo Cella"
+      remedi-lab: false
+    - name: "Antonio Preti"
+      remedi-lab: false
+  year: 2011
+  journal: "American Journal of Psychiatry"
+  link: "https://doi.org/10.1176/appi.ajp.2011.11060913"

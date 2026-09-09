@@ -1,0 +1,13 @@
+- title: "DRAM: Efficient adaptive MCMC"
+  authors:
+    - name: "Heikki Haario"
+      remedi-lab: false
+    - name: "Marko Laine"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Eero Saksman"
+      remedi-lab: false
+  year: 2006
+  journal: "Statistics and Computing"
+  link: "https://doi.org/10.1007/s11222-006-9438-0"

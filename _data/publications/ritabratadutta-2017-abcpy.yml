@@ -1,0 +1,13 @@
+- title: "ABCpy"
+  authors:
+    - name: "Ritabrata Dutta"
+      remedi-lab: false
+    - name: "Marcel Schoengens"
+      remedi-lab: false
+    - name: "Jukka‐Pekka Onnela"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2017
+  journal: ""
+  link: "https://doi.org/10.1145/3093172.3093233"

@@ -1,0 +1,17 @@
+- title: "Parameter estimation of platelets deposition: Approximate Bayesian\n computation with high performance computing"
+  authors:
+    - name: "Ritabrata Dutta"
+      remedi-lab: false
+    - name: "Bastien Chopard"
+      remedi-lab: false
+    - name: "Jonas Lätt"
+      remedi-lab: false
+    - name: "Frank Dubois"
+      remedi-lab: false
+    - name: "Karim Zouaoui Boudjeltia"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2017
+  journal: "arXiv Preprint"
+  link: "https://doi.org/10.48550/arxiv.1710.01054"

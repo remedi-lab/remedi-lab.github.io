@@ -1,0 +1,11 @@
+- title: "Schizophrenia spectrum disorders in children and adolescents: Clinical, phenomenological, diagnostic, and prognostic features across subtypes"
+  authors:
+    - name: "Michele Poletti"
+      remedi-lab: false
+    - name: "Andrea Raballo"
+      remedi-lab: true
+  year: 2024
+  journal: "Schizophrenia Research"
+  link: "https://doi.org/10.1016/j.schres.2024.09.019"
+  code: "https://github.com/Fede-stack/LLMs-vs-LIPs"
+  note: "79(9), 599 (2025)"

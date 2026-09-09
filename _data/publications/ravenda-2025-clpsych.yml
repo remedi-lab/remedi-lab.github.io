@@ -1,0 +1,16 @@
+- title: "From Evidence Mining to Meta-Prediction: a Gradient of Methodologies for Task-Specific Challenges in Psychological Assessment"
+  authors:
+    - name: "Federico Ravenda"
+      remedi-lab: true
+    - name: "F.Z. Kara-Isitt"
+      remedi-lab: false
+    - name: "S. Swift"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Andrea Raballo"
+      remedi-lab: true
+  year: 2025
+  journal: "Proceedings of the 10th Workshop on Computational Linguistics and Clinical Psychology (CLPsych @ NAACL 2025)"
+  link: "https://doi.org/10.18653/v1/2025.clpsych-1.20"
+  note: "Workshop Paper"

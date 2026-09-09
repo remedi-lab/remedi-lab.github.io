@@ -1,0 +1,15 @@
+- title: "Bayesian clustering of spatially distributed compositional data with application to the Great Barrier Reef"
+  authors:
+    - name: "Luiza Piancastelli"
+      remedi-lab: false
+    - name: "Nial Friel"
+      remedi-lab: false
+    - name: "Julie Vercelloni"
+      remedi-lab: false
+    - name: "Kerrie Mengersen"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2024
+  journal: "Scientific Reports"
+  link: "https://doi.org/10.1038/s41598-024-72006-w"

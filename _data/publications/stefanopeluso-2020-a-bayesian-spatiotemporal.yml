@@ -1,0 +1,21 @@
+- title: "A Bayesian spatiotemporal statistical analysis of out‐of‐hospital cardiac arrests"
+  authors:
+    - name: "Stefano Peluso"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Håvard Rue"
+      remedi-lab: false
+    - name: "Nicholas Tierney"
+      remedi-lab: false
+    - name: "Claudio Benvenuti"
+      remedi-lab: false
+    - name: "Roberto Cianella"
+      remedi-lab: true
+    - name: "Maria Luce Caputo"
+      remedi-lab: false
+    - name: "Angelo Auricchio"
+      remedi-lab: false
+  year: 2020
+  journal: "Biometrical Journal"
+  link: "https://doi.org/10.1002/bimj.201900166"

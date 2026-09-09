@@ -1,0 +1,9 @@
+- title: "Delayed rejection in reversible jump Metropolis-Hastings"
+  authors:
+    - name: "P. J. Green"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2001
+  journal: "Biometrika"
+  link: "https://doi.org/10.1093/biomet/88.4.1035"

@@ -1,0 +1,11 @@
+- title: "Assessment of hallucinations"
+  authors:
+    - name: "Vaughan Bell"
+      remedi-lab: false
+    - name: "Andrea Raballo"
+      remedi-lab: true
+    - name: "Frank Larøi"
+      remedi-lab: false
+  year: 2010
+  journal: "Oxford University Press eBooks"
+  link: "https://doi.org/10.1093/med/9780199548590.003.0019"

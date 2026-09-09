@@ -1,0 +1,11 @@
+- title: "Efficient Bayes factor estimation from the reversible jump output"
+  authors:
+    - name: "Francesco Bartolucci"
+      remedi-lab: false
+    - name: "Luisa Scaccia"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2006
+  journal: "Biometrika"
+  link: "https://doi.org/10.1093/biomet/93.1.41"

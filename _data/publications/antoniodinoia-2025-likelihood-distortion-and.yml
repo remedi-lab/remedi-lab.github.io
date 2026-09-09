@@ -1,0 +1,11 @@
+- title: "Likelihood Distortion and Bayesian Local Robustness"
+  authors:
+    - name: "Antonio Di Noia"
+      remedi-lab: false
+    - name: "Fabrizio Ruggeri"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2025
+  journal: "Bayesian Analysis"
+  link: "https://doi.org/10.1214/25-ba1526"

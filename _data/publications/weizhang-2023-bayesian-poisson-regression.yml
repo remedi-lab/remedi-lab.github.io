@@ -1,0 +1,11 @@
+- title: "Bayesian Poisson Regression and Tensor Train Decomposition Model for Learning Mortality Pattern Changes during COVID-19 Pandemic"
+  authors:
+    - name: "Wei Zhang"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Ernst C. Wit"
+      remedi-lab: false
+  year: 2023
+  journal: "arXiv Preprint"
+  link: "https://doi.org/10.48550/arxiv.2307.05649"

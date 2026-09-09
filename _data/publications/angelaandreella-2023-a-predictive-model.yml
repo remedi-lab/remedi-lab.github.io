@@ -1,0 +1,21 @@
+- title: "A predictive model for planning emergency events rescue during COVID-19 in Lombardy, Italy"
+  authors:
+    - name: "Angela Andreella"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Spyros Balafas"
+      remedi-lab: false
+    - name: "Ernst C. Wit"
+      remedi-lab: false
+    - name: "Fabrizio Ruggeri"
+      remedi-lab: false
+    - name: "Giovanni Nattino"
+      remedi-lab: false
+    - name: "Giulia Irene Ghilardi"
+      remedi-lab: false
+    - name: "Guido Bertolini"
+      remedi-lab: false
+  year: 2023
+  journal: "Statistical Methods & Applications"
+  link: "https://doi.org/10.1007/s10260-023-00725-x"

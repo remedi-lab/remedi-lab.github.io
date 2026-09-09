@@ -1,0 +1,13 @@
+- title: "Diagnosing schizophrenia spectrum disorders: Large language models (LLMs) vs. leading international psychiatrists (LIPs)"
+  authors:
+    - name: "Andrea Raballo"
+      remedi-lab: true
+    - name: "Federico Ravenda"
+      remedi-lab: true
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2025
+  journal: "Psychiatry and Clinical Neurosciences"
+  link: "https://doi.org/10.1111/pcn.13864"
+  code: "https://github.com/Fede-stack/LLMs-vs-LIPs"
+  note: "79(9), 599 (2025)"

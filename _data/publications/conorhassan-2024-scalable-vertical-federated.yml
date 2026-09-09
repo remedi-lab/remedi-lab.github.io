@@ -1,0 +1,13 @@
+- title: "Scalable Vertical Federated Learning via Data Augmentation and Amortized Inference"
+  authors:
+    - name: "Conor Hassan"
+      remedi-lab: false
+    - name: "Matt Sutton"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Kerrie Mengersen"
+      remedi-lab: false
+  year: 2024
+  journal: "arXiv Preprint"
+  link: "https://doi.org/10.48550/arxiv.2405.04043"

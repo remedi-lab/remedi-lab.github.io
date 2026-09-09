@@ -1,0 +1,13 @@
+- title: "Regularised Zero-Variance Control Variates for High-Dimensional Variance Reduction"
+  authors:
+    - name: "Leah F. South"
+      remedi-lab: false
+    - name: "Chris J. Oates"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Christopher Drovandi"
+      remedi-lab: false
+  year: 2018
+  journal: "arXiv Preprint"
+  link: "https://arxiv.org/pdf/1811.05073.pdf"

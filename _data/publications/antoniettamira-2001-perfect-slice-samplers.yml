@@ -1,0 +1,11 @@
+- title: "Perfect Slice Samplers"
+  authors:
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Jesper Møller"
+      remedi-lab: false
+    - name: "Gareth O. Roberts"
+      remedi-lab: false
+  year: 2001
+  journal: "Journal of the Royal Statistical Society Series B (Statistical Methodology)"
+  link: "https://doi.org/10.1111/1467-9868.00301"

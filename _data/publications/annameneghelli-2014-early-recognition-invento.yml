@@ -1,0 +1,21 @@
+- title: "Early Recognition Inventory for the Retrospective Assessment of the Onset of Schizophrenia Checklist--Italian Version"
+  authors:
+    - name: "Anna Meneghelli"
+      remedi-lab: false
+    - name: "Andrea Alpi"
+      remedi-lab: false
+    - name: "M. T. Cascio"
+      remedi-lab: false
+    - name: "Heinz Häfner"
+      remedi-lab: false
+    - name: "K. Maurer"
+      remedi-lab: false
+    - name: "A. Preti"
+      remedi-lab: false
+    - name: "Andrea Raballo"
+      remedi-lab: true
+    - name: "Angelo Cocchi"
+      remedi-lab: false
+  year: 2014
+  journal: "PsycTESTS Dataset"
+  link: "https://doi.org/10.1037/t61626-000"

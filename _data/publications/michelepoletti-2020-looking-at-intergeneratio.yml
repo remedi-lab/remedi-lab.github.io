@@ -1,0 +1,17 @@
+- title: "Looking at Intergenerational Risk Factors in Schizophrenia Spectrum Disorders: New Frontiers for Early Vulnerability Identification?"
+  authors:
+    - name: "Michele Poletti"
+      remedi-lab: false
+    - name: "Eva Gebhardt"
+      remedi-lab: false
+    - name: "Lorenzo Pelizza"
+      remedi-lab: false
+    - name: "Antonio Preti"
+      remedi-lab: false
+    - name: "Andrea Raballo"
+      remedi-lab: true
+  year: 2020
+  journal: "Frontiers in Psychiatry"
+  link: "https://doi.org/10.3389/fpsyt.2020.566683"
+  code: "https://github.com/Fede-stack/LLMs-vs-LIPs"
+  note: "79(9), 599 (2025)"

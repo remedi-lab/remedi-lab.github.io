@@ -1,0 +1,11 @@
+- title: "Bayesian calibration of force-fields from experimental data: TIP4P water"
+  authors:
+    - name: "Ritabrata Dutta"
+      remedi-lab: false
+    - name: "Z. Faidon Brotzakis"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2018
+  journal: "The Journal of Chemical Physics"
+  link: "https://doi.org/10.1063/1.5030950"

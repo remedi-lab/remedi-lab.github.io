@@ -1,0 +1,11 @@
+- title: "Simulation-based Inference with the Python Package sbijax"
+  authors:
+    - name: "Simon Dirmeier"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Carlo Albert"
+      remedi-lab: false
+  year: 2024
+  journal: "arXiv Preprint"
+  link: "https://doi.org/10.48550/arxiv.2409.19435"

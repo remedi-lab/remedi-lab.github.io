@@ -1,0 +1,11 @@
+- title: "Robust identification of highly persistent interest rate regimes"
+  authors:
+    - name: "Stefano Peluso"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Pietro Muliere"
+      remedi-lab: false
+  year: 2017
+  journal: "International Journal of Approximate Reasoning"
+  link: "https://doi.org/10.1016/j.ijar.2017.01.004"

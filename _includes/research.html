@@ -1,0 +1,136 @@
+<section id="research">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-lg-12">
+              <h2 class="section-heading">Research Pillars</h2>
+              <hr class="section-bar primary">
+              <p class="lead text-muted">
+                Our mission is to bridge the critical gap between state-of-the-art artificial intelligence and bedside clinical implementation. We structure our investigations around three foundational pillars:
+              </p>
+          </div>
+      </div>
+  </div>
+
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 text-center">
+              <div class="service-box research-interest">
+                  <div class="icon-wrapper">
+                    <i class="fa fa-stethoscope fa-3x text-primary" aria-hidden="true"></i>
+                  </div>
+                  <h3>Explainable AI for Medicine</h3>
+                  <p class="text-muted">
+                    We design AI methods tailored to clinical practice, capable of articulating their decision-making logic in clinically relevant terms. The goal is not merely algorithmic transparency, but the translation of computational representations into reasoning that mirrors clinical thinking.
+                  </p>
+              </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 text-center">
+              <div class="service-box research-interest">
+                  <div class="icon-wrapper">
+                    <i class="fa fa-comments-o fa-3x text-primary" aria-hidden="true"></i>
+                  </div>
+                  <h3>NLP in Healthcare</h3>
+                  <p class="text-muted">
+                    We explore advanced natural language processing techniques to parse clinical documentation and detect early diagnostic signals through spontaneous digital communications, capturing both formal medical records and authentic lived experiences.
+                  </p>
+              </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 text-center">
+              <div class="service-box research-interest">
+                  <div class="icon-wrapper">
+                    <i class="fa fa-heartbeat fa-3x text-primary" aria-hidden="true"></i>
+                  </div>
+                  <h3>Clinical &amp; AI Integration</h3>
+                  <p class="text-muted">
+                    We build rigorous validation frameworks that respect the high standards of medical evidence while fulfilling the methodological demands of modern machine learning and robust uncertainty quantification.
+                  </p>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="container-fluid methodology-section">
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 class="section-heading">Methodological Approach</h2>
+            <hr class="section-bar primary">
+            <p class="lead text-muted">
+              We develop data- and evidence-centric algorithms designed to empower clinical judgment through three core methodological principles:
+            </p>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <div class="methodology-card">
+          <div class="method-icon"><i class="fa fa-database text-primary" aria-hidden="true"></i></div>
+          <h4>Triangulating Diverse Data Sources</h4>
+          <p class="text-muted">
+            Our methodology integrates diverse data streams: from structured clinical datasets gathered in outpatient and psychiatric settings, to conversational data from digital platforms where individuals express mental health concerns. This triangulation captures both formal clinical nosology and authentic lived experience.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <div class="methodology-card">
+          <div class="method-icon"><i class="fa fa-sliders text-primary" aria-hidden="true"></i></div>
+          <h4>Rigor, Interpretability &amp; Uncertainty</h4>
+          <p class="text-muted">
+            We develop algorithms that are scalable, reproducible, interpretable, and equipped with robust uncertainty quantification — delivering bedside decision-support tools that do not replace clinical judgment, but empower clinicians to make timely, personalized decisions.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br/><br/>
+
+  <div class="container-fluid projects-section">
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 class="section-heading">Projects &amp; Collaborations</h2>
+            <hr class="section-bar primary">
+            <p class="lead text-muted">
+              Translational initiatives, open-source computational toolkits, and interdisciplinary clinical collaborations:
+            </p>
+        </div>
+    </div>
+    <div class="row projects-grid">
+      {% for project in site.data.projects %}
+      {% if project.active == true %}
+        <div class="col-lg-4 col-md-6 col-sm-12 project-grid-item">
+          <div class="project-card">
+            <div>
+              <div class="project-card-top">
+                <div class="project-icon-box">
+                  <img src="{{url}}/resources/img/projects/{{ project.img }}" alt="{{ project.title }}" class="project-icon-img">
+                </div>
+                <div class="project-header-badges">
+                  {% for fund in project.funding %}
+                    <span class="project-badge">{{ fund }}</span>
+                  {% endfor %}
+                </div>
+              </div>
+              <h3 class="project-title">{{ project.title }}</h3>
+              <p class="project-desc text-muted">{{ project.description }}</p>
+            </div>
+            <div class="project-card-bottom">
+              <div class="project-people">
+                <i class="fa fa-users text-primary" aria-hidden="true"></i>
+                <span>
+                  {% for person in project.people %}
+                    <strong>{{ person.name }}</strong>{% if person.role %} <small class="text-muted">({{ person.role }})</small>{% endif %}{% unless forloop.last %}, {% endunless %}
+                  {% endfor %}
+                </span>
+              </div>
+              {% if project.link and project.link != "" %}
+                <div class="project-action">
+                  <a href="{{ project.link }}" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa fa-external-link" aria-hidden="true"></i> Explore Project</a>
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

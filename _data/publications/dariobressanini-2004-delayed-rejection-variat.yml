@@ -1,0 +1,13 @@
+- title: "Delayed rejection variational Monte Carlo"
+  authors:
+    - name: "Dario Bressanini"
+      remedi-lab: false
+    - name: "Gabriele Morosi"
+      remedi-lab: false
+    - name: "Tarasco Silvia"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2004
+  journal: "The Journal of Chemical Physics"
+  link: "https://doi.org/10.1063/1.1775789"

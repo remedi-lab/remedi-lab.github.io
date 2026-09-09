@@ -1,0 +1,13 @@
+- title: "Adaptive Incremental Mixture Markov Chain Monte Carlo"
+  authors:
+    - name: "Florian Maire"
+      remedi-lab: false
+    - name: "Nial Friel"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Adrian E. Raftery"
+      remedi-lab: false
+  year: 2021
+  journal: "Figshare"
+  link: "https://doi.org/10.6084/m9.figshare.7910549"

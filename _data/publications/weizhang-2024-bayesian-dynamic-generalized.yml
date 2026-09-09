@@ -1,0 +1,11 @@
+- title: "Bayesian Dynamic Generalized Additive Model for Mortality during COVID-19 Pandemic"
+  authors:
+    - name: "Wei Zhang"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Ernst C. Wit"
+      remedi-lab: false
+  year: 2024
+  journal: "arXiv Preprint"
+  link: "https://doi.org/10.48550/arxiv.2409.02378"

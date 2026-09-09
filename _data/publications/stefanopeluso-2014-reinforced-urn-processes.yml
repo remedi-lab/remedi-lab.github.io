@@ -1,0 +1,11 @@
+- title: "Reinforced urn processes for credit risk models"
+  authors:
+    - name: "Stefano Peluso"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Pietro Muliere"
+      remedi-lab: false
+  year: 2014
+  journal: "Journal of Econometrics"
+  link: "https://doi.org/10.1016/j.jeconom.2014.08.003"

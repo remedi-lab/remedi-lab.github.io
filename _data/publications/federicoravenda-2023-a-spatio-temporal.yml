@@ -1,0 +1,13 @@
+- title: "A Spatio-Temporal Probabilistic Neural Network to Forecast COVID-19 Counts"
+  authors:
+    - name: "Federico Ravenda"
+      remedi-lab: true
+    - name: "Mirko Cesarini"
+      remedi-lab: false
+    - name: "Stefano Peluso"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2023
+  journal: "Research Square"
+  link: "https://doi.org/10.21203/rs.3.rs-3517193/v1"

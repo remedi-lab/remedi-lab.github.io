@@ -1,0 +1,9 @@
+- title: "Letter"
+  authors:
+    - name: "Andrea Raballo"
+      remedi-lab: true
+    - name: "Frank Larøi"
+      remedi-lab: false
+  year: 2009
+  journal: "Psychiatric Services"
+  link: "https://doi.org/10.1176/ps.2009.60.11.1556"

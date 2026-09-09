@@ -1,0 +1,9 @@
+- title: "Causal Posterior Estimation"
+  authors:
+    - name: "Simon Dirmeier"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2025
+  journal: "arXiv Preprint"
+  link: "https://doi.org/10.48550/arxiv.2505.21468"

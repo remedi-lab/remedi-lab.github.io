@@ -1,0 +1,9 @@
+- title: "Brain Imaging and Psychiatric Classification"
+  authors:
+    - name: "Thor Grünbaum"
+      remedi-lab: false
+    - name: "Andrea Raballo"
+      remedi-lab: true
+  year: 2011
+  journal: "Philosophy, psychiatry & psychology"
+  link: "https://doi.org/10.1353/ppp.2011.0042"

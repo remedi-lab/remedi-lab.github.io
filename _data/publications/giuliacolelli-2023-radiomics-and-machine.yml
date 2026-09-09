@@ -1,0 +1,31 @@
+- title: "Radiomics and machine learning applied to STIR sequence for prediction of quantitative parameters in facioscapulohumeral disease"
+  authors:
+    - name: "Giulia Colelli"
+      remedi-lab: false
+    - name: "Leonardo Barzaghi"
+      remedi-lab: false
+    - name: "Matteo Paoletti"
+      remedi-lab: false
+    - name: "Mauro Monforte"
+      remedi-lab: false
+    - name: "Niels Bergsland"
+      remedi-lab: false
+    - name: "Giulia Manco"
+      remedi-lab: false
+    - name: "Xeni Deligianni"
+      remedi-lab: false
+    - name: "Francesco Santini"
+      remedi-lab: false
+    - name: "Enzo Ricci"
+      remedi-lab: false
+    - name: "Giorgio Tasca"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Silvia Figini"
+      remedi-lab: false
+    - name: "Anna Pichiecchio"
+      remedi-lab: false
+  year: 2023
+  journal: "Frontiers in Neurology"
+  link: "https://doi.org/10.3389/fneur.2023.1105276"

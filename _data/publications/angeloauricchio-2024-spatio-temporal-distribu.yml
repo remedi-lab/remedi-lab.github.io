@@ -1,0 +1,23 @@
+- title: "Spatio-temporal distribution, prediction and relationship of three major acute cardiovascular events: Out-of-hospital cardiac arrest, ST-elevation myocardial infarction and stroke"
+  authors:
+    - name: "Angelo Auricchio"
+      remedi-lab: false
+    - name: "Tommaso Scquizzato"
+      remedi-lab: false
+    - name: "Federico Ravenda"
+      remedi-lab: true
+    - name: "Ruggero Cresta"
+      remedi-lab: false
+    - name: "Stefano Peluso"
+      remedi-lab: false
+    - name: "Maria Luce Caputo"
+      remedi-lab: false
+    - name: "Stefano Tonazzi"
+      remedi-lab: false
+    - name: "Claudio Benvenuti"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2024
+  journal: "Resuscitation Plus"
+  link: "https://doi.org/10.1016/j.resplu.2024.100810"

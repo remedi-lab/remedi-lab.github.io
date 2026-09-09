@@ -1,0 +1,11 @@
+- title: "A Bayesian High-Frequency Estimator of the Multivariate Covariance of Noisy and Asynchronous Returns"
+  authors:
+    - name: "Stefano Peluso"
+      remedi-lab: false
+    - name: "Fulvio Corsi"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2014
+  journal: "Journal of Financial Econometrics"
+  link: "https://doi.org/10.1093/jjfinec/nbu017"

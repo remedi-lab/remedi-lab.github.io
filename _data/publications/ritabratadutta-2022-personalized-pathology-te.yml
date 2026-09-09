@@ -1,0 +1,23 @@
+- title: "Personalized pathology test for Cardio-vascular disease: Approximate Bayesian computation with discriminative summary statistics learning"
+  authors:
+    - name: "Ritabrata Dutta"
+      remedi-lab: false
+    - name: "Karim Zouaoui Boudjeltia"
+      remedi-lab: false
+    - name: "Christos Kotsalos"
+      remedi-lab: false
+    - name: "Alexandre Fontaine Rousseau"
+      remedi-lab: false
+    - name: "Daniel Ribeiro de Sousa"
+      remedi-lab: false
+    - name: "Jean-Marc Desmet"
+      remedi-lab: false
+    - name: "Alain Van Meerhaeghe"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Bastien Chopard"
+      remedi-lab: false
+  year: 2022
+  journal: "PLoS Computational Biology"
+  link: "https://doi.org/10.1371/journal.pcbi.1009910"

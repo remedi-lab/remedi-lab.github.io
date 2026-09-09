@@ -1,0 +1,73 @@
+---
+---
+
+@charset "utf-8";
+
+// Example Defaults
+$base-font-family: 'Hanken Grotesk', 'Raleway', Helvetica, Arial, sans-serif;
+$base-font-size:   20px;
+$small-font-size:  $base-font-size * 0.875;
+$base-font-weight: 300;
+
+// variables.less
+$theme-primary: #212121;
+$theme-dark: #222;
+$theme-primary-attention: #9CCC65;
+$theme-primary-background: #FAFAFA;
+$landing-image-darkening: 0.6;
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "mixins",
+        "base"
+;
+
+// Custom Enhancements for REMEDI Lab
+.icon-wrapper {
+  margin-bottom: 20px;
+  i {
+    color: $theme-primary;
+    transition: all 0.2s ease-in-out;
+  }
+  &:hover i {
+    color: $theme-primary-attention;
+    transform: scale(1.1);
+  }
+}
+
+.project-row {
+  padding: 25px 0;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+.badge-secondary {
+  background-color: #eee;
+  color: #333;
+}
+
+.light-divider {
+  border-color: #eaeaea;
+  margin: 20px 0;
+}
+
+.methodology-box {
+  margin-top: 40px;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border-left: 4px solid $theme-primary;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.contact-details {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-top: 15px;
+}

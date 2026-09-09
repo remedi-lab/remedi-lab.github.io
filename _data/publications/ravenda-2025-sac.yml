@@ -1,0 +1,18 @@
+- title: "Tailoring adaptive-zero-shot retrieval and probabilistic modelling for psychometric data"
+  authors:
+    - name: "Federico Ravenda"
+      remedi-lab: true
+    - name: "Seyed Ali Bahrainian"
+      remedi-lab: false
+    - name: "Noriko Kando"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Andrea Raballo"
+      remedi-lab: true
+    - name: "Fabio Crestani"
+      remedi-lab: false
+  year: 2025
+  journal: "Proceedings of the 40th ACM/SIGAPP Symposium on Applied Computing (SAC 2025)"
+  link: "https://doi.org/10.1145/3672608.3707922"
+  note: "ACM Conference"

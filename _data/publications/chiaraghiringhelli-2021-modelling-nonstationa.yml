@@ -1,0 +1,13 @@
+- title: "Modelling Nonstationary Spatial Lag Models with Hidden Markov Random Fields"
+  authors:
+    - name: "Chiara Ghiringhelli"
+      remedi-lab: false
+    - name: "Francesco Bartolucci"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Giuseppe Arbia"
+      remedi-lab: false
+  year: 2021
+  journal: "Spatial Statistics"
+  link: "https://doi.org/10.1016/j.spasta.2021.100522"

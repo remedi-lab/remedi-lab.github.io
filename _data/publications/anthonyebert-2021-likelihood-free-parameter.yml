@@ -1,0 +1,17 @@
+- title: "Likelihood-Free Parameter Estimation for Dynamic Queueing Networks: Case Study of Passenger Flow in an International Airport Terminal"
+  authors:
+    - name: "Anthony Ebert"
+      remedi-lab: false
+    - name: "Ritabrata Dutta"
+      remedi-lab: false
+    - name: "Kerrie Mengersen"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Fabrizio Ruggeri"
+      remedi-lab: false
+    - name: "Paul Pao‐Yen Wu"
+      remedi-lab: false
+  year: 2021
+  journal: "Journal of the Royal Statistical Society Series C (Applied Statistics)"
+  link: "https://doi.org/10.1111/rssc.12487"

@@ -1,0 +1,11 @@
+- title: "A multivariate statistical approach to predict COVID‐19 count data with epidemiological interpretation and uncertainty quantification"
+  authors:
+    - name: "Francesco Bartolucci"
+      remedi-lab: false
+    - name: "Fulvia Pennoni"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2021
+  journal: "Statistics in Medicine"
+  link: "https://doi.org/10.1002/sim.9129"

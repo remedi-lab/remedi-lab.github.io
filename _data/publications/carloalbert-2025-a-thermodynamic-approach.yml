@@ -1,0 +1,17 @@
+- title: "A thermodynamic approach to Approximate Bayesian Computation with multiple summary statistics"
+  authors:
+    - name: "Carlo Albert"
+      remedi-lab: false
+    - name: "Simone Ulzega"
+      remedi-lab: false
+    - name: "Simon Dirmeier"
+      remedi-lab: false
+    - name: "Andreas Scheidegger"
+      remedi-lab: false
+    - name: "A. Bassi"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2025
+  journal: "arXiv Preprint"
+  link: "https://doi.org/10.48550/arxiv.2505.23261"

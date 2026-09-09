@@ -1,0 +1,9 @@
+- title: "Comment on Article by Schmidl et al."
+  authors:
+    - name: "Mark Girolami"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2013
+  journal: "Bayesian Analysis"
+  link: "https://doi.org/10.1214/13-ba801b"

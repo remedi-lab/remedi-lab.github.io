@@ -1,0 +1,11 @@
+- title: "Bayesian inference for Latent Class model via MCMC with application to capture-recapture data"
+  authors:
+    - name: "Francesco Bartolucci"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Luisa Scaccia"
+      remedi-lab: false
+  year: 2003
+  journal: ""
+  link: "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.7.1677"

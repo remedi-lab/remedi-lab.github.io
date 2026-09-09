@@ -1,0 +1,9 @@
+- title: "A R Adaptive Multiple Importance Sampling (ARAMIS)"
+  authors:
+    - name: "Luca Pozzi"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2013
+  journal: ""
+  link: "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.269.5682"

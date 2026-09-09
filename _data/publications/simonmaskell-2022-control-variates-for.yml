@@ -1,0 +1,11 @@
+- title: "Control Variates for Constrained Variables"
+  authors:
+    - name: "Simon Maskell"
+      remedi-lab: false
+    - name: "Yifan Zhou"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2022
+  journal: "IEEE Signal Processing Letters"
+  link: "https://doi.org/10.1109/lsp.2022.3221347"

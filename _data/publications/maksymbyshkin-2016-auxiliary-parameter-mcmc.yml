@@ -1,0 +1,17 @@
+- title: "Auxiliary Parameter MCMC for Exponential Random Graph Models"
+  authors:
+    - name: "Maksym Byshkin"
+      remedi-lab: false
+    - name: "Alex Stivala"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Rolf Krause"
+      remedi-lab: false
+    - name: "Garry Robins"
+      remedi-lab: false
+    - name: "Alessandro Lomi"
+      remedi-lab: false
+  year: 2016
+  journal: "Journal of Statistical Physics"
+  link: "https://doi.org/10.1007/s10955-016-1650-5"

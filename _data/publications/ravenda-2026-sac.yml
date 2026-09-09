@@ -1,0 +1,15 @@
+- title: "Navigating through the hidden embedding space: steering LLMs to improve mental health assessment"
+  authors:
+    - name: "Federico Ravenda"
+      remedi-lab: true
+    - name: "Seyed Ali Bahrainian"
+      remedi-lab: false
+    - name: "Andrea Raballo"
+      remedi-lab: true
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2026
+  journal: "Proceedings of the 41st ACM/SIGAPP Symposium on Applied Computing (SAC 2026)"
+  link: "https://doi.org/10.1145/3748522.3779887"
+  code: "https://github.com/Fede-stack/SteeringBDI-II"
+  note: "ACM Conference"

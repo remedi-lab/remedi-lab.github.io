@@ -1,0 +1,9 @@
+- title: "Efficient computational strategies for doubly intractable problems with applications to Bayesian social networks"
+  authors:
+    - name: "Alberto Caimo"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2014
+  journal: "Statistics and Computing"
+  link: "https://doi.org/10.1007/s11222-014-9516-7"

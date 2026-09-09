@@ -1,0 +1,13 @@
+- title: "Bayesian MCMC Posterior Computation and Diagnostics"
+  authors:
+    - name: "Alan Agresti"
+      remedi-lab: false
+    - name: "Maria Kateri"
+      remedi-lab: false
+    - name: "Ranjini Grove"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2026
+  journal: "Book Chapter"
+  link: "https://doi.org/10.1201/9781003715924-6"

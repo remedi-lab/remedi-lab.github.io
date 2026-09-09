@@ -1,0 +1,17 @@
+- title: "Likelihood-Free Parameter Estimation for Dynamic Queueing Networks"
+  authors:
+    - name: "Anthony Ebert"
+      remedi-lab: false
+    - name: "Ritabrata Dutta"
+      remedi-lab: false
+    - name: "Paul Pao‐Yen Wu"
+      remedi-lab: false
+    - name: "Kerrie Mengersen"
+      remedi-lab: false
+    - name: "Fabrizio Ruggeri"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2018
+  journal: "arXiv Preprint"
+  link: "https://arxiv.org/pdf/1804.02526.pdf"

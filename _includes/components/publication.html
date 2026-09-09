@@ -1,0 +1,41 @@
+<div>
+    <p>
+      {% if include.pub.link %}
+        <a href="{{ include.pub.link }}" target="_blank" rel="noopener">{{include.pub.title}}</a>.
+      {% else %}
+        {{include.pub.title}}.
+      {% endif %}
+      {% for a in include.pub.authors %}
+        {% if a.remedi-lab %}<strong>{{a.name}}</strong>{% else %}{{a.name}}{% endif %}{% if forloop.last %} ({{include.pub.year}}).{% else %},{% endif %}
+      {% endfor %}
+      <span class="publication-details"><em>{{include.pub.journal}}</em>{% if include.pub.note %}. {{include.pub.note}}{% endif %}.</span>
+    </p>
+    {% if include.pub.award %}
+      <p class="award"><i class="fa fa-trophy" aria-hidden="true"></i> {{include.pub.award}}.</p>
+    {% endif %}
+    {% if include.pub.link %}
+      <div>
+        <a href="{{ include.pub.link }}" target="_blank" rel="noopener" class="btn btn-primary"><i class="fa fa-external-link" aria-hidden="true"></i> Paper</a>
+      </div>
+    {% endif %}
+    {% if include.pub.code %}
+      <div>
+        <a href="{{ include.pub.code }}" target="_blank" rel="noopener" class="btn btn-primary"><i class="fa fa-code" aria-hidden="true"></i> Code</a>
+      </div>
+    {% endif %}
+    {% if include.pub.dataset %}
+      <div>
+        <a href="{{ include.pub.dataset }}" target="_blank" rel="noopener" class="btn btn-primary"><i class="fa fa-database" aria-hidden="true"></i> Dataset</a>
+      </div>
+    {% endif %}
+    {% if include.pub.project %}
+      <div>
+        <a href="{{ include.pub.project }}" target="_blank" rel="noopener" class="btn btn-primary"><i class="fa fa-globe" aria-hidden="true"></i> Project</a>
+      </div>
+    {% endif %}
+    {% if include.pub.slides %}
+      <div>
+        <a href="{{ include.pub.slides }}" target="_blank" rel="noopener" class="btn btn-primary"><i class="fa fa-desktop" aria-hidden="true"></i> Slides</a>
+      </div>
+    {% endif %}
+</div>

@@ -1,0 +1,13 @@
+- title: "Basic Emotion Recognition and Psychopathology in Schizophrenia"
+  authors:
+    - name: "Frank Larøi"
+      remedi-lab: false
+    - name: "B. Fonteneau"
+      remedi-lab: false
+    - name: "Haitham Mourad"
+      remedi-lab: false
+    - name: "Andrea Raballo"
+      remedi-lab: true
+  year: 2010
+  journal: "The Journal of Nervous and Mental Disease"
+  link: "https://doi.org/10.1097/nmd.0b013e3181c84cb0"

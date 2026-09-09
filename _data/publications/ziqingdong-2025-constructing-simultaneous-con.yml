@@ -1,0 +1,13 @@
+- title: "Constructing Simultaneous Confidence Bands for Errors-in-variables Curves with Application to the Lorenz Curve"
+  authors:
+    - name: "Ziqing Dong"
+      remedi-lab: true
+    - name: "Francesco Bartolucci"
+      remedi-lab: false
+    - name: "Satoshi Kuriki"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2025
+  journal: "arXiv Preprint"
+  link: "https://doi.org/10.48550/arxiv.2501.17264"

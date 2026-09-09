@@ -1,0 +1,11 @@
+- title: "Flexible model selection for mechanistic network models"
+  authors:
+    - name: "Sixing Chen"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Jukka‐Pekka Onnela"
+      remedi-lab: false
+  year: 2019
+  journal: "Journal of Complex Networks"
+  link: "https://doi.org/10.1093/comnet/cnz024"

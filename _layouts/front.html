@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top" class="home-page">
+  {% include nav.html %}
+
+  <main>
+    <section class="home-hero" id="hero">
+      <div class="hero-content text-center">
+        <div class="hero-kicker">Università della Svizzera italiana · Lugano · Euler Institute</div>
+        <h1 class="hero-title">REMEDI Lab</h1>
+        <p class="hero-tagline">
+          We work on
+          <span id="txt-rotate"
+                data-period="2200"
+                data-rotate='["Explainable AI for Medicine","NLP in Healthcare","Clinical & Data Intelligence","Precision Psychiatry","Federated Learning & Privacy"]'></span>
+        </p>
+      </div>
+
+      <a href="#about" class="scroll-down-cue page-scroll" aria-label="Scroll to About section">
+        <span class="scroll-cue-text">Explore</span>
+        <i class="fa fa-angle-down bounce-arrow" aria-hidden="true"></i>
+      </a>
+    </section>
+
+    <section class="home-about" id="about">
+      <div class="container">
+        <h2 class="home-section-heading">About</h2>
+        <p>
+          The <strong>REMEDI Lab</strong> (<em>REthinking MEntal health through Clinical and Data Intelligence</em>) is a research group based at the
+          <a href="https://www.euler.usi.ch" target="_blank" rel="noopener">Euler Institute</a> of the
+          <a href="https://www.usi.ch" target="_blank" rel="noopener">Università della Svizzera italiana (USI)</a>
+          in Lugano, Switzerland.
+        </p>
+        <p>
+          Artificial intelligence has demonstrated remarkable diagnostic capabilities in medicine, often surpassing human performance in identifying complex conditions. However, a critical gap remains between the technological potential of AI and its effective clinical implementation. Despite their high performance, many AI models function as “black boxes,” making it difficult — if not impossible — for clinicians to understand the reasoning behind a given diagnosis or therapeutic recommendation.
+        </p>
+        <p>
+          The REMEDI Lab was founded on the belief that the future of digital medicine lies not in automating diagnosis, but in developing intelligent systems that can meaningfully interact with clinical experts — providing not only accurate results but also clear, clinically grounded explanations.
+        </p>
+        <p>
+          Our methodological approach integrates diverse data sources: from structured clinical datasets collected in outpatient and psychiatric settings, to conversational data from digital platforms where individuals seek support for their health conditions. We develop data- and evidence-centric methods that are scalable, reproducible, interpretable, and equipped with robust uncertainty quantification to empower clinical judgment and contribute to more precise, accessible, and patient-centered care.
+        </p>
+      </div>
+    </section>
+
+    <section class="home-news" id="news">
+      <div class="container">
+        <h2 class="home-section-heading">News &amp; Highlights</h2>
+        <ul class="news-list">
+
+          <li class="news-item">
+            <span class="news-date">Jul 2026</span>
+            <div class="news-body">
+              <span class="news-badge">Paper</span>
+              <p class="news-text">
+                Two papers accepted at <strong>ACL 2026</strong>: <em>TONY: an open-source TOolkit for Nlp in psYchology</em> and <em>PersonalityDBench: A Dataset for Personality Disorders - from Modeling to Controlled Generation</em>!
+              </p>
+            </div>
+          </li>
+
+          <li class="news-item">
+            <span class="news-date">Mar 2026</span>
+            <div class="news-body">
+              <span class="news-badge">Paper</span>
+              <p class="news-text">
+                Paper presented at the <strong>41st ACM/SIGAPP Symposium on Applied Computing (SAC 2026)</strong>: <em>Navigating through the hidden embedding space: steering LLMs to improve mental health assessment</em>.
+              </p>
+            </div>
+          </li>
+
+          <li class="news-item">
+            <span class="news-date">May 2025</span>
+            <div class="news-body">
+              <span class="news-badge">Paper</span>
+              <p class="news-text">
+                Our paper <em>Rethinking psychometrics through LLMs: how item semantics shape measurement and prediction in psychological questionnaires</em> published in <strong>Nature Scientific Reports</strong>.
+              </p>
+            </div>
+          </li>
+
+          <li class="news-item">
+            <span class="news-date">May 2025</span>
+            <div class="news-body">
+              <span class="news-badge">Paper</span>
+              <p class="news-text">
+                Paper accepted at <strong>ACL 2025 (Main Conference Long Paper)</strong>: <em>Are LLMs Effective Psychological Assessors? Leveraging Adaptive RAG for Interpretable Mental Health Screening</em>.
+              </p>
+            </div>
+          </li>
+
+          <li class="news-item">
+            <span class="news-date">Feb 2025</span>
+            <div class="news-body">
+              <span class="news-badge">Media</span>
+              <p class="news-text">
+                A. Raballo and A. Mira featured on <a href="https://rsi.ch/s/2813071" target="_blank" rel="noopener">RSI, Il Giardino di Albert</a> discussing AI and clinical intelligence in mental health.
+              </p>
+            </div>
+          </li>
+
+          <li class="news-item">
+            <span class="news-date">Jan 2025</span>
+            <div class="news-body">
+              <span class="news-badge">Paper</span>
+              <p class="news-text">
+                Research published in <strong>PLOS Digital Health</strong>: <em>Transforming Social Media Text into Predictive Tools for Depression through AI</em>.
+              </p>
+            </div>
+          </li>
+
+          <li class="news-item">
+            <span class="news-date">Join Us</span>
+            <div class="news-body">
+              <span class="news-badge">Positions</span>
+              <p class="news-text">
+                We are always open to motivated Master's and PhD students. Check out our <a href="{{url}}/contact.html">opportunities</a> to get in touch.
+              </p>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container text-center">
+      <p class="text-muted">
+        &copy; 2026 REMEDI Lab &middot; Euler Institute &middot; Università della Svizzera italiana (USI), Lugano, Switzerland.
+      </p>
+    </div>
+  </footer>
+
+  {% include scripts.html %}
+  <script src="{{url}}/js/index.js"></script>
+</body>
+
+</html>

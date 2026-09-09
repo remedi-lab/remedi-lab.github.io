@@ -1,0 +1,11 @@
+- title: "Scientific output scales with resources. A comparison of US and European universities"
+  authors:
+    - name: "Benedetto Lepori"
+      remedi-lab: false
+    - name: "Aldo Geuna"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2019
+  journal: "PLoS ONE"
+  link: "https://doi.org/10.1371/journal.pone.0223415"

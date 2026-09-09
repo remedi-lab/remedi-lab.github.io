@@ -1,0 +1,17 @@
+- title: "A self-supervised seed-driven approach to topic modelling and clustering"
+  authors:
+    - name: "Federico Ravenda"
+      remedi-lab: true
+    - name: "Seyed Ali Bahrainian"
+      remedi-lab: false
+    - name: "Andrea Raballo"
+      remedi-lab: true
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Fábio Crestani"
+      remedi-lab: false
+  year: 2024
+  journal: "Journal of Intelligent Information Systems"
+  link: "https://doi.org/10.1007/s10844-024-00891-8"
+  code: "https://github.com/Fede-stack/SSBM-Self-supervised-Seed-driven-Bayesian-Modeling"
+  note: "Springer Nature (2024)"

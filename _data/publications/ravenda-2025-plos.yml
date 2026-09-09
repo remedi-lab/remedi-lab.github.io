@@ -1,0 +1,19 @@
+- title: "Transforming Social Media Text into Predictive Tools for Depression through AI: A test-case study on the Beck Depression Inventory-II"
+  authors:
+    - name: "Federico Ravenda"
+      remedi-lab: true
+    - name: "Antonio Preti"
+      remedi-lab: false
+    - name: "Michele Poletti"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Fábio Crestani"
+      remedi-lab: false
+    - name: "Andrea Raballo"
+      remedi-lab: true
+  year: 2025
+  journal: "PLOS Digital Health"
+  link: "https://doi.org/10.1371/journal.pdig.0000848"
+  code: "https://github.com/Fede-stack/Predicting-Survey-Responses-using-Textual-Data-from-Social-Media"
+  note: "Open Access"

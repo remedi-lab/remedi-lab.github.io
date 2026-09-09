@@ -1,0 +1,9 @@
+- title: "Density estimators through Zero Variance Markov Chain Monte Carlo"
+  authors:
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Daniele Imparato"
+      remedi-lab: false
+  year: 2011
+  journal: "RePEc: Research Papers in Economics"
+  link: "https://www.eco.uninsubria.it/RePEc/pdf/QF2011_08.pdf"

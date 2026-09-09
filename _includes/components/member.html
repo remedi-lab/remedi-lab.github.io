@@ -1,0 +1,48 @@
+<div class="col-lg-3 col-md-4 text-center">
+    <div class="service-box">
+      {% if include.member.img and include.member.img != "" %}
+        <img src="{{url}}/resources/img/lab_members/{{ include.member.img }}" class="member-photo wow text-primary" data-wow-delay=".1s" alt="{{ include.member.first_name }} {{ include.member.last_name }}">
+      {% else %}
+        <img src="{{url}}/resources/img/lab_members/profile_placeholder.png" class="member-photo wow text-primary" data-wow-delay=".1s" alt="{{ include.member.first_name }} {{ include.member.last_name }}">
+      {% endif %}
+        <p><strong>{{ include.member.first_name }} {{ include.member.last_name}}</strong></p>
+        <p class="text-muted">{{ include.member.role }}{% if include.member.affiliation %}<br><small>{{ include.member.affiliation }}</small>{% endif %}</p>
+        <div class="socials">
+        {% if include.member.website and include.member.website != "" %}
+          <div>
+            <a href="{{ include.member.website}}" target="_blank" rel="noopener" class="btn btn-primary" title="Personal Website"><i class="fa fa-link wow bounceIn" aria-hidden="true"></i></a>
+          </div>
+        {% endif %}
+        {% if include.member.usi_directory and include.member.usi_directory != "" %}
+          <div>
+            <a href="{{ include.member.usi_directory}}" target="_blank" rel="noopener" class="btn btn-primary" title="USI Directory Profile"><i class="fa fa-university wow bounceIn" aria-hidden="true"></i></a>
+          </div>
+        {% endif %}
+        {% if include.member.google_scholar and include.member.google_scholar != "" %}
+          <div>
+            <a href="{{include.member.google_scholar}}" target="_blank" rel="noopener" class="btn btn-primary" title="Google Scholar"><i class="ai ai-google-scholar wow bounceIn" aria-hidden="true"></i></a>
+          </div>
+        {% endif %}
+        {% if include.member.semantic_scholar and include.member.semantic_scholar != "" %}
+          <div>
+            <a href="{{include.member.semantic_scholar}}" target="_blank" rel="noopener" class="btn btn-primary" title="Semantic Scholar"><i class="ai ai-semantic-scholar wow bounceIn" aria-hidden="true"></i></a>
+          </div>
+        {% endif %}
+        {% if include.member.linkedin and include.member.linkedin != "" %}
+          <div>
+            <a href="{{include.member.linkedin}}" target="_blank" rel="noopener" class="btn btn-primary" title="LinkedIn"><i class="fa fa-linkedin wow bounceIn" aria-hidden="true"></i></a>
+          </div>
+        {% endif %}
+        {% if include.member.github and include.member.github != "" %}
+          <div>
+            <a href="{{include.member.github}}" target="_blank" rel="noopener" class="btn btn-primary" title="GitHub"><i class="fa fa-github wow bounceIn" aria-hidden="true"></i></a>
+          </div>
+        {% endif %}
+        {% if include.member.twitter and include.member.twitter != "" %}
+          <div>
+            <a href="{{include.member.twitter}}" target="_blank" rel="noopener" class="btn btn-primary" title="Twitter / X"><i class="fa fa-twitter wow bounceIn" aria-hidden="true"></i></a>
+          </div>
+        {% endif %}
+        </div>
+    </div>
+</div>

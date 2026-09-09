@@ -1,0 +1,11 @@
+- title: "Semantic structure and measurement in large language models for psychopathology and psychometrics"
+  authors:
+    - name: "Andrea Raballo"
+      remedi-lab: true
+    - name: "Michele Poletti"
+      remedi-lab: false
+    - name: "Antonio Preti"
+      remedi-lab: false
+  year: 2026
+  journal: "Nature Mental Health"
+  link: "https://doi.org/10.1038/s44220-026-00712-7"

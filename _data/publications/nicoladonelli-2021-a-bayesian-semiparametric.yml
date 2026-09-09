@@ -1,0 +1,11 @@
+- title: "A Bayesian Semiparametric Vector Multiplicative Error Model"
+  authors:
+    - name: "Nicola Donelli"
+      remedi-lab: false
+    - name: "Stefano Peluso"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2021
+  journal: "Computational Statistics & Data Analysis"
+  link: "https://doi.org/10.1016/j.csda.2021.107242"

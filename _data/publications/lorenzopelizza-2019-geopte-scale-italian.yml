@@ -1,0 +1,23 @@
+- title: "GEOPTE Scale--Italian Version"
+  authors:
+    - name: "Lorenzo Pelizza"
+      remedi-lab: false
+    - name: "S. Azzali"
+      remedi-lab: false
+    - name: "S. Garlassi"
+      remedi-lab: false
+    - name: "Ilaria Scazza"
+      remedi-lab: false
+    - name: "F. Paterlini"
+      remedi-lab: false
+    - name: "Luigi Rocco Chiri"
+      remedi-lab: false
+    - name: "Martina Poletti"
+      remedi-lab: false
+    - name: "S. Pupo"
+      remedi-lab: false
+    - name: "Andrea Raballo"
+      remedi-lab: true
+  year: 2019
+  journal: "PsycTESTS Dataset"
+  link: "https://doi.org/10.1037/t77526-000"

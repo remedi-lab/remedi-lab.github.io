@@ -1,0 +1,11 @@
+- title: "Temporal analysis of hospital network data by hierarchical Bayesian p2 models with covariates"
+  authors:
+    - name: "Francesco Bartolucci"
+      remedi-lab: false
+    - name: "Paolo Li Donni"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2023
+  journal: "Journal of the Royal Statistical Society Series A (Statistics in Society)"
+  link: "https://doi.org/10.1093/jrsssa/qnad036"

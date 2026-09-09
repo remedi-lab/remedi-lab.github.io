@@ -1,0 +1,17 @@
+- title: "Rethinking psychometrics through LLMs: how item semantics shape measurement and prediction in psychological questionnaires"
+  authors:
+    - name: "Federico Ravenda"
+      remedi-lab: true
+    - name: "Antonio Preti"
+      remedi-lab: false
+    - name: "Michele Poletti"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Andrea Raballo"
+      remedi-lab: true
+  year: 2025
+  journal: "Nature Scientific Reports"
+  link: "https://doi.org/10.1038/s41598-025-21289-8"
+  code: "https://github.com/Fede-stack/Exploiting-semantic-structure-in-psychological-questionnaire"
+  note: "15(1), 37313 (2025)"

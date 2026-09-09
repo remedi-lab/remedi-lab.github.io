@@ -1,0 +1,9 @@
+- title: "Bayesian Estimate of Default Probabilities via MCMC with Delayed Rejection"
+  authors:
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Paolo Tenconi"
+      remedi-lab: false
+  year: 2004
+  journal: "Birkhäuser Basel eBooks"
+  link: "https://doi.org/10.1007/978-3-0348-7943-9_17"

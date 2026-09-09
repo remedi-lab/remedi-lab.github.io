@@ -1,0 +1,58 @@
+<section id="publications">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-lg-12">
+              <h2 class="section-heading">Publications</h2>
+              <hr class="section-bar primary">
+              <p class="text-muted">
+                Our recent peer-reviewed journal papers, conference proceedings, and open-source contributions. Members of REMEDI Lab are shown in <strong>bold</strong>.
+              </p>
+          </div>
+      </div>
+  </div>
+  <div class="container-fluid">
+    <ul>
+      {% assign pub_years = "" | split: ',' %}
+      {% assign pub_venues = "" | split: ',' %}
+      {% for publications_hash in site.data.publications %}
+        {% assign publications = publications_hash[1] %}
+        {% assign pub_years = pub_years | push: publications[0].year %}
+        {% assign venue = publications_hash[0] | split:"-" | last %}
+        {% assign pub_venues = pub_venues | push: venue %}
+      {% endfor %}
+
+      {% assign pub_years = pub_years | uniq | sort %}
+      {% assign oldest_paper_year = pub_years | first %}
+      {% assign newest_paper_year = pub_years | last %}
+
+      {% for year in (oldest_paper_year..newest_paper_year) reversed %}
+        {% assign has_year_pubs = false %}
+        {% for publications_hash in site.data.publications %}
+          {% if publications_hash[1][0].year == year %}
+            {% assign has_year_pubs = true %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+        {% if has_year_pubs %}
+        <li>
+          <input type="checkbox"{% if forloop.first %} checked{% endif %}>
+          <i></i>
+          <h3>{{year}}</h3>
+          {% for venue in pub_venues %}
+            {% for publications_hash in site.data.publications %}
+              {% assign pub_venue = publications_hash[0] | split:"-" | last %}
+              {% assign pub = publications_hash[1][0] %}
+
+              {% if pub.year == year %}
+                {% if pub_venue == venue %}
+                  {% include components/publication.html pub = pub %}
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</section>

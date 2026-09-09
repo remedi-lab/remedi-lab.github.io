@@ -1,0 +1,11 @@
+- title: "Answering Two Biological Questions with a Latent Class Model via MCMC Applied to Capture-Recapture Data"
+  authors:
+    - name: "Francesco Bartolucci"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Luisa Scaccia"
+      remedi-lab: false
+  year: 2004
+  journal: "Book Chapter"
+  link: "https://doi.org/10.1007/978-1-4613-0217-9_2"

@@ -1,0 +1,15 @@
+- title: "Schizophrenia Spectrum Disorders: An Empirical Benchmark Study of Real-world Diagnostic Accuracy and Reliability Among Leading International Psychiatrists"
+  authors:
+    - name: "Bar Urkin"
+      remedi-lab: false
+    - name: "Josef Parnas"
+      remedi-lab: false
+    - name: "Andrea Raballo"
+      remedi-lab: true
+    - name: "Danny Koren"
+      remedi-lab: false
+  year: 2024
+  journal: "Schizophrenia Bulletin Open"
+  link: "https://doi.org/10.1093/schizbullopen/sgae012"
+  code: "https://github.com/Fede-stack/LLMs-vs-LIPs"
+  note: "79(9), 599 (2025)"

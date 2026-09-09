@@ -1,0 +1,15 @@
+- title: "Clinical Activity and Psychopathological Knowledge Are Related to Real-World Performance of Leading International Psychiatrists in Diagnosing Schizophrenia Spectrum Disorders"
+  authors:
+    - name: "Bar Urkin"
+      remedi-lab: false
+    - name: "Josef Parnas"
+      remedi-lab: false
+    - name: "Andrea Raballo"
+      remedi-lab: true
+    - name: "Danny Koren"
+      remedi-lab: false
+  year: 2025
+  journal: "Psychopathology"
+  link: "https://doi.org/10.1159/000549313"
+  code: "https://github.com/Fede-stack/LLMs-vs-LIPs"
+  note: "79(9), 599 (2025)"

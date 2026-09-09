@@ -1,0 +1,9 @@
+- title: "Efficient computational strategies for Bayesian social networks"
+  authors:
+    - name: "Alberto Caimo"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2014
+  journal: "arXiv Preprint"
+  link: "https://arxiv.org/abs/1403.4402"

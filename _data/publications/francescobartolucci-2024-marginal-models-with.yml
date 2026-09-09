@@ -1,0 +1,11 @@
+- title: "Marginal models with individual-specific effects for the analysis of longitudinal bipartite networks"
+  authors:
+    - name: "Francesco Bartolucci"
+      remedi-lab: false
+    - name: "Antonietta Mira"
+      remedi-lab: true
+    - name: "Stefano Peluso"
+      remedi-lab: false
+  year: 2024
+  journal: "Advances in Data Analysis and Classification"
+  link: "https://doi.org/10.1007/s11634-024-00604-7"

@@ -1,0 +1,13 @@
+- title: "A general framework for adaptive nonparametric dimensionality reduction"
+  authors:
+    - name: "Antonio Di Noia"
+      remedi-lab: false
+    - name: "Federico Ravenda"
+      remedi-lab: true
+    - name: "Antonietta Mira"
+      remedi-lab: true
+  year: 2026
+  journal: "Scientific Reports"
+  link: "https://doi.org/10.1038/s41598-026-35847-1"
+  code: "https://github.com/Fede-stack/Adaptive-nonparametric-dimensionality-reduction"
+  note: "Nature Scientific Reports"
