@@ -426,6 +426,9 @@ function renderResearchSection() {
             
             <!-- Subtle Floating Canvas Controls -->
             <div class="graph-floating-controls">
+              <button type="button" id="graph-btn-pan" class="btn-canvas-control btn-pan-toggle" title="Toggle Move Mode" aria-label="Toggle Move Mode">
+                <i class="fa fa-arrows" aria-hidden="true"></i>
+              </button>
               <button type="button" id="graph-btn-zoomin" class="btn-canvas-control" title="Zoom In" aria-label="Zoom in">
                 <i class="fa fa-plus" aria-hidden="true"></i>
               </button>
@@ -438,9 +441,9 @@ function renderResearchSection() {
             </div>
 
             <!-- Canvas Hint -->
-            <div class="graph-canvas-hint">
+            <div class="graph-canvas-hint" id="graph-canvas-hint">
               <i class="fa fa-info-circle text-primary" aria-hidden="true"></i>
-              <span>Drag nodes &bull; Scroll to zoom &bull; Click to inspect connections</span>
+              <span id="graph-hint-text">Drag nodes &bull; Click to inspect connections</span>
             </div>
           </div>
         </div>

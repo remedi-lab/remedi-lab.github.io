@@ -1,7 +1,7 @@
 /**
  * REMEDI Lab - Native Research Knowledge Graph Component
  * Built with Vis.js Network (Standalone)
- * Fast Settling & High-Contrast Legibility
+ * Touch-Friendly Mobile Scrolling & Responsive Design
  */
 (function() {
   'use strict';
@@ -17,6 +17,10 @@
   let selectedNodeId = null;
   let hoveredNodeId = null;
 
+  // On mobile (<768px), disable dragView by default so single-finger swipe scrolls the page
+  let isMobile = window.innerWidth < 768;
+  let isMoveMode = !isMobile;
+
   function initGraph() {
     const container = document.getElementById('remedi-graph-canvas');
     if (!container) return;
@@ -25,6 +29,9 @@
       console.error('vis-network library not loaded');
       return;
     }
+
+    isMobile = window.innerWidth < 768;
+    isMoveMode = !isMobile;
 
     nodesDataSet = new vis.DataSet(RAW_NODES);
     edgesDataSet = new vis.DataSet(RAW_EDGES);
@@ -45,6 +52,8 @@
       interaction: {
         hover: true,
         hoverConnectedEdges: true,
+        dragView: isMoveMode, // On mobile, false lets the page scroll freely
+        dragNodes: isMoveMode,
         hideEdgesOnDrag: true,
         navigationButtons: false,
         keyboard: false,
@@ -57,7 +66,7 @@
           centralGravity: 0.016,
           springLength: 125,
           springConstant: 0.08,
-          damping: 0.85, // High damping stops movement quickly
+          damping: 0.85,
           avoidOverlap: 0.5
         },
         maxVelocity: 30,
@@ -73,7 +82,7 @@
 
     network = new vis.Network(container, data, options);
 
-    // Freeze physics immediately once stabilized so the graph never oscillates or keeps drifting
+    // Freeze physics once stabilized
     network.once('stabilizationIterationsDone', function() {
       network.setOptions({ physics: { enabled: false } });
       network.fit({ animation: { duration: 250, easingFunction: 'easeInOutQuad' } });
@@ -104,20 +113,22 @@
       }
     });
 
-    // Update tooltip position if canvas moves/zooms while hovering
+    // Update tooltip position if canvas moves/zooms
     network.on('afterDrawing', function() {
       if (hoveredNodeId) {
         updateTooltipPosition(hoveredNodeId);
       }
     });
 
-    // Click handler: pin/unpin node in Inspector
+    // Click / tap handler: pin/unpin node in Inspector
     network.on('click', function(params) {
       if (params.nodes && params.nodes.length > 0) {
         selectedNodeId = params.nodes[0];
+        showTooltip(selectedNodeId);
         displayNodeInfo(selectedNodeId, true);
       } else {
         selectedNodeId = null;
+        hideTooltip();
         if (activeCommunity !== null) {
           displayCommunityInfo(activeCommunity);
         } else {
@@ -131,6 +142,26 @@
     setupSearch();
     setupControls();
     resetInspector();
+
+    // Listen for resize to update mobile/desktop modes
+    window.addEventListener('resize', handleResize);
+  }
+
+  function handleResize() {
+    const newIsMobile = window.innerWidth < 768;
+    if (newIsMobile !== isMobile) {
+      isMobile = newIsMobile;
+      isMoveMode = !isMobile;
+      if (network) {
+        network.setOptions({
+          interaction: {
+            dragView: isMoveMode,
+            dragNodes: isMoveMode
+          }
+        });
+      }
+      updateMoveModeUI();
+    }
   }
 
   function showTooltip(nodeId) {
@@ -142,7 +173,6 @@
     const color = comm ? comm.color : '#2563EB';
 
     if (node.isConcept) {
-      // Concept node: title is already in the canvas box, so show high-contrast metadata
       tooltip.innerHTML = `
         <div class="tooltip-header" style="margin-bottom:0;">
           <span class="tooltip-badge" style="background:${color}18; color:${color}; border: 1px solid ${color}35;">
@@ -152,7 +182,6 @@
         </div>
       `;
     } else {
-      // Publication node: dot has no canvas text, so show clean title and cluster directly at the node
       tooltip.innerHTML = `
         <div class="tooltip-header">
           <span class="tooltip-badge" style="background:${color}18; color:${color}; border: 1px solid ${color}35;">
@@ -180,14 +209,17 @@
     if (!pos) return;
     const domPos = network.canvasToDOM(pos);
 
-    const tooltipWidth = 270;
+    const containerWidth = container.clientWidth;
+    const tooltipWidth = Math.min(270, containerWidth - 20);
+    tooltip.style.width = tooltipWidth + 'px';
+
     let left = domPos.x - (tooltipWidth / 2);
     let top = domPos.y - 75;
 
     // Bounds checking
     if (left < 10) left = 10;
-    if (left + tooltipWidth > container.clientWidth - 10) left = container.clientWidth - tooltipWidth - 10;
-    if (top < 10) top = domPos.y + 25;
+    if (left + tooltipWidth > containerWidth - 10) left = containerWidth - tooltipWidth - 10;
+    if (top < 10) top = domPos.y + 20;
 
     tooltip.style.left = left + 'px';
     tooltip.style.top = top + 'px';
@@ -198,6 +230,31 @@
     if (tooltip) {
       tooltip.style.opacity = '0';
       tooltip.style.display = 'none';
+    }
+  }
+
+  function updateMoveModeUI() {
+    const panBtn = document.getElementById('graph-btn-pan');
+    const hintSpan = document.getElementById('graph-hint-text');
+
+    if (panBtn) {
+      if (isMoveMode) {
+        panBtn.classList.add('active');
+        panBtn.title = 'Move Mode Active: Dragging pans the graph. Click to lock scroll.';
+      } else {
+        panBtn.classList.remove('active');
+        panBtn.title = 'Scroll Mode Active: Swiping scrolls the page. Click to pan graph.';
+      }
+    }
+
+    if (hintSpan) {
+      if (isMobile) {
+        hintSpan.innerHTML = isMoveMode
+          ? '<strong>Move active:</strong> Drag graph &bull; Tap <i class="fa fa-arrows"></i> to lock'
+          : 'Scroll page freely &bull; Tap node &bull; Tap <i class="fa fa-arrows"></i> to move';
+      } else {
+        hintSpan.innerHTML = 'Drag nodes &bull; Click to inspect connections';
+      }
     }
   }
 
@@ -240,8 +297,9 @@
   function filterCommunity(cid) {
     activeCommunity = cid;
     selectedNodeId = null;
+    hideTooltip();
+
     if (cid === null) {
-      // Show all
       const updates = RAW_NODES.map(n => ({
         id: n.id,
         hidden: false,
@@ -258,7 +316,6 @@
       }));
       nodesDataSet.update(updates);
 
-      // Focus on community
       const commNodes = RAW_NODES.filter(n => n.community === cid).map(n => n.id);
       if (commNodes.length > 0) {
         network.fit({ nodes: commNodes, animation: { duration: 500, easingFunction: 'easeInOutQuad' } });
@@ -310,6 +367,22 @@
   }
 
   function setupControls() {
+    const panBtn = document.getElementById('graph-btn-pan');
+    if (panBtn) {
+      panBtn.onclick = function() {
+        isMoveMode = !isMoveMode;
+        if (network) {
+          network.setOptions({
+            interaction: {
+              dragView: isMoveMode,
+              dragNodes: isMoveMode
+            }
+          });
+        }
+        updateMoveModeUI();
+      };
+    }
+
     const resetBtn = document.getElementById('graph-btn-reset');
     if (resetBtn) {
       resetBtn.onclick = function() {
@@ -332,6 +405,8 @@
         network.moveTo({ scale: scale, animation: { duration: 300 } });
       };
     }
+
+    updateMoveModeUI();
   }
 
   function focusNode(nodeId) {
@@ -344,6 +419,7 @@
       animation: { duration: 600, easingFunction: 'easeInOutQuad' }
     });
     network.selectNodes([nodeId]);
+    showTooltip(nodeId);
     displayNodeInfo(nodeId, true);
   }
 
@@ -379,7 +455,7 @@
 
     const modeBadge = isPinned
       ? '<span class="inspector-tag tag-pinned"><i class="fa fa-thumb-tack"></i> Pinned</span>'
-      : '<span class="inspector-tag tag-preview"><i class="fa fa-eye"></i> Hover Preview</span>';
+      : '<span class="inspector-tag tag-preview"><i class="fa fa-eye"></i> Selected</span>';
 
     panel.innerHTML = `
       <div class="inspector-active">
@@ -513,6 +589,7 @@
     focus: focusNode,
     reset: function() {
       selectedNodeId = null;
+      hideTooltip();
       filterCommunity(null);
       updateActivePill(document.querySelector('.btn-filter-pill'));
       network.fit({ animation: { duration: 400, easingFunction: 'easeInOutQuad' } });
