@@ -162,6 +162,9 @@ if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 ['styles', 'js', 'resources'].forEach(dir => {
   fs.cpSync(dir, path.join(outDir, dir), { recursive: true });
 });
+if (fs.existsSync('graph.html')) {
+  fs.copyFileSync('graph.html', path.join(outDir, 'graph.html'));
+}
 
 // Load team
 const team = parseYaml(fs.readFileSync('_data/team.yml', 'utf8'));
@@ -388,7 +391,70 @@ function renderResearchSection() {
       </div>
     </div>
 
-    <br/><br/>
+    <div class="container-fluid research-graph-section">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="section-heading">Research Knowledge Network</h2>
+          <hr class="section-bar primary">
+          <p class="lead text-muted">
+            An interactive topology connecting REMEDI Lab publications (2024–2026), core methodologies, and clinical investigation clusters. Filter by research cluster, search specific topics or papers, and click nodes to explore methodological intersections.
+          </p>
+        </div>
+      </div>
+
+      <!-- Toolbar: Filter Pills and Search -->
+      <div class="graph-toolbar">
+        <div class="graph-toolbar-pills" id="graph-community-pills">
+          <!-- Dynamically populated by research-graph.js -->
+        </div>
+        <div class="graph-toolbar-search">
+          <div class="graph-search-box">
+            <i class="fa fa-search search-icon" aria-hidden="true"></i>
+            <input type="text" id="graph-search-input" placeholder="Search papers or topics..." autocomplete="off">
+            <div id="graph-search-dropdown" class="graph-search-dropdown"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Graph & Inspector Grid -->
+      <div class="row graph-workspace">
+        <!-- Interactive Network Canvas -->
+        <div class="col-lg-8 col-md-12">
+          <div class="graph-canvas-card">
+            <div id="remedi-graph-canvas" class="remedi-graph-canvas"></div>
+            <div id="remedi-graph-tooltip" class="remedi-graph-tooltip" style="display: none; opacity: 0;"></div>
+            
+            <!-- Subtle Floating Canvas Controls -->
+            <div class="graph-floating-controls">
+              <button type="button" id="graph-btn-zoomin" class="btn-canvas-control" title="Zoom In" aria-label="Zoom in">
+                <i class="fa fa-plus" aria-hidden="true"></i>
+              </button>
+              <button type="button" id="graph-btn-zoomout" class="btn-canvas-control" title="Zoom Out" aria-label="Zoom out">
+                <i class="fa fa-minus" aria-hidden="true"></i>
+              </button>
+              <button type="button" id="graph-btn-reset" class="btn-canvas-control" title="Reset View" aria-label="Reset view">
+                <i class="fa fa-crosshairs" aria-hidden="true"></i>
+              </button>
+            </div>
+
+            <!-- Canvas Hint -->
+            <div class="graph-canvas-hint">
+              <i class="fa fa-info-circle text-primary" aria-hidden="true"></i>
+              <span>Drag nodes &bull; Scroll to zoom &bull; Click to inspect connections</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Integrated Inspector Card -->
+        <div class="col-lg-4 col-md-12">
+          <div class="graph-inspector-card">
+            <div id="graph-inspector-body">
+              <!-- Dynamically populated by research-graph.js -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="container-fluid methodology-section">
       <div class="row">
@@ -553,7 +619,8 @@ fs.writeFileSync(path.join(outDir, 'index.html'), renderPage(homeContent, '', '<
 fs.writeFileSync(path.join(outDir, 'team.html'), renderPage(renderTeamSection(), 'Team', '<script src="js/team.js"></script>'), 'utf8');
 
 // 3. Research
-fs.writeFileSync(path.join(outDir, 'research.html'), renderPage(renderResearchSection(), 'Research'), 'utf8');
+const researchScripts = `<script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>\n<script src="${baseUrl ? baseUrl + '/' : ''}js/research-graph.js"></script>`;
+fs.writeFileSync(path.join(outDir, 'research.html'), renderPage(renderResearchSection(), 'Research', researchScripts), 'utf8');
 
 // 4. Publications
 fs.writeFileSync(path.join(outDir, 'publications.html'), renderPage(renderPublicationsSection(), 'Publications'), 'utf8');

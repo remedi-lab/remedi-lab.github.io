@@ -1,0 +1,2990 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Schizophrenia Spectrum & Psychosis",
+      "file_type": "document",
+      "source_file": "",
+      "source_location": null,
+      "id": "concept_schizophrenia_spectrum",
+      "community": 0
+    },
+    {
+      "label": "Clinical Phenomenology & Self-Experience",
+      "file_type": "document",
+      "source_file": "",
+      "source_location": null,
+      "id": "concept_clinical_phenomenology",
+      "community": 0
+    },
+    {
+      "label": "Clinical High-Risk for Psychosis (CHR-P) & Early Intervention",
+      "file_type": "document",
+      "source_file": "",
+      "source_location": null,
+      "id": "concept_chr_p_early_detection",
+      "community": 5
+    },
+    {
+      "label": "Child, Adolescent & Youth Mental Health",
+      "file_type": "document",
+      "source_file": "",
+      "source_location": null,
+      "id": "concept_child_adolescent_psychiatry",
+      "community": 3
+    },
+    {
+      "label": "Neuroimaging & Brain Morphometry (ENIGMA)",
+      "file_type": "document",
+      "source_file": "",
+      "source_location": null,
+      "id": "concept_neuroimaging_morphometry",
+      "community": 6
+    },
+    {
+      "label": "Psychopharmacology & Clinical Therapeutics",
+      "file_type": "document",
+      "source_file": "",
+      "source_location": null,
+      "id": "concept_psychopharmacology_interventions",
+      "community": 5
+    },
+    {
+      "label": "Large Language Models & NLP in Mental Health",
+      "file_type": "document",
+      "source_file": "",
+      "source_location": null,
+      "id": "concept_llms_nlp_mental_health",
+      "community": 2
+    },
+    {
+      "label": "Psychological Assessment & Computational Psychometrics",
+      "file_type": "document",
+      "source_file": "",
+      "source_location": null,
+      "id": "concept_computational_psychometrics",
+      "community": 2
+    },
+    {
+      "label": "Bayesian Statistics, MCMC & Simulation-Based Inference",
+      "file_type": "document",
+      "source_file": "",
+      "source_location": null,
+      "id": "concept_bayesian_statistics_mcmc",
+      "community": 4
+    },
+    {
+      "label": "Federated Learning & Deep Generative Prior Modeling",
+      "file_type": "document",
+      "source_file": "",
+      "source_location": null,
+      "id": "concept_federated_learning_priors",
+      "community": 7
+    },
+    {
+      "label": "Clustering, Dimensionality Reduction & Information Theory",
+      "file_type": "document",
+      "source_file": "",
+      "source_location": null,
+      "id": "concept_clustering_dimension_reduction",
+      "community": 1
+    },
+    {
+      "label": "Epidemiological & Spatio-temporal Modeling",
+      "file_type": "document",
+      "source_file": "",
+      "source_location": null,
+      "id": "concept_epidemiological_spatiotemporal",
+      "community": 4
+    },
+    {
+      "label": "Network Modeling, Econometrics & Survey Statistics",
+      "file_type": "document",
+      "source_file": "",
+      "source_location": null,
+      "id": "concept_networks_survey_statistics",
+      "community": 1
+    },
+    {
+      "label": "Learning Catchment Features with Autoencoders",
+      "file_type": "document",
+      "source_file": "abassi-2024-learning-catchment-features.yml",
+      "source_location": null,
+      "id": "pub_abassi_2024_learning_catchment_features",
+      "community": 1
+    },
+    {
+      "label": "Learning landscape features from streamflow with autoencoders",
+      "file_type": "document",
+      "source_file": "abassi-2024-learning-landscape-features.yml",
+      "source_location": null,
+      "id": "pub_abassi_2024_learning_landscape_features",
+      "community": 1
+    },
+    {
+      "label": "Foundations of Bayesian Statistics for Data Scientists",
+      "file_type": "document",
+      "source_file": "agresti-2026-foundations-of-bayesian.yml",
+      "source_location": null,
+      "id": "pub_agresti_2026_foundations_of_bayesian",
+      "community": 4
+    },
+    {
+      "label": "The Emotional Spectrum of LLMs: Leveraging Empathy and Emotion-Based Markers for Mental Health Support",
+      "file_type": "document",
+      "source_file": "alessandrodegrandi-2025-the-emotional-spectru.yml",
+      "source_location": null,
+      "id": "pub_alessandrodegrandi_2025_the_emotional_spectru",
+      "community": 2
+    },
+    {
+      "label": "Alterations of Speech, Thought, Perception, and Self-Experience",
+      "file_type": "document",
+      "source_file": "andrearaballo-2024-alterations-of-speech.yml",
+      "source_location": null,
+      "id": "pub_andrearaballo_2024_alterations_of_speech",
+      "community": 0
+    },
+    {
+      "label": "Baseline Antipsychotic Dose and Transition to Psychosis in Individuals at Clinical High Risk",
+      "file_type": "document",
+      "source_file": "andrearaballo-2024-baseline-antipsychotic-dos.yml",
+      "source_location": null,
+      "id": "pub_andrearaballo_2024_baseline_antipsychotic_dos",
+      "community": 5
+    },
+    {
+      "label": "Dynastic social processes and the transgenerational transmission of risk and resilience to mental illness: implications for prevention",
+      "file_type": "document",
+      "source_file": "andrearaballo-2024-dynastic-social-processes.yml",
+      "source_location": null,
+      "id": "pub_andrearaballo_2024_dynastic_social_processes",
+      "community": 3
+    },
+    {
+      "label": "Early detection and intervention through the lens of the neurodevelopmental framework: the salience of developmental years and related services",
+      "file_type": "document",
+      "source_file": "andrearaballo-2024-early-detection-and.yml",
+      "source_location": null,
+      "id": "pub_andrearaballo_2024_early_detection_and",
+      "community": 3
+    },
+    {
+      "label": "ENIGMA Brain Morphometry in CHR-P\u2014Risk Enrichment and Antipsychotics",
+      "file_type": "document",
+      "source_file": "andrearaballo-2024-enigma-brain-morphometry.yml",
+      "source_location": null,
+      "id": "pub_andrearaballo_2024_enigma_brain_morphometry",
+      "community": 6
+    },
+    {
+      "label": "L\u2019espace v\u00e9cu and Its Perturbations in Schizophrenia: Systematic Review and Meta-analysis of Altered Body-Centric Metrics\u2014Personal and Peripersonal Space",
+      "file_type": "document",
+      "source_file": "andrearaballo-2024-l-espace-v.yml",
+      "source_location": null,
+      "id": "pub_andrearaballo_2024_l_espace_v",
+      "community": 0
+    },
+    {
+      "label": "PSYCHS : Bridging Positive Symptoms and Diagnostic Criteria for Clinical High Risk for Psychosis\u2014A litmus test for the field",
+      "file_type": "document",
+      "source_file": "andrearaballo-2024-psychs-bridging-positive.yml",
+      "source_location": null,
+      "id": "pub_andrearaballo_2024_psychs_bridging_positive",
+      "community": 0
+    },
+    {
+      "label": "Connecting the empirical dots on antipsychotic exposure and treatment in clinical high-risk for psychosis",
+      "file_type": "document",
+      "source_file": "andrearaballo-2025-connecting-the-empirical.yml",
+      "source_location": null,
+      "id": "pub_andrearaballo_2025_connecting_the_empirical",
+      "community": 5
+    },
+    {
+      "label": "Increasing conceptual clarity and confounders identification: a pragmatic way to enhance prognostic precision in ENIGMA clinical high risk for psychosis (CHR-P)",
+      "file_type": "document",
+      "source_file": "andrearaballo-2025-increasing-conceptual-clar.yml",
+      "source_location": null,
+      "id": "pub_andrearaballo_2025_increasing_conceptual_clar",
+      "community": 6
+    },
+    {
+      "label": "Lack of transparency on baseline pharmacological treatments in Clinical High-Risk for psychosis (CHR-P) may degrade precision: A systematic review and meta-analysis",
+      "file_type": "document",
+      "source_file": "andrearaballo-2025-lack-of-transparency.yml",
+      "source_location": null,
+      "id": "pub_andrearaballo_2025_lack_of_transparency",
+      "community": 5
+    },
+    {
+      "label": "Premorbid, developmental, and transgenerational: rethinking prevention in youth mental health",
+      "file_type": "document",
+      "source_file": "andrearaballo-2025-premorbid-developmental-an.yml",
+      "source_location": null,
+      "id": "pub_andrearaballo_2025_premorbid_developmental_an",
+      "community": 3
+    },
+    {
+      "label": "Prevalence and risk of psychiatric disorders in young people: prospective cohort study exploring the role of childhood trauma (the HUNT study): commentary, Raballo et al",
+      "file_type": "document",
+      "source_file": "andrearaballo-2025-prevalence-and-risk.yml",
+      "source_location": null,
+      "id": "pub_andrearaballo_2025_prevalence_and_risk",
+      "community": 3
+    },
+    {
+      "label": "\u201cSchizophrenia, Consciousness, and the Self\u201d Twenty Years Later: Revisiting the Ipseity-Disturbance Model and the Developmental Nature of Self-Disorder in the Schizophrenia Spectrum",
+      "file_type": "document",
+      "source_file": "andrearaballo-2025-schizophrenia-consciousnes.yml",
+      "source_location": null,
+      "id": "pub_andrearaballo_2025_schizophrenia_consciousnes",
+      "community": 0
+    },
+    {
+      "label": "Transient pre-baseline antipsychotic exposure (TPAE) is a prognostic specifier in clinical high risk for psychosis: evidence from the PSYSCAN consortium study",
+      "file_type": "document",
+      "source_file": "andrearaballo-2025-transient-pre-baseline.yml",
+      "source_location": null,
+      "id": "pub_andrearaballo_2025_transient_pre_baseline",
+      "community": 5
+    },
+    {
+      "label": "Antidepressants and Psychosis Risk: Disentangling Causal Effects From Prognostic Signals",
+      "file_type": "document",
+      "source_file": "andrearaballo-2026-antidepressants-and-psycho.yml",
+      "source_location": null,
+      "id": "pub_andrearaballo_2026_antidepressants_and_psycho",
+      "community": 0
+    },
+    {
+      "label": "Clinical High-Risk for Psychosis in Adolescents: Updated Meta-analysis on Transition Rates and Antipsychotic Prognostic Value",
+      "file_type": "document",
+      "source_file": "andrearaballo-2026-clinical-high-risk-1.yml",
+      "source_location": null,
+      "id": "pub_andrearaballo_2026_clinical_high_risk_1",
+      "community": 5
+    },
+    {
+      "label": "Clinical High Risk for Psychosis in Adolescents: Prognostic Validity Remains Unproven Without Adequate Controls\u2014Authors\u2019 Reply",
+      "file_type": "document",
+      "source_file": "andrearaballo-2026-clinical-high-risk.yml",
+      "source_location": null,
+      "id": "pub_andrearaballo_2026_clinical_high_risk",
+      "community": 5
+    },
+    {
+      "label": "Cortical thickness and the shape of psychiatric risk: a cautionary note on causality",
+      "file_type": "document",
+      "source_file": "andrearaballo-2026-cortical-thickness-and.yml",
+      "source_location": null,
+      "id": "pub_andrearaballo_2026_cortical_thickness_and",
+      "community": 6
+    },
+    {
+      "label": "Discriminative validity of Clinical High-Risk Status for Psychosis among help-seekers: a systematic review and meta-analysis",
+      "file_type": "document",
+      "source_file": "andrearaballo-2026-discriminative-validity-of.yml",
+      "source_location": null,
+      "id": "pub_andrearaballo_2026_discriminative_validity_of",
+      "community": 5
+    },
+    {
+      "label": "Familial high-risk (FHR) for severe mental illness in clinical high-risk for psychosis (CHR-P): a systematic review and meta-analysis",
+      "file_type": "document",
+      "source_file": "andrearaballo-2026-familial-high-risk.yml",
+      "source_location": null,
+      "id": "pub_andrearaballo_2026_familial_high_risk",
+      "community": 5
+    },
+    {
+      "label": "Ipseity-Disturbance and the Nature of Self-Disorder in Schizophrenia: Clarifying Conceptual and Empirical Foundations (a Constructive Reply to Feyaerts and Sass)",
+      "file_type": "document",
+      "source_file": "andrearaballo-2026-ipseity-disturbance-and.yml",
+      "source_location": null,
+      "id": "pub_andrearaballo_2026_ipseity_disturbance_and",
+      "community": 0
+    },
+    {
+      "label": "Rethinking the p-factor: A model of cumulative risk aggregation across development\u2014Commentary on Caspi et al. (2026).",
+      "file_type": "document",
+      "source_file": "andrearaballo-2026-rethinking-the-p.yml",
+      "source_location": null,
+      "id": "pub_andrearaballo_2026_rethinking_the_p",
+      "community": 3
+    },
+    {
+      "label": "Semantic structure and measurement in large language models for psychopathology and psychometrics",
+      "file_type": "document",
+      "source_file": "andrearaballo-2026-semantic-structure-and.yml",
+      "source_location": null,
+      "id": "pub_andrearaballo_2026_semantic_structure_and",
+      "community": 2
+    },
+    {
+      "label": "Spatial disruptions and the embodied Self in schizophrenia: toward a developmental framework",
+      "file_type": "document",
+      "source_file": "andrearaballo-2026-spatial-disruptions-and.yml",
+      "source_location": null,
+      "id": "pub_andrearaballo_2026_spatial_disruptions_and",
+      "community": 0
+    },
+    {
+      "label": "Spatio-temporal distribution, prediction and relationship of three major acute cardiovascular events: Out-of-hospital cardiac arrest, ST-elevation myocardial infarction and stroke",
+      "file_type": "document",
+      "source_file": "angeloauricchio-2024-spatio-temporal-distribu.yml",
+      "source_location": null,
+      "id": "pub_angeloauricchio_2024_spatio_temporal_distribu",
+      "community": 4
+    },
+    {
+      "label": "Likelihood Distortion and Bayesian Local Robustness",
+      "file_type": "document",
+      "source_file": "antoniodinoia-2025-likelihood-distortion-and.yml",
+      "source_location": null,
+      "id": "pub_antoniodinoia_2025_likelihood_distortion_and",
+      "community": 4
+    },
+    {
+      "label": "A general framework for adaptive nonparametric dimensionality reduction",
+      "file_type": "document",
+      "source_file": "antoniodinoia-2026-a-general-framework.yml",
+      "source_location": null,
+      "id": "pub_antoniodinoia_2026_a_general_framework",
+      "community": 1
+    },
+    {
+      "label": "Scale adaptive and robust intrinsic dimension estimation via optimal neighbourhood identification",
+      "file_type": "document",
+      "source_file": "antoniodinoia-2026-scale-adaptive-and.yml",
+      "source_location": null,
+      "id": "pub_antoniodinoia_2026_scale_adaptive_and",
+      "community": 1
+    },
+    {
+      "label": "Early intervention in eating disorders: introducing the chronopathogram",
+      "file_type": "document",
+      "source_file": "antoniopreti-2025-early-intervention-in.yml",
+      "source_location": null,
+      "id": "pub_antoniopreti_2025_early_intervention_in",
+      "community": 0
+    },
+    {
+      "label": "Schizophrenia Spectrum Disorders: An Empirical Benchmark Study of Real-world Diagnostic Accuracy and Reliability Among Leading International Psychiatrists",
+      "file_type": "document",
+      "source_file": "barurkin-2024-schizophrenia-spectrum-disorder.yml",
+      "source_location": null,
+      "id": "pub_barurkin_2024_schizophrenia_spectrum_disorder",
+      "community": 0
+    },
+    {
+      "label": "Clinical Activity and Psychopathological Knowledge Are Related to Real-World Performance of Leading International Psychiatrists in Diagnosing Schizophrenia Spectrum Disorders",
+      "file_type": "document",
+      "source_file": "barurkin-2025-clinical-activity-and.yml",
+      "source_location": null,
+      "id": "pub_barurkin_2025_clinical_activity_and",
+      "community": 0
+    },
+    {
+      "label": "Schizophrenia spectrum disorders (SSD): an internet-based vignette study of real-world diagnostic accuracy and reliability among psychiatrists and clinical psychologists",
+      "file_type": "document",
+      "source_file": "barurkin-2025-schizophrenia-spectrum-disorder.yml",
+      "source_location": null,
+      "id": "pub_barurkin_2025_schizophrenia_spectrum_disorder",
+      "community": 0
+    },
+    {
+      "label": "A thermodynamic approach to Approximate Bayesian Computation with multiple summary statistics",
+      "file_type": "document",
+      "source_file": "carloalbert-2025-a-thermodynamic-approach.yml",
+      "source_location": null,
+      "id": "pub_carloalbert_2025_a_thermodynamic_approach",
+      "community": 4
+    },
+    {
+      "label": "Federated Learning for Non-factorizable Models using Deep Generative Prior Approximations",
+      "file_type": "document",
+      "source_file": "conorhassan-2024-federated-learning-for.yml",
+      "source_location": null,
+      "id": "pub_conorhassan_2024_federated_learning_for",
+      "community": 7
+    },
+    {
+      "label": "Scalable Vertical Federated Learning via Data Augmentation and Amortized Inference",
+      "file_type": "document",
+      "source_file": "conorhassan-2024-scalable-vertical-federated.yml",
+      "source_location": null,
+      "id": "pub_conorhassan_2024_scalable_vertical_federated",
+      "community": 7
+    },
+    {
+      "label": "Investigating the price determinants of the European Emission Trading System: a non-parametric approach",
+      "file_type": "document",
+      "source_file": "cristianosalvagnin-2024-investigating-the-pri.yml",
+      "source_location": null,
+      "id": "pub_cristianosalvagnin_2024_investigating_the_pri",
+      "community": 1
+    },
+    {
+      "label": "Non-parametric Causal Discovery for EU Allowances Returns Through the Information Imbalance",
+      "file_type": "document",
+      "source_file": "cristianosalvagnin-2025-non-parametric-causal.yml",
+      "source_location": null,
+      "id": "pub_cristianosalvagnin_2025_non_parametric_causal",
+      "community": 1
+    },
+    {
+      "label": "Bayesian uncertainty quantification to identify population level vaccine hesitancy behaviours",
+      "file_type": "document",
+      "source_file": "davidjwarne-2026-bayesian-uncertainty-quantif.yml",
+      "source_location": null,
+      "id": "pub_davidjwarne_2026_bayesian_uncertainty_quantif",
+      "community": 4
+    },
+    {
+      "label": "A Fully Rank-Based Hierarchical Clustering Approach Using Information Imbalance",
+      "file_type": "document",
+      "source_file": "elenaballante-2025-a-fully-rank.yml",
+      "source_location": null,
+      "id": "pub_elenaballante_2025_a_fully_rank",
+      "community": 1
+    },
+    {
+      "label": "Non-parametric Similarity Measure Based on Information Imbalance",
+      "file_type": "document",
+      "source_file": "elenaballante-2025-non-parametric-similarity.yml",
+      "source_location": null,
+      "id": "pub_elenaballante_2025_non_parametric_similarity",
+      "community": 1
+    },
+    {
+      "label": "Psychopathological Characteristics and Subjective Dimensions of Suicidality in Adolescents at Ultra High Risk ( UHR ) for Psychosis",
+      "file_type": "document",
+      "source_file": "elenamonducci-2024-psychopathological-charact.yml",
+      "source_location": null,
+      "id": "pub_elenamonducci_2024_psychopathological_charact",
+      "community": 0
+    },
+    {
+      "label": "A probabilistic spatio-temporal neural network to forecast COVID-19 counts",
+      "file_type": "document",
+      "source_file": "federicoravenda-2024-a-probabilistic-spatio.yml",
+      "source_location": null,
+      "id": "pub_federicoravenda_2024_a_probabilistic_spatio",
+      "community": 4
+    },
+    {
+      "label": "Are LLMs effective psychological assessors? Leveraging adaptive RAG for interpretable mental health screening through psychometric practice",
+      "file_type": "document",
+      "source_file": "federicoravenda-2025-are-llms-effective.yml",
+      "source_location": null,
+      "id": "pub_federicoravenda_2025_are_llms_effective",
+      "community": 2
+    },
+    {
+      "label": "Marginal models with individual-specific effects for the analysis of longitudinal bipartite networks",
+      "file_type": "document",
+      "source_file": "francescobartolucci-2024-marginal-models-with.yml",
+      "source_location": null,
+      "id": "pub_francescobartolucci_2024_marginal_models_with",
+      "community": 1
+    },
+    {
+      "label": "Multilingualism and international mental health research\u2013The barriers for non-native speakers of English",
+      "file_type": "document",
+      "source_file": "giovannidegirolamo-2024-multilingualism-and-i.yml",
+      "source_location": null,
+      "id": "pub_giovannidegirolamo_2024_multilingualism_and_i",
+      "community": 3
+    },
+    {
+      "label": "Intrinsic dimension as a multi-scale summary statistics in network modeling",
+      "file_type": "document",
+      "source_file": "iurimacocco-2024-intrinsic-dimension-as.yml",
+      "source_location": null,
+      "id": "pub_iurimacocco_2024_intrinsic_dimension_as",
+      "community": 1
+    },
+    {
+      "label": "Staging 2.0: refining transdiagnostic clinical staging frameworks to enhance reliability and utility for youth mental health",
+      "file_type": "document",
+      "source_file": "janscott-2024-staging-2-0.yml",
+      "source_location": null,
+      "id": "pub_janscott_2024_staging_2_0",
+      "community": 3
+    },
+    {
+      "label": "The impact of aripiprazole on neurocognitive function in individuals at clinical high risk for psychosis: A comparison with olanzapine and non-antipsychotic treatment",
+      "file_type": "document",
+      "source_file": "jianzhongzeng-2025-the-impact-of.yml",
+      "source_location": null,
+      "id": "pub_jianzhongzeng_2025_the_impact_of",
+      "community": 5
+    },
+    {
+      "label": "Childhood predictors of cluster A personality disorder traits in adolescence: a seven-wave birth cohort study",
+      "file_type": "document",
+      "source_file": "larswichstrm-2025-childhood-predictors-of.yml",
+      "source_location": null,
+      "id": "pub_larswichstrm_2025_childhood_predictors_of",
+      "community": 3
+    },
+    {
+      "label": "Running in the FAMILY: understanding and predicting the intergenerational transmission of mental illness",
+      "file_type": "document",
+      "source_file": "lisanneaemvanhoutum-2024-running-in-the.yml",
+      "source_location": null,
+      "id": "pub_lisanneaemvanhoutum_2024_running_in_the",
+      "community": 3
+    },
+    {
+      "label": "Anhedonia and suicidal ideation in young people with early psychosis: findings from a 2-year Italian follow-up study.",
+      "file_type": "document",
+      "source_file": "lorenzopelizza-2024-anhedonia-and-suicidal.yml",
+      "source_location": null,
+      "id": "pub_lorenzopelizza_2024_anhedonia_and_suicidal",
+      "community": 0
+    },
+    {
+      "label": "Collective Analysis: a revolutionary setting",
+      "file_type": "document",
+      "source_file": "lucagiorgini-2025-collective-analysis-a.yml",
+      "source_location": null,
+      "id": "pub_lucagiorgini_2025_collective_analysis_a",
+      "community": 0
+    },
+    {
+      "label": "Bayesian clustering of spatially distributed compositional data with application to the Great Barrier Reef",
+      "file_type": "document",
+      "source_file": "luizapiancastelli-2024-bayesian-clustering-of.yml",
+      "source_location": null,
+      "id": "pub_luizapiancastelli_2024_bayesian_clustering_of",
+      "community": 4
+    },
+    {
+      "label": "Assessing the heterogeneity of the impact of COVID-19 incidence on all-cause excess mortality among healthcare districts in Lombardy, Italy, to evaluate the local response to the pandemic: an ecological study",
+      "file_type": "document",
+      "source_file": "marcopaganuzzi-2024-assessing-the-heterogenei.yml",
+      "source_location": null,
+      "id": "pub_marcopaganuzzi_2024_assessing_the_heterogenei",
+      "community": 4
+    },
+    {
+      "label": "When non-response makes estimates from a census a small area estimation problem: the case of the survey on graduates\u2019 employment status in Italy",
+      "file_type": "document",
+      "source_file": "mariagiovannaranalli-2025-when-non-response.yml",
+      "source_location": null,
+      "id": "pub_mariagiovannaranalli_2025_when_non_response",
+      "community": 1
+    },
+    {
+      "label": "Schizophrenia treatment preferences of psychiatrists versus guidelines: A European perspective",
+      "file_type": "document",
+      "source_file": "martinarojnikuzman-2025-schizophrenia-treatme.yml",
+      "source_location": null,
+      "id": "pub_martinarojnikuzman_2025_schizophrenia_treatme",
+      "community": 0
+    },
+    {
+      "label": "Clinical High-Risk for Psychosis (CHR-P) circa 2024: Synoptic analysis and synthesis of contemporary treatment guidelines",
+      "file_type": "document",
+      "source_file": "michelepoletti-2024-clinical-high-risk.yml",
+      "source_location": null,
+      "id": "pub_michelepoletti_2024_clinical_high_risk",
+      "community": 5
+    },
+    {
+      "label": "Ontogenesis of self-disorders in the schizophrenia spectrum: A phenomenological neuro-developmental model",
+      "file_type": "document",
+      "source_file": "michelepoletti-2024-ontogenesis-of-self.yml",
+      "source_location": null,
+      "id": "pub_michelepoletti_2024_ontogenesis_of_self",
+      "community": 0
+    },
+    {
+      "label": "Schizophrenia spectrum disorders in children and adolescents: Clinical, phenomenological, diagnostic, and prognostic features across subtypes",
+      "file_type": "document",
+      "source_file": "michelepoletti-2024-schizophrenia-spectrum-di.yml",
+      "source_location": null,
+      "id": "pub_michelepoletti_2024_schizophrenia_spectrum_di",
+      "community": 0
+    },
+    {
+      "label": "Debate: Are we over\u2010pathologizing young people's mental health? The inflationary risk of autism diagnosis",
+      "file_type": "document",
+      "source_file": "michelepoletti-2025-debate-are-we.yml",
+      "source_location": null,
+      "id": "pub_michelepoletti_2025_debate_are_we",
+      "community": 3
+    },
+    {
+      "label": "Developmental perspectives on HiTOP psychosis superspectrum: Unveiling pitfalls and theoretical fallacies",
+      "file_type": "document",
+      "source_file": "michelepoletti-2025-developmental-perspective.yml",
+      "source_location": null,
+      "id": "pub_michelepoletti_2025_developmental_perspective",
+      "community": 0
+    },
+    {
+      "label": "Editorial Perspective: Issues for DSM 6 \u2013 an Alternative Model for Neurodevelopmental Disorders to enhance nosological validity and clinical utility",
+      "file_type": "document",
+      "source_file": "michelepoletti-2025-editorial-perspective-iss.yml",
+      "source_location": null,
+      "id": "pub_michelepoletti_2025_editorial_perspective_iss",
+      "community": 3
+    },
+    {
+      "label": "Altered mirroring and self-face processing in schizophrenia: A systematic review",
+      "file_type": "document",
+      "source_file": "michelepoletti-2026-altered-mirroring-and.yml",
+      "source_location": null,
+      "id": "pub_michelepoletti_2026_altered_mirroring_and",
+      "community": 0
+    },
+    {
+      "label": "Developmental high-risk criteria for severe mental illness: a neurodevelopmental framework for premorbid detection",
+      "file_type": "document",
+      "source_file": "michelepoletti-2026-developmental-high-risk.yml",
+      "source_location": null,
+      "id": "pub_michelepoletti_2026_developmental_high_risk",
+      "community": 5
+    },
+    {
+      "label": "Duration of Active Attenuated Psychosis (DAAP): Extending time-based illness modelling to the clinical high-risk state",
+      "file_type": "document",
+      "source_file": "michelepoletti-2026-duration-of-active.yml",
+      "source_location": null,
+      "id": "pub_michelepoletti_2026_duration_of_active",
+      "community": 0
+    },
+    {
+      "label": "How can research benefit children of parents with severe mental illness?",
+      "file_type": "document",
+      "source_file": "neeltjevanharen-2026-how-can-research.yml",
+      "source_location": null,
+      "id": "pub_neeltjevanharen_2026_how_can_research",
+      "community": 3
+    },
+    {
+      "label": "Understanding and predicting the intergenerational transmission of mental illness",
+      "file_type": "document",
+      "source_file": "ninakarguth-2024-understanding-and-predicting.yml",
+      "source_location": null,
+      "id": "pub_ninakarguth_2024_understanding_and_predicting",
+      "community": 3
+    },
+    {
+      "label": "New diagnosis in psychiatry: beyond heuristics",
+      "file_type": "document",
+      "source_file": "patrickdmcgorry-2025-new-diagnosis-in.yml",
+      "source_location": null,
+      "id": "pub_patrickdmcgorry_2025_new_diagnosis_in",
+      "community": 2
+    },
+    {
+      "label": "Diagnosing schizophrenia spectrum disorders: Large language models (LLMs) vs. leading international psychiatrists (LIPs)",
+      "file_type": "document",
+      "source_file": "raballo-2025-pcn.yml",
+      "source_location": null,
+      "id": "pub_raballo_2025_pcn",
+      "community": 0
+    },
+    {
+      "label": "A self-supervised seed-driven approach to topic modelling and clustering",
+      "file_type": "document",
+      "source_file": "ravenda-2024-jiis.yml",
+      "source_location": null,
+      "id": "pub_ravenda_2024_jiis",
+      "community": 1
+    },
+    {
+      "label": "Are LLMs Effective Psychological Assessors? Leveraging Adaptive RAG for Interpretable Mental Health Screening",
+      "file_type": "document",
+      "source_file": "ravenda-2025-acl.yml",
+      "source_location": null,
+      "id": "pub_ravenda_2025_acl",
+      "community": 2
+    },
+    {
+      "label": "From Evidence Mining to Meta-Prediction: a Gradient of Methodologies for Task-Specific Challenges in Psychological Assessment",
+      "file_type": "document",
+      "source_file": "ravenda-2025-clpsych.yml",
+      "source_location": null,
+      "id": "pub_ravenda_2025_clpsych",
+      "community": 2
+    },
+    {
+      "label": "Transforming Social Media Text into Predictive Tools for Depression through AI: A test-case study on the Beck Depression Inventory-II",
+      "file_type": "document",
+      "source_file": "ravenda-2025-plos.yml",
+      "source_location": null,
+      "id": "pub_ravenda_2025_plos",
+      "community": 2
+    },
+    {
+      "label": "Tailoring adaptive-zero-shot retrieval and probabilistic modelling for psychometric data",
+      "file_type": "document",
+      "source_file": "ravenda-2025-sac.yml",
+      "source_location": null,
+      "id": "pub_ravenda_2025_sac",
+      "community": 2
+    },
+    {
+      "label": "Rethinking psychometrics through LLMs: how item semantics shape measurement and prediction in psychological questionnaires",
+      "file_type": "document",
+      "source_file": "ravenda-2025-scirep.yml",
+      "source_location": null,
+      "id": "pub_ravenda_2025_scirep",
+      "community": 2
+    },
+    {
+      "label": "TONY: an open-source TOolkit for Nlp in psYchology",
+      "file_type": "document",
+      "source_file": "ravenda-2026-acl1.yml",
+      "source_location": null,
+      "id": "pub_ravenda_2026_acl1",
+      "community": 2
+    },
+    {
+      "label": "PersonalityDBench: A Dataset for Personality Disorders - from Modeling to Controlled Generation",
+      "file_type": "document",
+      "source_file": "ravenda-2026-acl2.yml",
+      "source_location": null,
+      "id": "pub_ravenda_2026_acl2",
+      "community": 2
+    },
+    {
+      "label": "P2P - from Posts to Patterns: An LLM Ensemble Approach to Mental Health Dynamics Detection",
+      "file_type": "document",
+      "source_file": "ravenda-2026-clpsych.yml",
+      "source_location": null,
+      "id": "pub_ravenda_2026_clpsych",
+      "community": 2
+    },
+    {
+      "label": "Navigating through the hidden embedding space: steering LLMs to improve mental health assessment",
+      "file_type": "document",
+      "source_file": "ravenda-2026-sac.yml",
+      "source_location": null,
+      "id": "pub_ravenda_2026_sac",
+      "community": 2
+    },
+    {
+      "label": "Simulation-based Inference with the Python Package sbijax",
+      "file_type": "document",
+      "source_file": "simondirmeier-2024-simulation-based-inference.yml",
+      "source_location": null,
+      "id": "pub_simondirmeier_2024_simulation_based_inference",
+      "community": 4
+    },
+    {
+      "label": "Causal Posterior Estimation",
+      "file_type": "document",
+      "source_file": "simondirmeier-2025-causal-posterior-estimatio.yml",
+      "source_location": null,
+      "id": "pub_simondirmeier_2025_causal_posterior_estimatio",
+      "community": 4
+    },
+    {
+      "label": "Psychopathology and NREM sleep parasomnias: A systematic review",
+      "file_type": "document",
+      "source_file": "tijanatomic-2024-psychopathology-and-nrem.yml",
+      "source_location": null,
+      "id": "pub_tijanatomic_2024_psychopathology_and_nrem",
+      "community": 0
+    },
+    {
+      "label": "Multiple complex developmental disorder (MCDD): Did we throw the baby out with the bathwater too fast? A systematic review",
+      "file_type": "document",
+      "source_file": "valeriozaccaria-2024-multiple-complex-develop.yml",
+      "source_location": null,
+      "id": "pub_valeriozaccaria_2024_multiple_complex_develop",
+      "community": 3
+    },
+    {
+      "label": "The Changing Geometry of Grammar: Dimensionality and Neighborhood Reorganization across Transformer Layers",
+      "file_type": "document",
+      "source_file": "vallisa-2026-grammar.yml",
+      "source_location": null,
+      "id": "pub_vallisa_2026_grammar",
+      "community": 1
+    },
+    {
+      "label": "Bayesian Dynamic Generalized Additive Model for Mortality during COVID-19 Pandemic",
+      "file_type": "document",
+      "source_file": "weizhang-2024-bayesian-dynamic-generalized.yml",
+      "source_location": null,
+      "id": "pub_weizhang_2024_bayesian_dynamic_generalized",
+      "community": 4
+    },
+    {
+      "label": "Bayesian poisson regression tensor train decomposition model for learning mortality pattern changes during COVID-19 pandemic",
+      "file_type": "document",
+      "source_file": "weizhang-2024-bayesian-poisson-regression.yml",
+      "source_location": null,
+      "id": "pub_weizhang_2024_bayesian_poisson_regression",
+      "community": 4
+    },
+    {
+      "label": "Nutritional interventions for early psychosis: a systematic review and network meta-analysis",
+      "file_type": "document",
+      "source_file": "yuqinggao-2024-nutritional-interventions-for.yml",
+      "source_location": null,
+      "id": "pub_yuqinggao_2024_nutritional_interventions_for",
+      "community": 5
+    },
+    {
+      "label": "Constructing Simultaneous Confidence Bands for Errors-in-variables Curves with Application to the Lorenz Curve",
+      "file_type": "document",
+      "source_file": "ziqingdong-2025-constructing-simultaneous-con.yml",
+      "source_location": null,
+      "id": "pub_ziqingdong_2025_constructing_simultaneous_con",
+      "community": 1
+    }
+  ],
+  "links": [
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2024-baseline-antipsychotic-dos.yml",
+      "_src": "pub_andrearaballo_2024_baseline_antipsychotic_dos",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_andrearaballo_2024_baseline_antipsychotic_dos"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2024-enigma-brain-morphometry.yml",
+      "_src": "pub_andrearaballo_2024_enigma_brain_morphometry",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_andrearaballo_2024_enigma_brain_morphometry"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2024-l-espace-v.yml",
+      "_src": "pub_andrearaballo_2024_l_espace_v",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_andrearaballo_2024_l_espace_v"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2024-psychs-bridging-positive.yml",
+      "_src": "pub_andrearaballo_2024_psychs_bridging_positive",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_andrearaballo_2024_psychs_bridging_positive"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-connecting-the-empirical.yml",
+      "_src": "pub_andrearaballo_2025_connecting_the_empirical",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_andrearaballo_2025_connecting_the_empirical"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-increasing-conceptual-clar.yml",
+      "_src": "pub_andrearaballo_2025_increasing_conceptual_clar",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_andrearaballo_2025_increasing_conceptual_clar"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-lack-of-transparency.yml",
+      "_src": "pub_andrearaballo_2025_lack_of_transparency",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_andrearaballo_2025_lack_of_transparency"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-schizophrenia-consciousnes.yml",
+      "_src": "pub_andrearaballo_2025_schizophrenia_consciousnes",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_andrearaballo_2025_schizophrenia_consciousnes"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-transient-pre-baseline.yml",
+      "_src": "pub_andrearaballo_2025_transient_pre_baseline",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_andrearaballo_2025_transient_pre_baseline"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-antidepressants-and-psycho.yml",
+      "_src": "pub_andrearaballo_2026_antidepressants_and_psycho",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_andrearaballo_2026_antidepressants_and_psycho"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-clinical-high-risk-1.yml",
+      "_src": "pub_andrearaballo_2026_clinical_high_risk_1",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_andrearaballo_2026_clinical_high_risk_1"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-clinical-high-risk.yml",
+      "_src": "pub_andrearaballo_2026_clinical_high_risk",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_andrearaballo_2026_clinical_high_risk"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-discriminative-validity-of.yml",
+      "_src": "pub_andrearaballo_2026_discriminative_validity_of",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_andrearaballo_2026_discriminative_validity_of"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-familial-high-risk.yml",
+      "_src": "pub_andrearaballo_2026_familial_high_risk",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_andrearaballo_2026_familial_high_risk"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-ipseity-disturbance-and.yml",
+      "_src": "pub_andrearaballo_2026_ipseity_disturbance_and",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_andrearaballo_2026_ipseity_disturbance_and"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-semantic-structure-and.yml",
+      "_src": "pub_andrearaballo_2026_semantic_structure_and",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_andrearaballo_2026_semantic_structure_and"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-spatial-disruptions-and.yml",
+      "_src": "pub_andrearaballo_2026_spatial_disruptions_and",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_andrearaballo_2026_spatial_disruptions_and"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "antoniopreti-2025-early-intervention-in.yml",
+      "_src": "pub_antoniopreti_2025_early_intervention_in",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_antoniopreti_2025_early_intervention_in"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "barurkin-2024-schizophrenia-spectrum-disorder.yml",
+      "_src": "pub_barurkin_2024_schizophrenia_spectrum_disorder",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_barurkin_2024_schizophrenia_spectrum_disorder"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "barurkin-2025-clinical-activity-and.yml",
+      "_src": "pub_barurkin_2025_clinical_activity_and",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_barurkin_2025_clinical_activity_and"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "barurkin-2025-schizophrenia-spectrum-disorder.yml",
+      "_src": "pub_barurkin_2025_schizophrenia_spectrum_disorder",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_barurkin_2025_schizophrenia_spectrum_disorder"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "elenamonducci-2024-psychopathological-charact.yml",
+      "_src": "pub_elenamonducci_2024_psychopathological_charact",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_elenamonducci_2024_psychopathological_charact"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "jianzhongzeng-2025-the-impact-of.yml",
+      "_src": "pub_jianzhongzeng_2025_the_impact_of",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_jianzhongzeng_2025_the_impact_of"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "lorenzopelizza-2024-anhedonia-and-suicidal.yml",
+      "_src": "pub_lorenzopelizza_2024_anhedonia_and_suicidal",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_lorenzopelizza_2024_anhedonia_and_suicidal"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "martinarojnikuzman-2025-schizophrenia-treatme.yml",
+      "_src": "pub_martinarojnikuzman_2025_schizophrenia_treatme",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_martinarojnikuzman_2025_schizophrenia_treatme"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "michelepoletti-2024-clinical-high-risk.yml",
+      "_src": "pub_michelepoletti_2024_clinical_high_risk",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_michelepoletti_2024_clinical_high_risk"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "michelepoletti-2024-ontogenesis-of-self.yml",
+      "_src": "pub_michelepoletti_2024_ontogenesis_of_self",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_michelepoletti_2024_ontogenesis_of_self"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "michelepoletti-2024-schizophrenia-spectrum-di.yml",
+      "_src": "pub_michelepoletti_2024_schizophrenia_spectrum_di",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_michelepoletti_2024_schizophrenia_spectrum_di"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "michelepoletti-2025-developmental-perspective.yml",
+      "_src": "pub_michelepoletti_2025_developmental_perspective",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_michelepoletti_2025_developmental_perspective"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "michelepoletti-2026-altered-mirroring-and.yml",
+      "_src": "pub_michelepoletti_2026_altered_mirroring_and",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_michelepoletti_2026_altered_mirroring_and"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "michelepoletti-2026-developmental-high-risk.yml",
+      "_src": "pub_michelepoletti_2026_developmental_high_risk",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_michelepoletti_2026_developmental_high_risk"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "michelepoletti-2026-duration-of-active.yml",
+      "_src": "pub_michelepoletti_2026_duration_of_active",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_michelepoletti_2026_duration_of_active"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "neeltjevanharen-2026-how-can-research.yml",
+      "_src": "pub_neeltjevanharen_2026_how_can_research",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_neeltjevanharen_2026_how_can_research"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "raballo-2025-pcn.yml",
+      "_src": "pub_raballo_2025_pcn",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_raballo_2025_pcn"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "tijanatomic-2024-psychopathology-and-nrem.yml",
+      "_src": "pub_tijanatomic_2024_psychopathology_and_nrem",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_tijanatomic_2024_psychopathology_and_nrem"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "yuqinggao-2024-nutritional-interventions-for.yml",
+      "_src": "pub_yuqinggao_2024_nutritional_interventions_for",
+      "_tgt": "concept_schizophrenia_spectrum",
+      "source": "concept_schizophrenia_spectrum",
+      "target": "pub_yuqinggao_2024_nutritional_interventions_for"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2024-alterations-of-speech.yml",
+      "_src": "pub_andrearaballo_2024_alterations_of_speech",
+      "_tgt": "concept_clinical_phenomenology",
+      "source": "concept_clinical_phenomenology",
+      "target": "pub_andrearaballo_2024_alterations_of_speech"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2024-l-espace-v.yml",
+      "_src": "pub_andrearaballo_2024_l_espace_v",
+      "_tgt": "concept_clinical_phenomenology",
+      "source": "concept_clinical_phenomenology",
+      "target": "pub_andrearaballo_2024_l_espace_v"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-schizophrenia-consciousnes.yml",
+      "_src": "pub_andrearaballo_2025_schizophrenia_consciousnes",
+      "_tgt": "concept_clinical_phenomenology",
+      "source": "concept_clinical_phenomenology",
+      "target": "pub_andrearaballo_2025_schizophrenia_consciousnes"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-ipseity-disturbance-and.yml",
+      "_src": "pub_andrearaballo_2026_ipseity_disturbance_and",
+      "_tgt": "concept_clinical_phenomenology",
+      "source": "concept_clinical_phenomenology",
+      "target": "pub_andrearaballo_2026_ipseity_disturbance_and"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-spatial-disruptions-and.yml",
+      "_src": "pub_andrearaballo_2026_spatial_disruptions_and",
+      "_tgt": "concept_clinical_phenomenology",
+      "source": "concept_clinical_phenomenology",
+      "target": "pub_andrearaballo_2026_spatial_disruptions_and"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "elenamonducci-2024-psychopathological-charact.yml",
+      "_src": "pub_elenamonducci_2024_psychopathological_charact",
+      "_tgt": "concept_clinical_phenomenology",
+      "source": "concept_clinical_phenomenology",
+      "target": "pub_elenamonducci_2024_psychopathological_charact"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "lorenzopelizza-2024-anhedonia-and-suicidal.yml",
+      "_src": "pub_lorenzopelizza_2024_anhedonia_and_suicidal",
+      "_tgt": "concept_clinical_phenomenology",
+      "source": "concept_clinical_phenomenology",
+      "target": "pub_lorenzopelizza_2024_anhedonia_and_suicidal"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "lucagiorgini-2025-collective-analysis-a.yml",
+      "_src": "pub_lucagiorgini_2025_collective_analysis_a",
+      "_tgt": "concept_clinical_phenomenology",
+      "source": "concept_clinical_phenomenology",
+      "target": "pub_lucagiorgini_2025_collective_analysis_a"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "michelepoletti-2024-ontogenesis-of-self.yml",
+      "_src": "pub_michelepoletti_2024_ontogenesis_of_self",
+      "_tgt": "concept_clinical_phenomenology",
+      "source": "concept_clinical_phenomenology",
+      "target": "pub_michelepoletti_2024_ontogenesis_of_self"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "michelepoletti-2024-schizophrenia-spectrum-di.yml",
+      "_src": "pub_michelepoletti_2024_schizophrenia_spectrum_di",
+      "_tgt": "concept_clinical_phenomenology",
+      "source": "concept_clinical_phenomenology",
+      "target": "pub_michelepoletti_2024_schizophrenia_spectrum_di"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "michelepoletti-2026-altered-mirroring-and.yml",
+      "_src": "pub_michelepoletti_2026_altered_mirroring_and",
+      "_tgt": "concept_clinical_phenomenology",
+      "source": "concept_clinical_phenomenology",
+      "target": "pub_michelepoletti_2026_altered_mirroring_and"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2024-baseline-antipsychotic-dos.yml",
+      "_src": "pub_andrearaballo_2024_baseline_antipsychotic_dos",
+      "_tgt": "concept_chr_p_early_detection",
+      "source": "concept_chr_p_early_detection",
+      "target": "pub_andrearaballo_2024_baseline_antipsychotic_dos"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2024-early-detection-and.yml",
+      "_src": "pub_andrearaballo_2024_early_detection_and",
+      "_tgt": "concept_chr_p_early_detection",
+      "source": "concept_chr_p_early_detection",
+      "target": "pub_andrearaballo_2024_early_detection_and"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2024-enigma-brain-morphometry.yml",
+      "_src": "pub_andrearaballo_2024_enigma_brain_morphometry",
+      "_tgt": "concept_chr_p_early_detection",
+      "source": "concept_chr_p_early_detection",
+      "target": "pub_andrearaballo_2024_enigma_brain_morphometry"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2024-psychs-bridging-positive.yml",
+      "_src": "pub_andrearaballo_2024_psychs_bridging_positive",
+      "_tgt": "concept_chr_p_early_detection",
+      "source": "concept_chr_p_early_detection",
+      "target": "pub_andrearaballo_2024_psychs_bridging_positive"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-connecting-the-empirical.yml",
+      "_src": "pub_andrearaballo_2025_connecting_the_empirical",
+      "_tgt": "concept_chr_p_early_detection",
+      "source": "concept_chr_p_early_detection",
+      "target": "pub_andrearaballo_2025_connecting_the_empirical"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-increasing-conceptual-clar.yml",
+      "_src": "pub_andrearaballo_2025_increasing_conceptual_clar",
+      "_tgt": "concept_chr_p_early_detection",
+      "source": "concept_chr_p_early_detection",
+      "target": "pub_andrearaballo_2025_increasing_conceptual_clar"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-lack-of-transparency.yml",
+      "_src": "pub_andrearaballo_2025_lack_of_transparency",
+      "_tgt": "concept_chr_p_early_detection",
+      "source": "concept_chr_p_early_detection",
+      "target": "pub_andrearaballo_2025_lack_of_transparency"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-premorbid-developmental-an.yml",
+      "_src": "pub_andrearaballo_2025_premorbid_developmental_an",
+      "_tgt": "concept_chr_p_early_detection",
+      "source": "concept_chr_p_early_detection",
+      "target": "pub_andrearaballo_2025_premorbid_developmental_an"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-transient-pre-baseline.yml",
+      "_src": "pub_andrearaballo_2025_transient_pre_baseline",
+      "_tgt": "concept_chr_p_early_detection",
+      "source": "concept_chr_p_early_detection",
+      "target": "pub_andrearaballo_2025_transient_pre_baseline"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-clinical-high-risk-1.yml",
+      "_src": "pub_andrearaballo_2026_clinical_high_risk_1",
+      "_tgt": "concept_chr_p_early_detection",
+      "source": "concept_chr_p_early_detection",
+      "target": "pub_andrearaballo_2026_clinical_high_risk_1"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-clinical-high-risk.yml",
+      "_src": "pub_andrearaballo_2026_clinical_high_risk",
+      "_tgt": "concept_chr_p_early_detection",
+      "source": "concept_chr_p_early_detection",
+      "target": "pub_andrearaballo_2026_clinical_high_risk"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-discriminative-validity-of.yml",
+      "_src": "pub_andrearaballo_2026_discriminative_validity_of",
+      "_tgt": "concept_chr_p_early_detection",
+      "source": "concept_chr_p_early_detection",
+      "target": "pub_andrearaballo_2026_discriminative_validity_of"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-familial-high-risk.yml",
+      "_src": "pub_andrearaballo_2026_familial_high_risk",
+      "_tgt": "concept_chr_p_early_detection",
+      "source": "concept_chr_p_early_detection",
+      "target": "pub_andrearaballo_2026_familial_high_risk"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "elenamonducci-2024-psychopathological-charact.yml",
+      "_src": "pub_elenamonducci_2024_psychopathological_charact",
+      "_tgt": "concept_chr_p_early_detection",
+      "source": "concept_chr_p_early_detection",
+      "target": "pub_elenamonducci_2024_psychopathological_charact"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "janscott-2024-staging-2-0.yml",
+      "_src": "pub_janscott_2024_staging_2_0",
+      "_tgt": "concept_chr_p_early_detection",
+      "source": "concept_chr_p_early_detection",
+      "target": "pub_janscott_2024_staging_2_0"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "jianzhongzeng-2025-the-impact-of.yml",
+      "_src": "pub_jianzhongzeng_2025_the_impact_of",
+      "_tgt": "concept_chr_p_early_detection",
+      "source": "concept_chr_p_early_detection",
+      "target": "pub_jianzhongzeng_2025_the_impact_of"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "michelepoletti-2024-clinical-high-risk.yml",
+      "_src": "pub_michelepoletti_2024_clinical_high_risk",
+      "_tgt": "concept_chr_p_early_detection",
+      "source": "concept_chr_p_early_detection",
+      "target": "pub_michelepoletti_2024_clinical_high_risk"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "michelepoletti-2026-developmental-high-risk.yml",
+      "_src": "pub_michelepoletti_2026_developmental_high_risk",
+      "_tgt": "concept_chr_p_early_detection",
+      "source": "concept_chr_p_early_detection",
+      "target": "pub_michelepoletti_2026_developmental_high_risk"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "michelepoletti-2026-duration-of-active.yml",
+      "_src": "pub_michelepoletti_2026_duration_of_active",
+      "_tgt": "concept_chr_p_early_detection",
+      "source": "concept_chr_p_early_detection",
+      "target": "pub_michelepoletti_2026_duration_of_active"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2024-dynastic-social-processes.yml",
+      "_src": "pub_andrearaballo_2024_dynastic_social_processes",
+      "_tgt": "concept_child_adolescent_psychiatry",
+      "source": "concept_child_adolescent_psychiatry",
+      "target": "pub_andrearaballo_2024_dynastic_social_processes"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2024-early-detection-and.yml",
+      "_src": "pub_andrearaballo_2024_early_detection_and",
+      "_tgt": "concept_child_adolescent_psychiatry",
+      "source": "concept_child_adolescent_psychiatry",
+      "target": "pub_andrearaballo_2024_early_detection_and"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-premorbid-developmental-an.yml",
+      "_src": "pub_andrearaballo_2025_premorbid_developmental_an",
+      "_tgt": "concept_child_adolescent_psychiatry",
+      "source": "concept_child_adolescent_psychiatry",
+      "target": "pub_andrearaballo_2025_premorbid_developmental_an"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-prevalence-and-risk.yml",
+      "_src": "pub_andrearaballo_2025_prevalence_and_risk",
+      "_tgt": "concept_child_adolescent_psychiatry",
+      "source": "concept_child_adolescent_psychiatry",
+      "target": "pub_andrearaballo_2025_prevalence_and_risk"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-clinical-high-risk-1.yml",
+      "_src": "pub_andrearaballo_2026_clinical_high_risk_1",
+      "_tgt": "concept_child_adolescent_psychiatry",
+      "source": "concept_child_adolescent_psychiatry",
+      "target": "pub_andrearaballo_2026_clinical_high_risk_1"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-clinical-high-risk.yml",
+      "_src": "pub_andrearaballo_2026_clinical_high_risk",
+      "_tgt": "concept_child_adolescent_psychiatry",
+      "source": "concept_child_adolescent_psychiatry",
+      "target": "pub_andrearaballo_2026_clinical_high_risk"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-rethinking-the-p.yml",
+      "_src": "pub_andrearaballo_2026_rethinking_the_p",
+      "_tgt": "concept_child_adolescent_psychiatry",
+      "source": "concept_child_adolescent_psychiatry",
+      "target": "pub_andrearaballo_2026_rethinking_the_p"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "elenamonducci-2024-psychopathological-charact.yml",
+      "_src": "pub_elenamonducci_2024_psychopathological_charact",
+      "_tgt": "concept_child_adolescent_psychiatry",
+      "source": "concept_child_adolescent_psychiatry",
+      "target": "pub_elenamonducci_2024_psychopathological_charact"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "giovannidegirolamo-2024-multilingualism-and-i.yml",
+      "_src": "pub_giovannidegirolamo_2024_multilingualism_and_i",
+      "_tgt": "concept_child_adolescent_psychiatry",
+      "source": "concept_child_adolescent_psychiatry",
+      "target": "pub_giovannidegirolamo_2024_multilingualism_and_i"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "janscott-2024-staging-2-0.yml",
+      "_src": "pub_janscott_2024_staging_2_0",
+      "_tgt": "concept_child_adolescent_psychiatry",
+      "source": "concept_child_adolescent_psychiatry",
+      "target": "pub_janscott_2024_staging_2_0"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "larswichstrm-2025-childhood-predictors-of.yml",
+      "_src": "pub_larswichstrm_2025_childhood_predictors_of",
+      "_tgt": "concept_child_adolescent_psychiatry",
+      "source": "concept_child_adolescent_psychiatry",
+      "target": "pub_larswichstrm_2025_childhood_predictors_of"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "lisanneaemvanhoutum-2024-running-in-the.yml",
+      "_src": "pub_lisanneaemvanhoutum_2024_running_in_the",
+      "_tgt": "concept_child_adolescent_psychiatry",
+      "source": "concept_child_adolescent_psychiatry",
+      "target": "pub_lisanneaemvanhoutum_2024_running_in_the"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "lorenzopelizza-2024-anhedonia-and-suicidal.yml",
+      "_src": "pub_lorenzopelizza_2024_anhedonia_and_suicidal",
+      "_tgt": "concept_child_adolescent_psychiatry",
+      "source": "concept_child_adolescent_psychiatry",
+      "target": "pub_lorenzopelizza_2024_anhedonia_and_suicidal"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "michelepoletti-2024-schizophrenia-spectrum-di.yml",
+      "_src": "pub_michelepoletti_2024_schizophrenia_spectrum_di",
+      "_tgt": "concept_child_adolescent_psychiatry",
+      "source": "concept_child_adolescent_psychiatry",
+      "target": "pub_michelepoletti_2024_schizophrenia_spectrum_di"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "michelepoletti-2025-debate-are-we.yml",
+      "_src": "pub_michelepoletti_2025_debate_are_we",
+      "_tgt": "concept_child_adolescent_psychiatry",
+      "source": "concept_child_adolescent_psychiatry",
+      "target": "pub_michelepoletti_2025_debate_are_we"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "michelepoletti-2025-editorial-perspective-iss.yml",
+      "_src": "pub_michelepoletti_2025_editorial_perspective_iss",
+      "_tgt": "concept_child_adolescent_psychiatry",
+      "source": "concept_child_adolescent_psychiatry",
+      "target": "pub_michelepoletti_2025_editorial_perspective_iss"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "michelepoletti-2026-developmental-high-risk.yml",
+      "_src": "pub_michelepoletti_2026_developmental_high_risk",
+      "_tgt": "concept_child_adolescent_psychiatry",
+      "source": "concept_child_adolescent_psychiatry",
+      "target": "pub_michelepoletti_2026_developmental_high_risk"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "neeltjevanharen-2026-how-can-research.yml",
+      "_src": "pub_neeltjevanharen_2026_how_can_research",
+      "_tgt": "concept_child_adolescent_psychiatry",
+      "source": "concept_child_adolescent_psychiatry",
+      "target": "pub_neeltjevanharen_2026_how_can_research"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "ninakarguth-2024-understanding-and-predicting.yml",
+      "_src": "pub_ninakarguth_2024_understanding_and_predicting",
+      "_tgt": "concept_child_adolescent_psychiatry",
+      "source": "concept_child_adolescent_psychiatry",
+      "target": "pub_ninakarguth_2024_understanding_and_predicting"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "valeriozaccaria-2024-multiple-complex-develop.yml",
+      "_src": "pub_valeriozaccaria_2024_multiple_complex_develop",
+      "_tgt": "concept_child_adolescent_psychiatry",
+      "source": "concept_child_adolescent_psychiatry",
+      "target": "pub_valeriozaccaria_2024_multiple_complex_develop"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2024-enigma-brain-morphometry.yml",
+      "_src": "pub_andrearaballo_2024_enigma_brain_morphometry",
+      "_tgt": "concept_neuroimaging_morphometry",
+      "source": "concept_neuroimaging_morphometry",
+      "target": "pub_andrearaballo_2024_enigma_brain_morphometry"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-increasing-conceptual-clar.yml",
+      "_src": "pub_andrearaballo_2025_increasing_conceptual_clar",
+      "_tgt": "concept_neuroimaging_morphometry",
+      "source": "concept_neuroimaging_morphometry",
+      "target": "pub_andrearaballo_2025_increasing_conceptual_clar"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-cortical-thickness-and.yml",
+      "_src": "pub_andrearaballo_2026_cortical_thickness_and",
+      "_tgt": "concept_neuroimaging_morphometry",
+      "source": "concept_neuroimaging_morphometry",
+      "target": "pub_andrearaballo_2026_cortical_thickness_and"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2024-baseline-antipsychotic-dos.yml",
+      "_src": "pub_andrearaballo_2024_baseline_antipsychotic_dos",
+      "_tgt": "concept_psychopharmacology_interventions",
+      "source": "concept_psychopharmacology_interventions",
+      "target": "pub_andrearaballo_2024_baseline_antipsychotic_dos"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2024-enigma-brain-morphometry.yml",
+      "_src": "pub_andrearaballo_2024_enigma_brain_morphometry",
+      "_tgt": "concept_psychopharmacology_interventions",
+      "source": "concept_psychopharmacology_interventions",
+      "target": "pub_andrearaballo_2024_enigma_brain_morphometry"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-connecting-the-empirical.yml",
+      "_src": "pub_andrearaballo_2025_connecting_the_empirical",
+      "_tgt": "concept_psychopharmacology_interventions",
+      "source": "concept_psychopharmacology_interventions",
+      "target": "pub_andrearaballo_2025_connecting_the_empirical"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-lack-of-transparency.yml",
+      "_src": "pub_andrearaballo_2025_lack_of_transparency",
+      "_tgt": "concept_psychopharmacology_interventions",
+      "source": "concept_psychopharmacology_interventions",
+      "target": "pub_andrearaballo_2025_lack_of_transparency"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-transient-pre-baseline.yml",
+      "_src": "pub_andrearaballo_2025_transient_pre_baseline",
+      "_tgt": "concept_psychopharmacology_interventions",
+      "source": "concept_psychopharmacology_interventions",
+      "target": "pub_andrearaballo_2025_transient_pre_baseline"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-antidepressants-and-psycho.yml",
+      "_src": "pub_andrearaballo_2026_antidepressants_and_psycho",
+      "_tgt": "concept_psychopharmacology_interventions",
+      "source": "concept_psychopharmacology_interventions",
+      "target": "pub_andrearaballo_2026_antidepressants_and_psycho"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-clinical-high-risk-1.yml",
+      "_src": "pub_andrearaballo_2026_clinical_high_risk_1",
+      "_tgt": "concept_psychopharmacology_interventions",
+      "source": "concept_psychopharmacology_interventions",
+      "target": "pub_andrearaballo_2026_clinical_high_risk_1"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "jianzhongzeng-2025-the-impact-of.yml",
+      "_src": "pub_jianzhongzeng_2025_the_impact_of",
+      "_tgt": "concept_psychopharmacology_interventions",
+      "source": "concept_psychopharmacology_interventions",
+      "target": "pub_jianzhongzeng_2025_the_impact_of"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "martinarojnikuzman-2025-schizophrenia-treatme.yml",
+      "_src": "pub_martinarojnikuzman_2025_schizophrenia_treatme",
+      "_tgt": "concept_psychopharmacology_interventions",
+      "source": "concept_psychopharmacology_interventions",
+      "target": "pub_martinarojnikuzman_2025_schizophrenia_treatme"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "michelepoletti-2024-clinical-high-risk.yml",
+      "_src": "pub_michelepoletti_2024_clinical_high_risk",
+      "_tgt": "concept_psychopharmacology_interventions",
+      "source": "concept_psychopharmacology_interventions",
+      "target": "pub_michelepoletti_2024_clinical_high_risk"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "yuqinggao-2024-nutritional-interventions-for.yml",
+      "_src": "pub_yuqinggao_2024_nutritional_interventions_for",
+      "_tgt": "concept_psychopharmacology_interventions",
+      "source": "concept_psychopharmacology_interventions",
+      "target": "pub_yuqinggao_2024_nutritional_interventions_for"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "alessandrodegrandi-2025-the-emotional-spectru.yml",
+      "_src": "pub_alessandrodegrandi_2025_the_emotional_spectru",
+      "_tgt": "concept_llms_nlp_mental_health",
+      "source": "concept_llms_nlp_mental_health",
+      "target": "pub_alessandrodegrandi_2025_the_emotional_spectru"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-increasing-conceptual-clar.yml",
+      "_src": "pub_andrearaballo_2025_increasing_conceptual_clar",
+      "_tgt": "concept_llms_nlp_mental_health",
+      "source": "concept_llms_nlp_mental_health",
+      "target": "pub_andrearaballo_2025_increasing_conceptual_clar"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-semantic-structure-and.yml",
+      "_src": "pub_andrearaballo_2026_semantic_structure_and",
+      "_tgt": "concept_llms_nlp_mental_health",
+      "source": "concept_llms_nlp_mental_health",
+      "target": "pub_andrearaballo_2026_semantic_structure_and"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "federicoravenda-2025-are-llms-effective.yml",
+      "_src": "pub_federicoravenda_2025_are_llms_effective",
+      "_tgt": "concept_llms_nlp_mental_health",
+      "source": "concept_llms_nlp_mental_health",
+      "target": "pub_federicoravenda_2025_are_llms_effective"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "raballo-2025-pcn.yml",
+      "_src": "pub_raballo_2025_pcn",
+      "_tgt": "concept_llms_nlp_mental_health",
+      "source": "concept_llms_nlp_mental_health",
+      "target": "pub_raballo_2025_pcn"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "ravenda-2025-acl.yml",
+      "_src": "pub_ravenda_2025_acl",
+      "_tgt": "concept_llms_nlp_mental_health",
+      "source": "concept_llms_nlp_mental_health",
+      "target": "pub_ravenda_2025_acl"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "ravenda-2025-plos.yml",
+      "_src": "pub_ravenda_2025_plos",
+      "_tgt": "concept_llms_nlp_mental_health",
+      "source": "concept_llms_nlp_mental_health",
+      "target": "pub_ravenda_2025_plos"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "ravenda-2025-sac.yml",
+      "_src": "pub_ravenda_2025_sac",
+      "_tgt": "concept_llms_nlp_mental_health",
+      "source": "concept_llms_nlp_mental_health",
+      "target": "pub_ravenda_2025_sac"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "ravenda-2025-scirep.yml",
+      "_src": "pub_ravenda_2025_scirep",
+      "_tgt": "concept_llms_nlp_mental_health",
+      "source": "concept_llms_nlp_mental_health",
+      "target": "pub_ravenda_2025_scirep"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "ravenda-2026-acl1.yml",
+      "_src": "pub_ravenda_2026_acl1",
+      "_tgt": "concept_llms_nlp_mental_health",
+      "source": "concept_llms_nlp_mental_health",
+      "target": "pub_ravenda_2026_acl1"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "ravenda-2026-clpsych.yml",
+      "_src": "pub_ravenda_2026_clpsych",
+      "_tgt": "concept_llms_nlp_mental_health",
+      "source": "concept_llms_nlp_mental_health",
+      "target": "pub_ravenda_2026_clpsych"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "ravenda-2026-sac.yml",
+      "_src": "pub_ravenda_2026_sac",
+      "_tgt": "concept_llms_nlp_mental_health",
+      "source": "concept_llms_nlp_mental_health",
+      "target": "pub_ravenda_2026_sac"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "vallisa-2026-grammar.yml",
+      "_src": "pub_vallisa_2026_grammar",
+      "_tgt": "concept_llms_nlp_mental_health",
+      "source": "concept_llms_nlp_mental_health",
+      "target": "pub_vallisa_2026_grammar"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-semantic-structure-and.yml",
+      "_src": "pub_andrearaballo_2026_semantic_structure_and",
+      "_tgt": "concept_computational_psychometrics",
+      "source": "concept_computational_psychometrics",
+      "target": "pub_andrearaballo_2026_semantic_structure_and"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "federicoravenda-2025-are-llms-effective.yml",
+      "_src": "pub_federicoravenda_2025_are_llms_effective",
+      "_tgt": "concept_computational_psychometrics",
+      "source": "concept_computational_psychometrics",
+      "target": "pub_federicoravenda_2025_are_llms_effective"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "patrickdmcgorry-2025-new-diagnosis-in.yml",
+      "_src": "pub_patrickdmcgorry_2025_new_diagnosis_in",
+      "_tgt": "concept_computational_psychometrics",
+      "source": "concept_computational_psychometrics",
+      "target": "pub_patrickdmcgorry_2025_new_diagnosis_in"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "ravenda-2024-jiis.yml",
+      "_src": "pub_ravenda_2024_jiis",
+      "_tgt": "concept_computational_psychometrics",
+      "source": "concept_computational_psychometrics",
+      "target": "pub_ravenda_2024_jiis"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "ravenda-2025-acl.yml",
+      "_src": "pub_ravenda_2025_acl",
+      "_tgt": "concept_computational_psychometrics",
+      "source": "concept_computational_psychometrics",
+      "target": "pub_ravenda_2025_acl"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "ravenda-2025-clpsych.yml",
+      "_src": "pub_ravenda_2025_clpsych",
+      "_tgt": "concept_computational_psychometrics",
+      "source": "concept_computational_psychometrics",
+      "target": "pub_ravenda_2025_clpsych"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "ravenda-2025-plos.yml",
+      "_src": "pub_ravenda_2025_plos",
+      "_tgt": "concept_computational_psychometrics",
+      "source": "concept_computational_psychometrics",
+      "target": "pub_ravenda_2025_plos"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "ravenda-2025-sac.yml",
+      "_src": "pub_ravenda_2025_sac",
+      "_tgt": "concept_computational_psychometrics",
+      "source": "concept_computational_psychometrics",
+      "target": "pub_ravenda_2025_sac"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "ravenda-2025-scirep.yml",
+      "_src": "pub_ravenda_2025_scirep",
+      "_tgt": "concept_computational_psychometrics",
+      "source": "concept_computational_psychometrics",
+      "target": "pub_ravenda_2025_scirep"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "ravenda-2026-acl1.yml",
+      "_src": "pub_ravenda_2026_acl1",
+      "_tgt": "concept_computational_psychometrics",
+      "source": "concept_computational_psychometrics",
+      "target": "pub_ravenda_2026_acl1"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "ravenda-2026-acl2.yml",
+      "_src": "pub_ravenda_2026_acl2",
+      "_tgt": "concept_computational_psychometrics",
+      "source": "concept_computational_psychometrics",
+      "target": "pub_ravenda_2026_acl2"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "ravenda-2026-clpsych.yml",
+      "_src": "pub_ravenda_2026_clpsych",
+      "_tgt": "concept_computational_psychometrics",
+      "source": "concept_computational_psychometrics",
+      "target": "pub_ravenda_2026_clpsych"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "ravenda-2026-sac.yml",
+      "_src": "pub_ravenda_2026_sac",
+      "_tgt": "concept_computational_psychometrics",
+      "source": "concept_computational_psychometrics",
+      "target": "pub_ravenda_2026_sac"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "agresti-2026-foundations-of-bayesian.yml",
+      "_src": "pub_agresti_2026_foundations_of_bayesian",
+      "_tgt": "concept_bayesian_statistics_mcmc",
+      "source": "concept_bayesian_statistics_mcmc",
+      "target": "pub_agresti_2026_foundations_of_bayesian"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "antoniodinoia-2025-likelihood-distortion-and.yml",
+      "_src": "pub_antoniodinoia_2025_likelihood_distortion_and",
+      "_tgt": "concept_bayesian_statistics_mcmc",
+      "source": "concept_bayesian_statistics_mcmc",
+      "target": "pub_antoniodinoia_2025_likelihood_distortion_and"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "carloalbert-2025-a-thermodynamic-approach.yml",
+      "_src": "pub_carloalbert_2025_a_thermodynamic_approach",
+      "_tgt": "concept_bayesian_statistics_mcmc",
+      "source": "concept_bayesian_statistics_mcmc",
+      "target": "pub_carloalbert_2025_a_thermodynamic_approach"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "davidjwarne-2026-bayesian-uncertainty-quantif.yml",
+      "_src": "pub_davidjwarne_2026_bayesian_uncertainty_quantif",
+      "_tgt": "concept_bayesian_statistics_mcmc",
+      "source": "concept_bayesian_statistics_mcmc",
+      "target": "pub_davidjwarne_2026_bayesian_uncertainty_quantif"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "luizapiancastelli-2024-bayesian-clustering-of.yml",
+      "_src": "pub_luizapiancastelli_2024_bayesian_clustering_of",
+      "_tgt": "concept_bayesian_statistics_mcmc",
+      "source": "concept_bayesian_statistics_mcmc",
+      "target": "pub_luizapiancastelli_2024_bayesian_clustering_of"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "simondirmeier-2024-simulation-based-inference.yml",
+      "_src": "pub_simondirmeier_2024_simulation_based_inference",
+      "_tgt": "concept_bayesian_statistics_mcmc",
+      "source": "concept_bayesian_statistics_mcmc",
+      "target": "pub_simondirmeier_2024_simulation_based_inference"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "simondirmeier-2025-causal-posterior-estimatio.yml",
+      "_src": "pub_simondirmeier_2025_causal_posterior_estimatio",
+      "_tgt": "concept_bayesian_statistics_mcmc",
+      "source": "concept_bayesian_statistics_mcmc",
+      "target": "pub_simondirmeier_2025_causal_posterior_estimatio"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "weizhang-2024-bayesian-dynamic-generalized.yml",
+      "_src": "pub_weizhang_2024_bayesian_dynamic_generalized",
+      "_tgt": "concept_bayesian_statistics_mcmc",
+      "source": "concept_bayesian_statistics_mcmc",
+      "target": "pub_weizhang_2024_bayesian_dynamic_generalized"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "weizhang-2024-bayesian-poisson-regression.yml",
+      "_src": "pub_weizhang_2024_bayesian_poisson_regression",
+      "_tgt": "concept_bayesian_statistics_mcmc",
+      "source": "concept_bayesian_statistics_mcmc",
+      "target": "pub_weizhang_2024_bayesian_poisson_regression"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "conorhassan-2024-federated-learning-for.yml",
+      "_src": "pub_conorhassan_2024_federated_learning_for",
+      "_tgt": "concept_federated_learning_priors",
+      "source": "concept_federated_learning_priors",
+      "target": "pub_conorhassan_2024_federated_learning_for"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "conorhassan-2024-scalable-vertical-federated.yml",
+      "_src": "pub_conorhassan_2024_scalable_vertical_federated",
+      "_tgt": "concept_federated_learning_priors",
+      "source": "concept_federated_learning_priors",
+      "target": "pub_conorhassan_2024_scalable_vertical_federated"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "abassi-2024-learning-catchment-features.yml",
+      "_src": "pub_abassi_2024_learning_catchment_features",
+      "_tgt": "concept_clustering_dimension_reduction",
+      "source": "concept_clustering_dimension_reduction",
+      "target": "pub_abassi_2024_learning_catchment_features"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "abassi-2024-learning-landscape-features.yml",
+      "_src": "pub_abassi_2024_learning_landscape_features",
+      "_tgt": "concept_clustering_dimension_reduction",
+      "source": "concept_clustering_dimension_reduction",
+      "target": "pub_abassi_2024_learning_landscape_features"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "antoniodinoia-2026-a-general-framework.yml",
+      "_src": "pub_antoniodinoia_2026_a_general_framework",
+      "_tgt": "concept_clustering_dimension_reduction",
+      "source": "concept_clustering_dimension_reduction",
+      "target": "pub_antoniodinoia_2026_a_general_framework"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "antoniodinoia-2026-scale-adaptive-and.yml",
+      "_src": "pub_antoniodinoia_2026_scale_adaptive_and",
+      "_tgt": "concept_clustering_dimension_reduction",
+      "source": "concept_clustering_dimension_reduction",
+      "target": "pub_antoniodinoia_2026_scale_adaptive_and"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "cristianosalvagnin-2025-non-parametric-causal.yml",
+      "_src": "pub_cristianosalvagnin_2025_non_parametric_causal",
+      "_tgt": "concept_clustering_dimension_reduction",
+      "source": "concept_clustering_dimension_reduction",
+      "target": "pub_cristianosalvagnin_2025_non_parametric_causal"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "elenaballante-2025-a-fully-rank.yml",
+      "_src": "pub_elenaballante_2025_a_fully_rank",
+      "_tgt": "concept_clustering_dimension_reduction",
+      "source": "concept_clustering_dimension_reduction",
+      "target": "pub_elenaballante_2025_a_fully_rank"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "elenaballante-2025-non-parametric-similarity.yml",
+      "_src": "pub_elenaballante_2025_non_parametric_similarity",
+      "_tgt": "concept_clustering_dimension_reduction",
+      "source": "concept_clustering_dimension_reduction",
+      "target": "pub_elenaballante_2025_non_parametric_similarity"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "iurimacocco-2024-intrinsic-dimension-as.yml",
+      "_src": "pub_iurimacocco_2024_intrinsic_dimension_as",
+      "_tgt": "concept_clustering_dimension_reduction",
+      "source": "concept_clustering_dimension_reduction",
+      "target": "pub_iurimacocco_2024_intrinsic_dimension_as"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "luizapiancastelli-2024-bayesian-clustering-of.yml",
+      "_src": "pub_luizapiancastelli_2024_bayesian_clustering_of",
+      "_tgt": "concept_clustering_dimension_reduction",
+      "source": "concept_clustering_dimension_reduction",
+      "target": "pub_luizapiancastelli_2024_bayesian_clustering_of"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "ravenda-2024-jiis.yml",
+      "_src": "pub_ravenda_2024_jiis",
+      "_tgt": "concept_clustering_dimension_reduction",
+      "source": "concept_clustering_dimension_reduction",
+      "target": "pub_ravenda_2024_jiis"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "vallisa-2026-grammar.yml",
+      "_src": "pub_vallisa_2026_grammar",
+      "_tgt": "concept_clustering_dimension_reduction",
+      "source": "concept_clustering_dimension_reduction",
+      "target": "pub_vallisa_2026_grammar"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "angeloauricchio-2024-spatio-temporal-distribu.yml",
+      "_src": "pub_angeloauricchio_2024_spatio_temporal_distribu",
+      "_tgt": "concept_epidemiological_spatiotemporal",
+      "source": "concept_epidemiological_spatiotemporal",
+      "target": "pub_angeloauricchio_2024_spatio_temporal_distribu"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "davidjwarne-2026-bayesian-uncertainty-quantif.yml",
+      "_src": "pub_davidjwarne_2026_bayesian_uncertainty_quantif",
+      "_tgt": "concept_epidemiological_spatiotemporal",
+      "source": "concept_epidemiological_spatiotemporal",
+      "target": "pub_davidjwarne_2026_bayesian_uncertainty_quantif"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "federicoravenda-2024-a-probabilistic-spatio.yml",
+      "_src": "pub_federicoravenda_2024_a_probabilistic_spatio",
+      "_tgt": "concept_epidemiological_spatiotemporal",
+      "source": "concept_epidemiological_spatiotemporal",
+      "target": "pub_federicoravenda_2024_a_probabilistic_spatio"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "marcopaganuzzi-2024-assessing-the-heterogenei.yml",
+      "_src": "pub_marcopaganuzzi_2024_assessing_the_heterogenei",
+      "_tgt": "concept_epidemiological_spatiotemporal",
+      "source": "concept_epidemiological_spatiotemporal",
+      "target": "pub_marcopaganuzzi_2024_assessing_the_heterogenei"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "weizhang-2024-bayesian-dynamic-generalized.yml",
+      "_src": "pub_weizhang_2024_bayesian_dynamic_generalized",
+      "_tgt": "concept_epidemiological_spatiotemporal",
+      "source": "concept_epidemiological_spatiotemporal",
+      "target": "pub_weizhang_2024_bayesian_dynamic_generalized"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "weizhang-2024-bayesian-poisson-regression.yml",
+      "_src": "pub_weizhang_2024_bayesian_poisson_regression",
+      "_tgt": "concept_epidemiological_spatiotemporal",
+      "source": "concept_epidemiological_spatiotemporal",
+      "target": "pub_weizhang_2024_bayesian_poisson_regression"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "cristianosalvagnin-2024-investigating-the-pri.yml",
+      "_src": "pub_cristianosalvagnin_2024_investigating_the_pri",
+      "_tgt": "concept_networks_survey_statistics",
+      "source": "concept_networks_survey_statistics",
+      "target": "pub_cristianosalvagnin_2024_investigating_the_pri"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "cristianosalvagnin-2025-non-parametric-causal.yml",
+      "_src": "pub_cristianosalvagnin_2025_non_parametric_causal",
+      "_tgt": "concept_networks_survey_statistics",
+      "source": "concept_networks_survey_statistics",
+      "target": "pub_cristianosalvagnin_2025_non_parametric_causal"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "francescobartolucci-2024-marginal-models-with.yml",
+      "_src": "pub_francescobartolucci_2024_marginal_models_with",
+      "_tgt": "concept_networks_survey_statistics",
+      "source": "concept_networks_survey_statistics",
+      "target": "pub_francescobartolucci_2024_marginal_models_with"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "iurimacocco-2024-intrinsic-dimension-as.yml",
+      "_src": "pub_iurimacocco_2024_intrinsic_dimension_as",
+      "_tgt": "concept_networks_survey_statistics",
+      "source": "concept_networks_survey_statistics",
+      "target": "pub_iurimacocco_2024_intrinsic_dimension_as"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "mariagiovannaranalli-2025-when-non-response.yml",
+      "_src": "pub_mariagiovannaranalli_2025_when_non_response",
+      "_tgt": "concept_networks_survey_statistics",
+      "source": "concept_networks_survey_statistics",
+      "target": "pub_mariagiovannaranalli_2025_when_non_response"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "ziqingdong-2025-constructing-simultaneous-con.yml",
+      "_src": "pub_ziqingdong_2025_constructing_simultaneous_con",
+      "_tgt": "concept_networks_survey_statistics",
+      "source": "concept_networks_survey_statistics",
+      "target": "pub_ziqingdong_2025_constructing_simultaneous_con"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "abassi-2024-learning-catchment-features.yml",
+      "_src": "pub_abassi_2024_learning_catchment_features",
+      "_tgt": "pub_abassi_2024_learning_landscape_features",
+      "source": "pub_abassi_2024_learning_catchment_features",
+      "target": "pub_abassi_2024_learning_landscape_features"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2024-baseline-antipsychotic-dos.yml",
+      "_src": "pub_andrearaballo_2024_baseline_antipsychotic_dos",
+      "_tgt": "pub_andrearaballo_2025_connecting_the_empirical",
+      "source": "pub_andrearaballo_2024_baseline_antipsychotic_dos",
+      "target": "pub_andrearaballo_2025_connecting_the_empirical"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2024-baseline-antipsychotic-dos.yml",
+      "_src": "pub_andrearaballo_2024_baseline_antipsychotic_dos",
+      "_tgt": "pub_andrearaballo_2025_lack_of_transparency",
+      "source": "pub_andrearaballo_2024_baseline_antipsychotic_dos",
+      "target": "pub_andrearaballo_2025_lack_of_transparency"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2024-baseline-antipsychotic-dos.yml",
+      "_src": "pub_andrearaballo_2024_baseline_antipsychotic_dos",
+      "_tgt": "pub_andrearaballo_2025_transient_pre_baseline",
+      "source": "pub_andrearaballo_2024_baseline_antipsychotic_dos",
+      "target": "pub_andrearaballo_2025_transient_pre_baseline"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2024-baseline-antipsychotic-dos.yml",
+      "_src": "pub_andrearaballo_2024_baseline_antipsychotic_dos",
+      "_tgt": "pub_andrearaballo_2026_clinical_high_risk_1",
+      "source": "pub_andrearaballo_2024_baseline_antipsychotic_dos",
+      "target": "pub_andrearaballo_2026_clinical_high_risk_1"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2024-baseline-antipsychotic-dos.yml",
+      "_src": "pub_andrearaballo_2024_baseline_antipsychotic_dos",
+      "_tgt": "pub_jianzhongzeng_2025_the_impact_of",
+      "source": "pub_andrearaballo_2024_baseline_antipsychotic_dos",
+      "target": "pub_jianzhongzeng_2025_the_impact_of"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2024-baseline-antipsychotic-dos.yml",
+      "_src": "pub_andrearaballo_2024_baseline_antipsychotic_dos",
+      "_tgt": "pub_michelepoletti_2024_clinical_high_risk",
+      "source": "pub_andrearaballo_2024_baseline_antipsychotic_dos",
+      "target": "pub_michelepoletti_2024_clinical_high_risk"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "andrearaballo-2024-dynastic-social-processes.yml",
+      "_src": "pub_andrearaballo_2024_dynastic_social_processes",
+      "_tgt": "pub_andrearaballo_2025_premorbid_developmental_an",
+      "source": "pub_andrearaballo_2024_dynastic_social_processes",
+      "target": "pub_andrearaballo_2025_premorbid_developmental_an"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "andrearaballo-2024-dynastic-social-processes.yml",
+      "_src": "pub_andrearaballo_2024_dynastic_social_processes",
+      "_tgt": "pub_lisanneaemvanhoutum_2024_running_in_the",
+      "source": "pub_andrearaballo_2024_dynastic_social_processes",
+      "target": "pub_lisanneaemvanhoutum_2024_running_in_the"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "andrearaballo-2024-dynastic-social-processes.yml",
+      "_src": "pub_andrearaballo_2024_dynastic_social_processes",
+      "_tgt": "pub_ninakarguth_2024_understanding_and_predicting",
+      "source": "pub_andrearaballo_2024_dynastic_social_processes",
+      "target": "pub_ninakarguth_2024_understanding_and_predicting"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.92,
+      "source_file": "andrearaballo-2024-enigma-brain-morphometry.yml",
+      "_src": "pub_andrearaballo_2024_enigma_brain_morphometry",
+      "_tgt": "pub_andrearaballo_2025_increasing_conceptual_clar",
+      "source": "pub_andrearaballo_2024_enigma_brain_morphometry",
+      "target": "pub_andrearaballo_2025_increasing_conceptual_clar"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-connecting-the-empirical.yml",
+      "_src": "pub_andrearaballo_2025_connecting_the_empirical",
+      "_tgt": "pub_andrearaballo_2025_transient_pre_baseline",
+      "source": "pub_andrearaballo_2025_connecting_the_empirical",
+      "target": "pub_andrearaballo_2025_transient_pre_baseline"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-connecting-the-empirical.yml",
+      "_src": "pub_andrearaballo_2025_connecting_the_empirical",
+      "_tgt": "pub_andrearaballo_2026_clinical_high_risk_1",
+      "source": "pub_andrearaballo_2025_connecting_the_empirical",
+      "target": "pub_andrearaballo_2026_clinical_high_risk_1"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-connecting-the-empirical.yml",
+      "_src": "pub_andrearaballo_2025_connecting_the_empirical",
+      "_tgt": "pub_jianzhongzeng_2025_the_impact_of",
+      "source": "pub_andrearaballo_2025_connecting_the_empirical",
+      "target": "pub_jianzhongzeng_2025_the_impact_of"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-connecting-the-empirical.yml",
+      "_src": "pub_andrearaballo_2025_connecting_the_empirical",
+      "_tgt": "pub_michelepoletti_2024_clinical_high_risk",
+      "source": "pub_andrearaballo_2025_connecting_the_empirical",
+      "target": "pub_michelepoletti_2024_clinical_high_risk"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-lack-of-transparency.yml",
+      "_src": "pub_andrearaballo_2025_lack_of_transparency",
+      "_tgt": "pub_andrearaballo_2026_clinical_high_risk_1",
+      "source": "pub_andrearaballo_2025_lack_of_transparency",
+      "target": "pub_andrearaballo_2026_clinical_high_risk_1"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-lack-of-transparency.yml",
+      "_src": "pub_andrearaballo_2025_lack_of_transparency",
+      "_tgt": "pub_andrearaballo_2026_discriminative_validity_of",
+      "source": "pub_andrearaballo_2025_lack_of_transparency",
+      "target": "pub_andrearaballo_2026_discriminative_validity_of"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-lack-of-transparency.yml",
+      "_src": "pub_andrearaballo_2025_lack_of_transparency",
+      "_tgt": "pub_andrearaballo_2026_familial_high_risk",
+      "source": "pub_andrearaballo_2025_lack_of_transparency",
+      "target": "pub_andrearaballo_2026_familial_high_risk"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-lack-of-transparency.yml",
+      "_src": "pub_andrearaballo_2025_lack_of_transparency",
+      "_tgt": "pub_yuqinggao_2024_nutritional_interventions_for",
+      "source": "pub_andrearaballo_2025_lack_of_transparency",
+      "target": "pub_yuqinggao_2024_nutritional_interventions_for"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "andrearaballo-2025-premorbid-developmental-an.yml",
+      "_src": "pub_andrearaballo_2025_premorbid_developmental_an",
+      "_tgt": "pub_lisanneaemvanhoutum_2024_running_in_the",
+      "source": "pub_andrearaballo_2025_premorbid_developmental_an",
+      "target": "pub_lisanneaemvanhoutum_2024_running_in_the"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "andrearaballo-2025-premorbid-developmental-an.yml",
+      "_src": "pub_andrearaballo_2025_premorbid_developmental_an",
+      "_tgt": "pub_ninakarguth_2024_understanding_and_predicting",
+      "source": "pub_andrearaballo_2025_premorbid_developmental_an",
+      "target": "pub_ninakarguth_2024_understanding_and_predicting"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-schizophrenia-consciousnes.yml",
+      "_src": "pub_andrearaballo_2025_schizophrenia_consciousnes",
+      "_tgt": "pub_andrearaballo_2026_ipseity_disturbance_and",
+      "source": "pub_andrearaballo_2025_schizophrenia_consciousnes",
+      "target": "pub_andrearaballo_2026_ipseity_disturbance_and"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-schizophrenia-consciousnes.yml",
+      "_src": "pub_andrearaballo_2025_schizophrenia_consciousnes",
+      "_tgt": "pub_michelepoletti_2024_ontogenesis_of_self",
+      "source": "pub_andrearaballo_2025_schizophrenia_consciousnes",
+      "target": "pub_michelepoletti_2024_ontogenesis_of_self"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2025-transient-pre-baseline.yml",
+      "_src": "pub_andrearaballo_2025_transient_pre_baseline",
+      "_tgt": "pub_andrearaballo_2026_clinical_high_risk_1",
+      "source": "pub_andrearaballo_2025_transient_pre_baseline",
+      "target": "pub_andrearaballo_2026_clinical_high_risk_1"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "andrearaballo-2025-transient-pre-baseline.yml",
+      "_src": "pub_andrearaballo_2025_transient_pre_baseline",
+      "_tgt": "pub_jianzhongzeng_2025_the_impact_of",
+      "source": "pub_andrearaballo_2025_transient_pre_baseline",
+      "target": "pub_jianzhongzeng_2025_the_impact_of"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-clinical-high-risk-1.yml",
+      "_src": "pub_andrearaballo_2026_clinical_high_risk_1",
+      "_tgt": "pub_andrearaballo_2026_clinical_high_risk",
+      "source": "pub_andrearaballo_2026_clinical_high_risk_1",
+      "target": "pub_andrearaballo_2026_clinical_high_risk"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-clinical-high-risk-1.yml",
+      "_src": "pub_andrearaballo_2026_clinical_high_risk_1",
+      "_tgt": "pub_andrearaballo_2026_discriminative_validity_of",
+      "source": "pub_andrearaballo_2026_clinical_high_risk_1",
+      "target": "pub_andrearaballo_2026_discriminative_validity_of"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-clinical-high-risk-1.yml",
+      "_src": "pub_andrearaballo_2026_clinical_high_risk_1",
+      "_tgt": "pub_andrearaballo_2026_familial_high_risk",
+      "source": "pub_andrearaballo_2026_clinical_high_risk_1",
+      "target": "pub_andrearaballo_2026_familial_high_risk"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "andrearaballo-2026-clinical-high-risk-1.yml",
+      "_src": "pub_andrearaballo_2026_clinical_high_risk_1",
+      "_tgt": "pub_jianzhongzeng_2025_the_impact_of",
+      "source": "pub_andrearaballo_2026_clinical_high_risk_1",
+      "target": "pub_jianzhongzeng_2025_the_impact_of"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-clinical-high-risk-1.yml",
+      "_src": "pub_andrearaballo_2026_clinical_high_risk_1",
+      "_tgt": "pub_michelepoletti_2024_clinical_high_risk",
+      "source": "pub_andrearaballo_2026_clinical_high_risk_1",
+      "target": "pub_michelepoletti_2024_clinical_high_risk"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-discriminative-validity-of.yml",
+      "_src": "pub_andrearaballo_2026_discriminative_validity_of",
+      "_tgt": "pub_andrearaballo_2026_familial_high_risk",
+      "source": "pub_andrearaballo_2026_discriminative_validity_of",
+      "target": "pub_andrearaballo_2026_familial_high_risk"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-discriminative-validity-of.yml",
+      "_src": "pub_andrearaballo_2026_discriminative_validity_of",
+      "_tgt": "pub_michelepoletti_2024_clinical_high_risk",
+      "source": "pub_andrearaballo_2026_discriminative_validity_of",
+      "target": "pub_michelepoletti_2024_clinical_high_risk"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-discriminative-validity-of.yml",
+      "_src": "pub_andrearaballo_2026_discriminative_validity_of",
+      "_tgt": "pub_yuqinggao_2024_nutritional_interventions_for",
+      "source": "pub_andrearaballo_2026_discriminative_validity_of",
+      "target": "pub_yuqinggao_2024_nutritional_interventions_for"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-familial-high-risk.yml",
+      "_src": "pub_andrearaballo_2026_familial_high_risk",
+      "_tgt": "pub_michelepoletti_2024_clinical_high_risk",
+      "source": "pub_andrearaballo_2026_familial_high_risk",
+      "target": "pub_michelepoletti_2024_clinical_high_risk"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-familial-high-risk.yml",
+      "_src": "pub_andrearaballo_2026_familial_high_risk",
+      "_tgt": "pub_michelepoletti_2026_developmental_high_risk",
+      "source": "pub_andrearaballo_2026_familial_high_risk",
+      "target": "pub_michelepoletti_2026_developmental_high_risk"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "andrearaballo-2026-familial-high-risk.yml",
+      "_src": "pub_andrearaballo_2026_familial_high_risk",
+      "_tgt": "pub_yuqinggao_2024_nutritional_interventions_for",
+      "source": "pub_andrearaballo_2026_familial_high_risk",
+      "target": "pub_yuqinggao_2024_nutritional_interventions_for"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "barurkin-2024-schizophrenia-spectrum-disorder.yml",
+      "_src": "pub_barurkin_2024_schizophrenia_spectrum_disorder",
+      "_tgt": "pub_barurkin_2025_clinical_activity_and",
+      "source": "pub_barurkin_2024_schizophrenia_spectrum_disorder",
+      "target": "pub_barurkin_2025_clinical_activity_and"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "barurkin-2024-schizophrenia-spectrum-disorder.yml",
+      "_src": "pub_barurkin_2024_schizophrenia_spectrum_disorder",
+      "_tgt": "pub_barurkin_2025_schizophrenia_spectrum_disorder",
+      "source": "pub_barurkin_2024_schizophrenia_spectrum_disorder",
+      "target": "pub_barurkin_2025_schizophrenia_spectrum_disorder"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "barurkin-2024-schizophrenia-spectrum-disorder.yml",
+      "_src": "pub_barurkin_2024_schizophrenia_spectrum_disorder",
+      "_tgt": "pub_raballo_2025_pcn",
+      "source": "pub_barurkin_2024_schizophrenia_spectrum_disorder",
+      "target": "pub_raballo_2025_pcn"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "barurkin-2025-clinical-activity-and.yml",
+      "_src": "pub_barurkin_2025_clinical_activity_and",
+      "_tgt": "pub_barurkin_2025_schizophrenia_spectrum_disorder",
+      "source": "pub_barurkin_2025_clinical_activity_and",
+      "target": "pub_barurkin_2025_schizophrenia_spectrum_disorder"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "barurkin-2025-clinical-activity-and.yml",
+      "_src": "pub_barurkin_2025_clinical_activity_and",
+      "_tgt": "pub_raballo_2025_pcn",
+      "source": "pub_barurkin_2025_clinical_activity_and",
+      "target": "pub_raballo_2025_pcn"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.88,
+      "source_file": "conorhassan-2024-federated-learning-for.yml",
+      "_src": "pub_conorhassan_2024_federated_learning_for",
+      "_tgt": "pub_conorhassan_2024_scalable_vertical_federated",
+      "source": "pub_conorhassan_2024_federated_learning_for",
+      "target": "pub_conorhassan_2024_scalable_vertical_federated"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "cristianosalvagnin-2025-non-parametric-causal.yml",
+      "_src": "pub_cristianosalvagnin_2025_non_parametric_causal",
+      "_tgt": "pub_elenaballante_2025_a_fully_rank",
+      "source": "pub_cristianosalvagnin_2025_non_parametric_causal",
+      "target": "pub_elenaballante_2025_a_fully_rank"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "cristianosalvagnin-2025-non-parametric-causal.yml",
+      "_src": "pub_cristianosalvagnin_2025_non_parametric_causal",
+      "_tgt": "pub_elenaballante_2025_non_parametric_similarity",
+      "source": "pub_cristianosalvagnin_2025_non_parametric_causal",
+      "target": "pub_elenaballante_2025_non_parametric_similarity"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "elenaballante-2025-a-fully-rank.yml",
+      "_src": "pub_elenaballante_2025_a_fully_rank",
+      "_tgt": "pub_elenaballante_2025_non_parametric_similarity",
+      "source": "pub_elenaballante_2025_a_fully_rank",
+      "target": "pub_elenaballante_2025_non_parametric_similarity"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.88,
+      "source_file": "federicoravenda-2024-a-probabilistic-spatio.yml",
+      "_src": "pub_federicoravenda_2024_a_probabilistic_spatio",
+      "_tgt": "pub_marcopaganuzzi_2024_assessing_the_heterogenei",
+      "source": "pub_federicoravenda_2024_a_probabilistic_spatio",
+      "target": "pub_marcopaganuzzi_2024_assessing_the_heterogenei"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.88,
+      "source_file": "federicoravenda-2024-a-probabilistic-spatio.yml",
+      "_src": "pub_federicoravenda_2024_a_probabilistic_spatio",
+      "_tgt": "pub_weizhang_2024_bayesian_dynamic_generalized",
+      "source": "pub_federicoravenda_2024_a_probabilistic_spatio",
+      "target": "pub_weizhang_2024_bayesian_dynamic_generalized"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.88,
+      "source_file": "federicoravenda-2024-a-probabilistic-spatio.yml",
+      "_src": "pub_federicoravenda_2024_a_probabilistic_spatio",
+      "_tgt": "pub_weizhang_2024_bayesian_poisson_regression",
+      "source": "pub_federicoravenda_2024_a_probabilistic_spatio",
+      "target": "pub_weizhang_2024_bayesian_poisson_regression"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "federicoravenda-2025-are-llms-effective.yml",
+      "_src": "pub_federicoravenda_2025_are_llms_effective",
+      "_tgt": "pub_ravenda_2025_acl",
+      "source": "pub_federicoravenda_2025_are_llms_effective",
+      "target": "pub_ravenda_2025_acl"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "jianzhongzeng-2025-the-impact-of.yml",
+      "_src": "pub_jianzhongzeng_2025_the_impact_of",
+      "_tgt": "pub_michelepoletti_2024_clinical_high_risk",
+      "source": "pub_jianzhongzeng_2025_the_impact_of",
+      "target": "pub_michelepoletti_2024_clinical_high_risk"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "lisanneaemvanhoutum-2024-running-in-the.yml",
+      "_src": "pub_lisanneaemvanhoutum_2024_running_in_the",
+      "_tgt": "pub_ninakarguth_2024_understanding_and_predicting",
+      "source": "pub_lisanneaemvanhoutum_2024_running_in_the",
+      "target": "pub_ninakarguth_2024_understanding_and_predicting"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.88,
+      "source_file": "marcopaganuzzi-2024-assessing-the-heterogenei.yml",
+      "_src": "pub_marcopaganuzzi_2024_assessing_the_heterogenei",
+      "_tgt": "pub_weizhang_2024_bayesian_dynamic_generalized",
+      "source": "pub_marcopaganuzzi_2024_assessing_the_heterogenei",
+      "target": "pub_weizhang_2024_bayesian_dynamic_generalized"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.88,
+      "source_file": "marcopaganuzzi-2024-assessing-the-heterogenei.yml",
+      "_src": "pub_marcopaganuzzi_2024_assessing_the_heterogenei",
+      "_tgt": "pub_weizhang_2024_bayesian_poisson_regression",
+      "source": "pub_marcopaganuzzi_2024_assessing_the_heterogenei",
+      "target": "pub_weizhang_2024_bayesian_poisson_regression"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "weizhang-2024-bayesian-dynamic-generalized.yml",
+      "_src": "pub_weizhang_2024_bayesian_dynamic_generalized",
+      "_tgt": "pub_weizhang_2024_bayesian_poisson_regression",
+      "source": "pub_weizhang_2024_bayesian_dynamic_generalized",
+      "target": "pub_weizhang_2024_bayesian_poisson_regression"
+    }
+  ],
+  "hyperedges": []
+}
